@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a final year undergraduate of Computer Science and Engineering at IIT Delhi. My broad area of interest lies in the field of robust and explaiable machine learning, with a focus on Natural Language Processing architectures. I am advised by [Prof. Mausam](http://www.cse.iitd.ernet.in/~mausam/) for my B.Tech. thesis. In the past I have also worked in the field of [GitHub pages](https://pages.github.com) 
+I am a final year undergraduate of Computer Science and Engineering at IIT Delhi. My broad area of interest lies in the field of robust and explainable machine learning, with a focus on Natural Language Processing architectures. I am advised by [Prof. Mausam](http://www.cse.iitd.ernet.in/~mausam/) for my B.Tech. thesis. In the past I have been fortunate to work with [Prof. Zico Kolter](www.zicokolter.com) at CMU and [Prof. James Larus](https://people.epfl.ch/james.larus) at EPFL during research internships.
 
 Recent News
 ======
