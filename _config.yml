@@ -7,8 +7,8 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Pratyush Maini"
-title_separator          : "-"
+title                    : "Home"
+title_separator          : " | "
 name                     : &name "Pratyush Maini"
 description              : &description "Senior Undergraduate | Computer Science | IIT Delhi"
 url                      : https://pratyush911.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Pratyush Maini"
-  avatar           : "profile.png"
+  avatar           : "Profile.jpg"
   bio              : "Senior Undergraduate | Computer Science | IIT Delhi"
   location         : "New Delhi, India"
   employer         :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : https://www.linkedin.com/in/pratyush-maini-aa3135155/
+  linkedin         : https://www.linkedin.com/in/pratyush-maini/
 #   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
