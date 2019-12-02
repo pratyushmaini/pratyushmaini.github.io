@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /extra
 title: "Outside the Lab :)"
 excerpt: "Extracurriculars"
 author_profile: true
