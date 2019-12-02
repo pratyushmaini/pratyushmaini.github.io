@@ -1,3 +1,4 @@
+~~ I like to Observe. Look for Patterns. Ponder over these Generalizations. Try to Refute them. Or otherwise prove their Validity. And re-image their Applications in alternate spheres ~~
 ---
 permalink: /
 title: "Pratyush Maini"
