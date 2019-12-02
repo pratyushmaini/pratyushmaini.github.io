@@ -4,7 +4,7 @@ main:
   - title: "Research"
     url: /projects/
         
-  - title: "Academics"
+  - title: "Academic Projects"
     url: /academics/
    
   - title: "Awards"
@@ -13,5 +13,5 @@ main:
   - title: "Extracurriculars"
     url: /extra/
 
-  - title: "CV"
-    url: /cv/
+#   - title: "CV"
+#     url: /cv/
