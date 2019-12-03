@@ -3,8 +3,7 @@ permalink: /extra
 title: "Outside the Lab :)"
 excerpt: "Extracurriculars"
 author_profile: true
-redirect_from: 
-  - /extra.html
+
 ---
 
 Rendezvous, IIT Delhi
