@@ -8,15 +8,15 @@ author_profile: true
 
 Rendezvous, IIT Delhi
 ======
-    ▪ Restructured events for greater outreach & popularity (over 150k students). Led a 3-tier team.
+  ▪ Restructured events for greater outreach & popularity (over 150k students). Led a 3-tier team.
 
 Board for Student Publications
 ======
 Journalist, Board for Student Publications, IIT Delhi
 
-    ▪ Awarded Best Journalistic Content; Authored stories/articles and interviewed eminent personalities
+  ▪ Awarded Best Journalistic Content; Authored stories/articles and interviewed eminent personalities
     
-Co-Authored the Magazine Kikazaru with artistic pieces, prose and poems in both English & Hindi. [Link]
+Co-Authored the Magazine **Kikazaru** with artistic pieces, prose and poems in both English & Hindi. [[Link]](https://pratyush911.github.io/files/Kikazaru_Gazettale.pdf)
 
 Third Prize, Bluffington Post: Satire and humour for portraying pertinent issues in an engaging way.
 
@@ -34,8 +34,8 @@ Awards at Debating Club:
 
 Other Outlets
 ======
-Executive at Electrical Engineering Society, IITD: Organized workshops for Image Processing & MATLAB
+**Executive** at Electrical Engineering Society, IITD: Organized workshops for Image Processing & MATLAB
 
 **Head Boy**, DAV Public School, Gurgaon: Co-President of a three-tier school prefectorial board.
 
-Multiple Awards at various Model United Nations Conferences. [Awards]
+Multiple Awards at various **Model United Nations Conferences**. [[Awards]](tinyurl.com/MUN-experience-pratyush)
