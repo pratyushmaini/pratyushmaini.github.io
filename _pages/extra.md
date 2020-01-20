@@ -17,7 +17,9 @@ Board for Student Publications
 -----
 1. _Journalist_, Board for Student Publications, IIT Delhi
 
-  ▪ Awarded Best Journalistic Content; Authored stories/articles and interviewed eminent personalities
+   ▪ Authored stories/articles and interviewed eminent personalities
+
+   ▪ Awarded Best Journalistic Content 
     
 2. Co-Authored the Magazine **Kikazaru** with artistic pieces, prose and poems in both English & Hindi. [[Link]](https://pratyush911.github.io/files/Kikazaru_Gazettale.pdf)
 
