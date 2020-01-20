@@ -4,11 +4,13 @@ main:
   - title: "Research"
     url: /research/
         
-  - title: "Academic Projects"
-    url: /academics/
+#   - title: "Academic Projects"
+#     url: /academics/
    
-  - title: "Awards"
-    url: /awards/
+#   - title: "Awards"
+#     url: /awards/
+  - title: "Teaching"
+    url: /teaching/
     
   - title: "Extracurriculars"
     url: /extra/
