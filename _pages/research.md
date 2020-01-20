@@ -7,7 +7,7 @@ title: "Research"
 
 ## Probing the power of MaXOut in recurrent architectures
 
-_Prof. Mausam, IIT Delhi_
+**_Prof. Mausam, IIT Delhi_**
 
   ▪ Probing the structural & representational properties of variants of LSTMs with various pooling types. 
   
@@ -19,7 +19,11 @@ _Prof. Mausam, IIT Delhi_
 
 **Carnegie Mellon University, Pittsburgh, USA**
 
-_Prof. Zico Kolter, Winter 2019_
+**_Prof. Zico Kolter, Winter 2019_**
+
+  ▪ Designed an algorithm for robustness against the union of multiple perturbations types (L1, L2, Linf). 
+  
+  ▪ Showed improved robustness exceeding previous benchmarks on MNIST and CIFAR-10 datasets.
 
 The respository for this work can be found on the [Github](https://github.com/locuslab/robust_union) link.
 
@@ -29,7 +33,7 @@ A manuscript for the same is available on [ArXiv](https://arxiv.org/abs/1909.040
 
 **Samsung Research and Development Headquarters, Suwon, South Korea**
 
-_Summer 2019_
+**_Summer 2019_**
 
   ▪ Worked on the task of image dehazing for low computation scenarios like mobile devices and refrigerators. 
 
@@ -43,7 +47,7 @@ _Summer 2019_
 
 **École Polytechnique Fédérale de Lausanne, Switzerland**
 
-_Prof. James Larus, Summer 2018_
+**_Prof. James Larus, Summer 2018_**
 
   ▪ Worked on a TensorFlow based Cluster-scale, high-throughput bioinformatics framework, PERSONA. 
 
