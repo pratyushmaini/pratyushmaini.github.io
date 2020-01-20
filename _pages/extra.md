@@ -7,22 +7,26 @@ author_profile: true
 ---
 
 Rendezvous, IIT Delhi
-======
-  ▪ Restructured events for greater outreach & popularity (over 150k students). Led a 3-tier team.
+-----
+  ▪ Served as coordinator for events at IIT Delhi's Cultural Fest Rendezvous 2019 (_arguably_ Asia's largest fest :)).
+  ▪ Managed invited discussions and professional nights leading a 3-tier team.
+  ▪ Restructured events for greater outreach & popularity (over 150k students). 
+  
 
 Board for Student Publications
-======
-Journalist, Board for Student Publications, IIT Delhi
+-----
+1. _Journalist_, Board for Student Publications, IIT Delhi
 
   ▪ Awarded Best Journalistic Content; Authored stories/articles and interviewed eminent personalities
     
-Co-Authored the Magazine **Kikazaru** with artistic pieces, prose and poems in both English & Hindi. [[Link]](https://pratyush911.github.io/files/Kikazaru_Gazettale.pdf)
+2. Co-Authored the Magazine **Kikazaru** with artistic pieces, prose and poems in both English & Hindi. [[Link]](https://pratyush911.github.io/files/Kikazaru_Gazettale.pdf)
 
-Third Prize, Bluffington Post: Satire and humour for portraying pertinent issues in an engaging way.
+3. Third Prize, Bluffington Post: Satire and humour for portraying pertinent issues in an engaging way.
 
 
 Board for Recreational and Cultural Activities
-======
+-----
+
 Representative (2017-18), Events Coordinator (2019) Debating Club, Board for Recreational and Creative Activities
 
 Awards at Debating Club: 
@@ -33,9 +37,9 @@ Awards at Debating Club:
 
 
 Other Outlets
-======
-**Executive** at Electrical Engineering Society, IITD: Organized workshops for Image Processing & MATLAB
+-----
+1. **Executive** at Electrical Engineering Society, IITD: Organized workshops for Image Processing & MATLAB
 
-**Head Boy**, DAV Public School, Gurgaon: Co-President of a three-tier school prefectorial board.
+2. **Head Boy**, DAV Public School, Gurgaon: Co-President of a three-tier school prefectorial board.
 
-Multiple Awards at various **Model United Nations Conferences**. [[Awards]](tinyurl.com/MUN-experience-pratyush)
+3. Multiple Awards at various **Model United Nations Conferences**. [[Awards]](tinyurl.com/MUN-experience-pratyush)
