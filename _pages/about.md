@@ -15,4 +15,5 @@ I am a Final Year Undergraduate Student of Computer Science and Engineering at I
 
 Recent News
 ======
+1 January  2020: Started TAing the course COL106 (Data Structures & Algorithms)
 1 December 2019: Started (slowly) setting up my personal website. 
