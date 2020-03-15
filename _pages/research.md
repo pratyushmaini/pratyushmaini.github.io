@@ -8,7 +8,7 @@ title: "Research"
 ## Probing the power of MaXOut in recurrent architectures
 
 **_Prof. Mausam, IIT Delhi_**
-- Probing the structural & representational properties of variants of LSTMs with various pooling types.
+- Probing the structural and representational properties of variants of LSTMs with various pooling types.
 - Analysing the link between robustness, biases and vanishing gradients in learning ability of models.    
 - Analyses done on Text Classification and Natural Language Inference domains. 
 
