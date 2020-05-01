@@ -5,12 +5,12 @@ title: "Research"
 
 {% include base_path %}
 
-## Probing the power of MaXOut in recurrent architectures
+## [Why and when should you pool?  <br /> Analyzing Pooling in Recurrent Architectures]()
 
 **_Prof. Mausam, IIT Delhi_**
-- Probing the structural and representational properties of variants of LSTMs with various pooling types.
-- Analysing the link between robustness, biases and vanishing gradients in learning ability of models.    
-- Analyses done on Text Classification and Natural Language Inference domains. 
+- Analysing the link between robustness, biases and vanishing gradients in learning ability of models.   
+- Propose a new pooling method max-attention, that outperforms other simple variants on various metrics examined.
+- Analyses done on Text Classification domains. 
 
 ## Adversarial Robustness against the Union of Multiple Perturbation Models
 
