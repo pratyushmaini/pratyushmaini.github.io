@@ -137,7 +137,7 @@ Goals:
 
 
 <p align="center">
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="700"/><br>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="500"/><br>
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_left.png" alt="Wiki Attack Left" width="250"/>
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_mid.png" alt="Wiki Attack Mid" width="250"/>
 </p>
@@ -153,7 +153,7 @@ Goals:
 <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/IMDB_Wiki.png" alt="IMDB Wiki Table" width="1000"/>
 </p>
 
-### Fine-grained Positional Biases
+<p><b>Fine-grained Positional Biases</b></p>
 
 <i> ~ How does the position of a word impact its importance in the final prediction by a model? ~  </i>
 
@@ -183,7 +183,7 @@ Goals:
 </style>
 
 <p align="center">
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="700"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="500"/>
 </p>
 <center>
 <div class="iconbox">
