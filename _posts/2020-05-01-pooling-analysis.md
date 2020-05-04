@@ -8,6 +8,12 @@ tags:
   - positional biases
 ---
 
+<div>
+      <a class="btn btn-lg btn-warning" href="https://arxiv.org/abs/2005.00159" target="_blank" role="button">Paper &raquo; </a>
+      <a class="btn btn-lg btn-secondary" href="https://github.com/dair--iitd/PoolingAnalysis" target="_blank" role="button">Code &raquo;</a>
+      <!-- <a class="btn btn-lg btn-info" href="https://twitter.com/Eric_Wallace_/status/1256227702056595456" target="_blank" role="button">Twitter &raquo; </a> -->
+      <br>
+
 TL;DR:
 ------
 1. Pooling (and attention) based BiLSTMs demonstrate improved learning ability and positional invariance.
