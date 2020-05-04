@@ -8,152 +8,10 @@ tags:
   - positional biases
 ---
 
-<style>
-.btn {
-  display: inline-block;
-  font-weight: $btn-font-weight;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  user-select: none;
-  border: $btn-border-width solid transparent;
-  @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
-  @include transition($btn-transition);
-
-  // Share hover and focus styles
-  @include hover-focus {
-    text-decoration: none;
-  }
-
-  &:focus,
-  &.focus {
-    outline: 0;
-    box-shadow: $btn-focus-box-shadow;
-  }
-
-  // Disabled comes first so active can properly restyle
-  &.disabled,
-  &:disabled {
-    opacity: $btn-disabled-opacity;
-    @include box-shadow(none);
-  }
-
-  // Opinionated: add "hand" cursor to non-disabled .btn elements
-  &:not(:disabled):not(.disabled) {
-    cursor: pointer;
-  }
-
-  &:not(:disabled):not(.disabled):active,
-  &:not(:disabled):not(.disabled).active {
-    background-image: none;
-    @include box-shadow($btn-active-box-shadow);
-
-    &:focus {
-      @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
-    }
-  }
-}
-
-// Future-proof disabling of clicks on `<a>` elements
-a.btn.disabled,
-fieldset:disabled a.btn {
-  pointer-events: none;
-}
-
-
-//
-// Alternate buttons
-//
-
-@each $color, $value in $theme-colors {
-  .btn-#{$color} {
-    @include button-variant($value, $value);
-  }
-}
-
-@each $color, $value in $theme-colors {
-  .btn-outline-#{$color} {
-    @include button-outline-variant($value);
-  }
-}
-
-
-//
-// Link buttons
-//
-
-// Make a button look and behave like a link
-.btn-link {
-  font-weight: $font-weight-normal;
-  color: $link-color;
-  background-color: transparent;
-
-  @include hover {
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
-    background-color: transparent;
-    border-color: transparent;
-  }
-
-  &:focus,
-  &.focus {
-    text-decoration: $link-hover-decoration;
-    border-color: transparent;
-    box-shadow: none;
-  }
-
-  &:disabled,
-  &.disabled {
-    color: $btn-link-disabled-color;
-    pointer-events: none;
-  }
-
-  // No need for an active state here
-}
-
-
-//
-// Button Sizes
-//
-
-.btn-lg {
-  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-lg, $btn-line-height-lg, $btn-border-radius-lg);
-}
-
-.btn-sm {
-  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-sm, $btn-line-height-sm, $btn-border-radius-sm);
-}
-
-
-//
-// Block button
-//
-
-.btn-block {
-  display: block;
-  width: 100%;
-
-  // Vertically space out multiple block buttons
-  + .btn-block {
-    margin-top: $btn-block-spacing-y;
-  }
-}
-
-// Specificity overrides
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  &.btn-block {
-    width: 100%;
-  }
-}
-
-</style>
 
 <div> 
       <a class="btn btn-lg btn-warning" href="https://arxiv.org/abs/2005.00159" target="_blank" role="button">Paper &raquo; </a>
-      <a class="btn btn-lg btn-info" href="https://github.com/dair-iitd/PoolingAnalysis" target="_blank" role="button">Code &raquo;</a>
-      <!-- <a class="btn btn-lg btn-info" href="https://twitter.com/Eric_Wallace_/status/1256227702056595456" target="_blank" role="button">Twitter &raquo; </a> -->
+      <a class="btn btn-lg btn-secondary" href="https://github.com/dair-iitd/PoolingAnalysis" target="_blank" role="button">Code &raquo;</a>
       <br>
 </div>
 
@@ -180,6 +38,37 @@ In this work, we identify two key factors that explain the performance benefits 
 
 
 ## Gradient Propagation
+
+In order to quantify the extent to which the gradients vanish across different word positions, we compute the gradient of the loss function w.r.t the hidden state at every word position $t$, and study their norm. This is represented by the $\ell_2$ norm $|\frac{\partial L}{\partial h_{t}}|$. 
+
+**Vanishing Ratio**: Given by $|\frac{\partial L}{\partial h_{\text{end}}}|$ $/$ $|\frac{\partial L}{\partial h_{\text{mid}}}|$. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
+
+<p align="center">
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/vanishing_legend.png?raw=true" alt="Legend" style="width: 500px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/vanishing.png?raw=true" alt="Vanishing with time steps" style="width: 1000px;"/> 
+</p>
+
+
+The gradient norm $(|\frac{\partial L}{\partial h_{t}}|)$ across different word positions. BiLSTM\textsubscript{LowF} suffers from extreme vanishing gradient, with the gradient norm in the middle nearly $10^{-10}$ times that at the ends. 
+
+The plot suggests that specific initialization of the gates with best practices (such as setting the bias of forget-gate to a high value) helps to reduce the extent of the issue, but the problem still persists. In contrast, none of the pooling techniques face this issue, resulting in an almost straight line. 
+
+<p align="center">
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/ratio_legend.png?raw=true" alt="Legend" style="width: 500px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/last1_ratios.png?raw=true" alt="Vanishing Ratios last1" style="width: 1000px;"/> 
+ <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/att_max_ratios.png?raw=true" alt="Vanishing Ratios att_max" style="width: 1000px;"/> 
+</p>
+
+
+The vanishing ratio $(|\frac{\partial L}{\partial h_{\text{end}}}|$$/$$|\frac{\partial L}{\partial h_{\text{mid}}}|)$ over training steps for BiLSTM and MaxAtt, using $1$K, $20$K unique training examples from the IMDB dataset. The respective training and validation accuracies are also depicted.
+
+Consequently, the BiLSTM model overfits on the training data, even before the gates can learn to allow the gradients to pass through (and mitigate the vanishing gradients problem). Thus, the model prematurely memorizes the training data solely based on the starting and ending few words.
+
+<p align="center">
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/TableVanish.png?raw=true" alt="Legend" style="width: 500px;"/> 
+</p>
+
+The vanishing ratio is high for \last{}, especially in low-data settings. This results in a 12-14\% lower test accuracy compared to other pooling techniques, in the 1K setting. We conclude that the phenomenon of vanishing gradients results in weaker performance of BiLSTM, especially in low training data regimes.
 
 ## Positional Biases
 Goals:
