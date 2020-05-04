@@ -1,7 +1,7 @@
 ---
-title: 'Why and when should you pool?  <br /> Analyzing Pooling in Recurrent Architectures'
+title: 'K'
 date: 2020-05-01
-permalink: /Pooling-Analysis
+permalink: /Pooling-Analysis/
 tags:
   - max-attention
   - vanishing gradients
