@@ -31,7 +31,7 @@ tags:
     margin: 0;
 }
 .authorbox a{
-    color: #4EA3E1;
+    color: #7e4a35;
 }
 .authorbox img{
     border-radius: 4px;
