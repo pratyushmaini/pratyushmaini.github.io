@@ -20,9 +20,10 @@ TL;DR:
 
 ## Motivation
 
-## Overview
+## Overview of Pooling and Attention
+
 <p align="center">
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/overall_figure.png?raw=true" alt="Photo" style="width: 450px;"/> 
+  <img src="Figures/overall_figure.png?raw=true" alt="Pooling Overview" style="width: 400px;"/> 
 </p>
 
 
@@ -38,6 +39,9 @@ Goals:
 <i> ~~ How does the position of a word impact its importance in the final prediction by a model? ~~  </i>
 
 #### The NWI Metric
-<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/NWI_Explain.png?raw=true" alt="NWI Explanation" width="200"/>
-<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/NWI_Algo.png?raw=true" alt="NWI Algo" width="200"/>
-<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/YAHOO_SHORT_25K_mid.png?raw=true" alt="NWI Explanation" width="200"/>
+<img src="Figures/NWI/NWI_Explain.png?raw=true" alt="NWI Explanation" width="200"/>
+<img src="Figures/NWI/NWI_Algo.png?raw=true" alt="NWI Algo" width="200"/>
+<img src="Figures/NWI/YAHOO_SHORT_25K_mid.png?raw=true" alt="NWI Explanation" width="200"/>
+
+
+### Authors
