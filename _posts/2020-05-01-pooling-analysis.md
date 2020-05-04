@@ -20,7 +20,7 @@ tags:
 <style>
 .authorbox {
     /* height: 128px; */
-    padding: 20px;
+    padding: 100px;
 }
 .authorbox > div {
     text-align: center;
