@@ -9,13 +9,13 @@ author_profile: true
 
 Board for Student Publications
 -----
-1. Our entry [The Delusional](https://pratyush911.github.io/files/TheDelusional.pdf) won the best Magazine in Gazettale 2020.
+1. Our entry [The Delusional](https://pratyush911.github.io/files/TheDelusional.pdf) won the best Magazine in Gazettale 2020. Give it a read for an interesting perspective on *papercut*.
 
 2. __Journalist__, Board for Student Publications, IIT Delhi
 
    ▪ Authored stories/articles and interviewed eminent personalities
 
-   ▪ Awarded Best Journalistic Content 
+   ▪ Won the award for **Best Journalistic Content**. 
     
 3. Co-Authored the Magazine **Kikazaru** with artistic pieces, prose and poems in both English & Hindi. [[Link]](https://pratyush911.github.io/files/Kikazaru_Gazettale.pdf)
 
@@ -41,7 +41,7 @@ Rendezvous, IIT Delhi
 
   ▪ Restructured events for greater outreach & popularity (over 150k students). 
   
-  
+
 Other Outlets
 -----
 1. **Executive** at Electrical Engineering Society, IITD: Organized workshops for Image Processing & MATLAB
