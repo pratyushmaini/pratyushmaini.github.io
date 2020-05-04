@@ -132,6 +132,11 @@ Goals:
 <i> ~ Can naturally trained recurrent models skip over unimportant words in the begining or the end of the sentence? ~  </i>
 
 <p align="center">
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png" alt="Explain Wiki Setting" width="400"/>
+</p>
+
+
+<p align="center">
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="700"/><br>
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_left.png" alt="Wiki Attack Left" width="250"/>
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_mid.png" alt="Wiki Attack Mid" width="250"/>
@@ -139,9 +144,6 @@ Goals:
 
 
 
-<p align="center">
-<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png" alt="Explain Wiki Setting" width="400"/>
-</p>
 
 ### Training to Skip Unimportant Words
 
