@@ -33,6 +33,9 @@ tags:
 .authorbox a{
     color: blue;
 }
+.authorbox img{
+    border-radius: 10px;
+}
 </style>
 
 <center>
