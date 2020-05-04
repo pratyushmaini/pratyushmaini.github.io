@@ -17,7 +17,39 @@ tags:
 
 ## Authors
 
-[Pratyush Maini](https://pratyush911.github.io), [Kolluru Sai Keshav](https://saikeshav.github.io/), [Danish Pruthi](https://www.cs.cmu.edu/~ddanish/) and [Mausam](http://www.cse.iitd.ac.in/~mausam/)
+<style>
+.authorbox {
+    /* height: 128px; */
+    padding: 10px;
+}
+.authorbox > div {
+    text-align: center;
+    /* width: 128px; */
+    display: inline-block;
+}
+.authorbox p {
+    margin: 0;
+}
+</style>
+
+<div class="authorbox">
+  <div id="authors-1">
+    <img src="https://pratyush911.github.io/images/Profile.jpg" alt="Pratyush" style="height: 100px;" />
+    <p><a href="https://pratyush911.github.io">Pratyush Maini</a></p> 
+  </div>
+  <div id="authors-2">
+    <img src="https://saikeshav.github.io/images/pp.jpeg" alt="Keshav" style="height: 200px;" />
+    <p><a href="https://saikeshav.github.io/">Kolluru Sai Keshav</a></p> 
+  </div>
+  <div id="authors-3">
+    <img src="https://pbs.twimg.com/profile_images/1149339477250379776/73row7EO_400x400.png" alt="Danish" style="height: 200px;" />
+    <p><a href="https://www.cs.cmu.edu/~ddanish/">Danish Pruthi</a></p> 
+  </div>
+  <div id="authors-4">
+    <img src="http://www.cse.iitd.ac.in/~mausam/mausam-head.jpg" alt="Mausam" style="height: 200px;" />
+    <p><a href="http://www.cse.iitd.ac.in/~mausam/">Mausam</a></p> 
+  </div>
+</div>
 
 
 ## TL;DR:
@@ -138,26 +170,6 @@ Goals:
 
 
 
-<div class="iconbox">
-  <div id="nwi-1">
-    <img src="https://pratyush911.github.io/images/Profile.jpg" alt="Pratyush" style="height: 200px;" />
-    <p><a href="https://pratyush911.github.io">Pratyush Maini</a></p> 
-  </div>
-  <div id="nwi-2">
-    <img src="https://saikeshav.github.io/images/pp.jpeg" alt="Keshav" style="height: 200px;" />
-    <p><a href="https://saikeshav.github.io/">Kolluru Sai Keshav</a></p> 
-  </div>
-  <div id="nwi-3">
-    <img src="https://www.cs.cmu.edu/~ddanish/images/danish.jpg" alt="Danish" style="height: 200px;" />
-    <p><a href="https://www.cs.cmu.edu/~ddanish/">Danish Pruthi</a></p> 
-  </div>
-  <div id="nwi-4">
-    <img src="http://www.cse.iitd.ac.in/~mausam/mausam-head.jpg" alt="Mausam" style="height: 200px;" />
-    <p><a href="http://www.cse.iitd.ac.in/~mausam/">Mausam</a></p> 
-  </div>
-</div>
-
-[Pratyush Maini](), [Kolluru Sai Keshav](https://saikeshav.github.io/), [Danish Pruthi](https://www.cs.cmu.edu/~ddanish/) and [Mausam](http://www.cse.iitd.ac.in/~mausam/)
 
 ## Conclusion
 
