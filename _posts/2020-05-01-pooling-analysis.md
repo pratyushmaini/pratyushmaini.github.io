@@ -148,9 +148,9 @@ Goals:
 
 <br><br>
 
-<p align="center">
+<!-- <p align="center">
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="700"/>
-</p>
+</p> -->
 
 
 <style>
