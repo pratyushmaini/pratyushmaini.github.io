@@ -28,7 +28,7 @@ Various pooling techniques, like mean-pooling, max-pooling, and attention<b>*</b
 
 In this work, we identify two key factors that explain the performance benefits of pooling techniques: learnability, and positional invariance. We examine three commonly used pooling techniques (mean-pooling, max-pooling, and attention), and propose max-attention, a novel variant that effectively captures interactions among predictive tokens in a sentence.
 
-* **Attention** aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
+<b>*</b> **Attention** aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
 
 ## Overview of Pooling and Attention
 
