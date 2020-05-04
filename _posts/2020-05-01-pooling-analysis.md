@@ -1,5 +1,5 @@
 ---
-title: 'Pooling Analysis'
+title: 'Why and when should you pool?  <br /> Analyzing Pooling in Recurrent Architectures'
 date: 2020-05-01
 permalink: /Pooling-Analysis/
 tags:
@@ -7,9 +7,6 @@ tags:
   - vanishing gradients
   - positional biases
 ---
-
-Why and when should you pool?  <br /> Analyzing Pooling in Recurrent Architectures  
-======
 
 TL;DR:
 ------
@@ -19,15 +16,18 @@ TL;DR:
 
 
 ## Motivation
-Pooling mechanisms are ubiquitous components in Recurrent Neural Networks (RNNs) applied to natural language tasks. Pooling operations consolidate hidden representations from RNNs into a single representation. Various pooling techniques, like mean-pooling, max-pooling, and attention2, have shown to improve the performance of RNNs on text classification tasks (Lai et al., 2015; Conneau et al., 2017; Jacovi et al., 2018; Yang et al., 2016).
+Pooling mechanisms are ubiquitous components in Recurrent Neural Networks (RNNs) applied to natural language tasks. Pooling operations consolidate hidden representations from RNNs into a single representation. Various pooling techniques, like mean-pooling, max-pooling, and attention*, have shown to improve the performance of RNNs on text classification tasks (Lai et al., 2015; Conneau et al., 2017; Jacovi et al., 2018; Yang et al., 2016).
 
 Despite widespread adoption, precisely how and when pooling benefits the models is largely unexamined. In this work, we perform an in-depth analysis comparing popular pooling methods, and our proposed max-attention, with standard BiLSTMs for several text classification tasks using novel experimental setups.
 
 In this work, we identify two key factors that explain the performance benefits of pooling techniques: learnability, and positional invariance. We examine three commonly used pooling techniques (mean-pooling, max-pooling, and attention), and propose max-attention, a novel variant that effectively captures interactions among predictive tokens in a sentence.
+
+*Attention aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
+
 ## Overview of Pooling and Attention
 
 <p align="center">
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/overall_figure.png?raw=true" alt="Pooling Overview" style="width: 400px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/overall_figure.png?raw=true" alt="Pooling Overview" style="width: 1000px;"/> 
 </p>
 
 
