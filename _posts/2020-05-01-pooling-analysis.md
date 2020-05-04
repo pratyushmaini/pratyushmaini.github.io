@@ -95,23 +95,46 @@ Goals:
 </p>
 
 <br><br>
-<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Gradients/ratio_legend.png" alt="Legend" style="width: 700px;"/>  <br><br>
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Gradients/ratio_legend.png" alt="Legend" style="width: 700px;">  <br><br>
 <figure>
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" width="200"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" width="200">
     <figcaption>NWI standard (YAHOO)</figcaption>
 </figure>
 <figure>
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" width="200"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" width="200">
     <figcaption>NWI left (YAHOO)</figcaption>
 </figure>
 <figure>
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" width="200"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" width="200">
     <figcaption>NWI mid (YAHOO)</figcaption>
 </figure>
 <figure>
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" width="200"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" width="200">
     <figcaption>NWI short mid (YAHOO)</figcaption>
 </figure>
+
+
+<style>
+  ul.fans li {
+  display: inline-block;
+}
+figcaption {
+  text-align: center
+}
+</style>
+
+<section class="products">
+          <figure>
+            <img class="fans" src="http://placehold.it/300/300" alt="Shrouded"/>
+            <figcaption>Shrouded</figcaption>
+          </figure>
+          <figure>
+            <img class="fans" src="http://placehold.it/300/300" alt="Shrouded" />
+            <figcaption>Shallow Recess</figcaption>
+          </figure>
+</section>
+
+
 
 ## Conclusion
 
