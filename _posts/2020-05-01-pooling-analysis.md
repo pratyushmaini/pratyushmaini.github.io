@@ -41,33 +41,29 @@ tags:
 <center>
 <div class="authorbox">
   <div id="authors-1">
-    <p></p>
     <a href="https://pratyush911.github.io">
     <img src="https://pratyush911.github.io/images/Profile.jpg" alt="Pratyush" style="height: 100px;" />
     <p>Pratyush Maini</p> 
-    <p></p>
     </a>
+    <p color="white">&nbsp;&nbsp;&nbsp;                  &nbsp;&nbsp;&nbsp;</p>
   </div>
   <div id="authors-2">
-    <p>&nbsp;&nbsp;&nbsp;</p>
     <a href="https://saikeshav.github.io/">
     <img src="https://saikeshav.github.io/images/pp.jpeg" alt="Keshav" style="height: 100px;" />
     <p>Kolluru Sai Keshav</p> </a>
-    <p>&nbsp;&nbsp;&nbsp;</p>
+    <p color="white">&nbsp;&nbsp;&nbsp;                  &nbsp;&nbsp;&nbsp;</p>
   </div>
   <div id="authors-3">
-    <p>&nbsp;&nbsp;&nbsp;</p>
     <a href="https://www.cs.cmu.edu/~ddanish/">
     <img src="https://pbs.twimg.com/profile_images/1149339477250379776/73row7EO_400x400.png" alt="Danish" style="height: 100px;" />
     <p>Danish Pruthi</p> </a>
-    <p>&nbsp;&nbsp;&nbsp;</p>
+    <p color="white">&nbsp;&nbsp;&nbsp;                  &nbsp;&nbsp;&nbsp;</p>
   </div>
   <div id="authors-4">
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
     <a href="http://www.cse.iitd.ac.in/~mausam/">
     <img src="http://www.cse.iitd.ac.in/~mausam/mausam-head.jpg" alt="Mausam" style="height: 100px;" />
     <p>Mausam</p> </a> 
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <p color="white">&nbsp;&nbsp;&nbsp;                  &nbsp;&nbsp;&nbsp;</p>
   </div>
 </div>
 </center>
