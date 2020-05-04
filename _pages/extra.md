@@ -17,15 +17,17 @@ Rendezvous, IIT Delhi
 
 Board for Student Publications
 -----
-1. __Journalist__, Board for Student Publications, IIT Delhi
+1. Our entry [The Delusional](https://pratyush911.github.io/files/TheDelusional.pdf) won the best Magazine in Gazettale 2020.
+
+2. __Journalist__, Board for Student Publications, IIT Delhi
 
    ▪ Authored stories/articles and interviewed eminent personalities
 
    ▪ Awarded Best Journalistic Content 
     
-2. Co-Authored the Magazine **Kikazaru** with artistic pieces, prose and poems in both English & Hindi. [[Link]](https://pratyush911.github.io/files/Kikazaru_Gazettale.pdf)
+3. Co-Authored the Magazine **Kikazaru** with artistic pieces, prose and poems in both English & Hindi. [[Link]](https://pratyush911.github.io/files/Kikazaru_Gazettale.pdf)
 
-3. Third Prize, __Bluffington Post__: Satire and humour for portraying pertinent issues in an engaging way.
+4. Third Prize, __Bluffington Post__: Satire and humour for portraying pertinent issues in an engaging way.
 
 
 Board for Recreational and Cultural Activities
