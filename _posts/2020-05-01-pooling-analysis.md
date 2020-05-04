@@ -144,8 +144,8 @@ Goals:
 
 <i> ~ How does the position of a word impact its importance in the final prediction by a model? ~  </i>
 <p align="center">
-<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png" alt="NWI Explanation" width="400"/>
-<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/IMDB_Wiki.png" alt="NWI Explanation" width="700"/>
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png" alt="Explain Wiki Setting" width="400"/>
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/IMDB_Wiki.png" alt="IMDB Wiki Table" width="700"/>
 </p>
 
 #### The NWI Metric
