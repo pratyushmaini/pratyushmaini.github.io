@@ -195,7 +195,7 @@ Goals:
           </div>
           <div id="nwi-1">
             <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="height: 200px;">
-            <p>NWI short mid (YAHOOpfigcaption>
+            <p>NWI short mid (YAHOO)</p>
           </div>
 </div>
 
