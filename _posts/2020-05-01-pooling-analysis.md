@@ -21,8 +21,6 @@ TL;DR:
 ## Motivation
 
 ## Overview
-<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/overall_figure.png" alt="Summary of Pooling Methods" width="200"/>
-
 <p align="center">
   <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/overall_figure.png?raw=true" alt="Photo" style="width: 450px;"/> 
 </p>
@@ -33,11 +31,11 @@ TL;DR:
 ## Positional Biases
 Goals:
 ### Evaluating Natural Positional Biases
-<p style="text-align: center;"><i> ~~ Can naturally trained recurrent models skip over unimportant words in the begining or the end of the sentence? ~~  </i></p>
+<i> ~~ Can naturally trained recurrent models skip over unimportant words in the begining or the end of the sentence? ~~  </i>
 ### Training to Skip Unimportant Words
-<p style="text-align: center;"><i> ~~ How well can different models be trained to skip unrelated words? ~~  </i></p>  
+<i> ~~ How well can different models be trained to skip unrelated words? ~~  </i>
 ### Fine-grained Positional Biases
-<p style="text-align: center;"><i> ~~ How does the position of a word impact its importance in the final prediction by a model? ~~  </i></p>  
+<i> ~~ How does the position of a word impact its importance in the final prediction by a model? ~~  </i>
 
 #### The NWI Metric
 <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/NWI_Explain.png?raw=true" alt="NWI Explanation" width="200"/>
