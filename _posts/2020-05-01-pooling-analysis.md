@@ -131,22 +131,29 @@ Goals:
 
 <i> ~ Can naturally trained recurrent models skip over unimportant words in the begining or the end of the sentence? ~  </i>
 
-### Training to Skip Unimportant Words
+
 
 <i> ~ How well can different models be trained to skip unrelated words? ~  </i>
 <p align="center">
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="700"/><br>
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_left.png" alt="Wiki Attack Left" width="350"/>
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_mid.png" alt="Wiki Attack Mid" width="350"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_left.png" alt="Wiki Attack Left" width="250"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_mid.png" alt="Wiki Attack Mid" width="250"/>
 </p>
 
-### Fine-grained Positional Biases
+
 
 <i> ~ How does the position of a word impact its importance in the final prediction by a model? ~  </i>
 <p align="center">
 <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png" alt="Explain Wiki Setting" width="400"/>
-<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/IMDB_Wiki.png" alt="IMDB Wiki Table" width="700"/>
 </p>
+
+### Training to Skip Unimportant Words
+
+<p align="center">
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/IMDB_Wiki.png" alt="IMDB Wiki Table" width="1000"/>
+</p>
+
+### Fine-grained Positional Biases
 
 #### The NWI Metric
 
