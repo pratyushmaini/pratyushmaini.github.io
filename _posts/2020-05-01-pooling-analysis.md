@@ -97,25 +97,32 @@ Goals:
 <br><br>
 <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Gradients/ratio_legend.png" alt="Legend" style="width: 700px;">  <br><br>
 <figure>
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="width: 200px;">
+    <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="width: 200px;">
     <figcaption>NWI standard (YAHOO)</figcaption>
 </figure>
 <figure>
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="width: 200px;">
+    <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="width: 200px;">
     <figcaption>NWI left (YAHOO)</figcaption>
 </figure>
 <figure>
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" style="width: 200px;">
+    <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" style="width: 200px;">
     <figcaption>NWI mid (YAHOO)</figcaption>
 </figure>
 <figure>
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="width: 200px;">
+    <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="width: 200px;">
     <figcaption>NWI short mid (YAHOO)</figcaption>
 </figure>
 
 
 <style>
-  ul.fans li {
+  figure {
+    display:center;
+}
+  ul.NWI li{
+    display: inline;
+}
+
+  ul.NWI li {
   display: inline-block;
 }
 figcaption {
@@ -123,18 +130,37 @@ figcaption {
 }
 </style>
 
-<section class="products">
+
+<section class="NWI">
+  <p>
+    <ul class="NWI">
+      <li>
           <figure>
-            <img class="fans" src="http://placehold.it/300/300" alt="Shrouded"/>
-            <figcaption>Shrouded</figcaption>
+            <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="width: 200px;">
+            <figcaption>NWI standard (YAHOO)</figcaption> 
           </figure>
+      </li>
+      <li>
           <figure>
-            <img class="fans" src="http://placehold.it/300/300" alt="Shrouded" />
-            <figcaption>Shallow Recess</figcaption>
+            <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="width: 200px;">
+            <figcaption>NWI left (YAHOO)</figcaption>
           </figure>
+      </li>
+      <li>
+          <figure>
+            <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" style="width: 200px;">
+            <figcaption>NWI mid (YAHOO)</figcaption>
+          </figure>
+      </li>
+      <li>
+          <figure>
+            <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="width: 200px;">
+            <figcaption>NWI short mid (YAHOO)</figcaption>
+          </figure>
+      </li>
+    </ul>
+  </p>
 </section>
-
-
 
 ## Conclusion
 
