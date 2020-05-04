@@ -89,9 +89,25 @@ Goals:
 
 #### The NWI Metric
 
-<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/NWI_Explain.png" alt="NWI Explanation" width="200"/>
+<p align="center">
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/NWI_Explain.png" alt="NWI Explanation" width="400"/>
 <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/NWI_Algo.png" alt="NWI Algo" width="200"/>
-<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid.png" alt="NWI Explanation" width="200"/>
+</p>
+
+<br><br>
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Gradients/ratio_legend.png" alt="Legend" style="width: 700px;"/>  <br><br>
+<figure>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" width="200"/>
+    <figcaption>NWI standard (YAHOO)</figcaption>
+<figure>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" width="200"/>
+    <figcaption>NWI left (YAHOO)</figcaption>
+<figure>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" width="200"/>
+    <figcaption>NWI mid (YAHOO)</figcaption>
+<figure>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" width="200"/>
+    <figcaption>NWI short mid (YAHOO)</figcaption>
 
 ## Conclusion
 
