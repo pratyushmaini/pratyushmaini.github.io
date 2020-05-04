@@ -45,25 +45,25 @@ tags:
     <img src="https://pratyush911.github.io/images/Profile.jpg" alt="Pratyush" style="height: 100px;" />
     <p>Pratyush Maini</p> 
     </a>
-    <p style="color:white">&nbsp;&nbsp;&nbsp;-----------------------------&nbsp;&nbsp;&nbsp;</p>
+    <p style="color:white">&nbsp;&nbsp;-----------------------------&nbsp;&nbsp;</p>
   </div>
   <div id="authors-2">
     <a href="https://saikeshav.github.io/">
     <img src="https://saikeshav.github.io/images/pp.jpeg" alt="Keshav" style="height: 100px;" />
     <p>Kolluru Sai Keshav</p> </a>
-    <p style="color:white">&nbsp;&nbsp;&nbsp;-----------------------------&nbsp;&nbsp;&nbsp;</p>
+    <p style="color:white">&nbsp;&nbsp;-----------------------------&nbsp;&nbsp;</p>
   </div>
   <div id="authors-3">
     <a href="https://www.cs.cmu.edu/~ddanish/">
     <img src="https://pbs.twimg.com/profile_images/1149339477250379776/73row7EO_400x400.png" alt="Danish" style="height: 100px;" />
     <p>Danish Pruthi</p> </a>
-    <p style="color:white">&nbsp;&nbsp;&nbsp;-----------------------------&nbsp;&nbsp;&nbsp;</p>
+    <p style="color:white">&nbsp;&nbsp;-----------------------------&nbsp;&nbsp;</p>
   </div>
   <div id="authors-4">
     <a href="http://www.cse.iitd.ac.in/~mausam/">
     <img src="http://www.cse.iitd.ac.in/~mausam/mausam-head.jpg" alt="Mausam" style="height: 100px;" />
     <p>Mausam</p> </a> 
-    <p style="color:white">&nbsp;&nbsp;&nbsp;-----------------------------&nbsp;&nbsp;&nbsp;</p>
+    <p style="color:white">&nbsp;&nbsp;-----------------------------&nbsp;&nbsp;</p>
   </div>
 </div>
 </center>
@@ -165,7 +165,7 @@ Goals:
 </style>
 
 <p align="center">
-<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="NWI Explanation" width="700"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="700"/>
 </p>
 <div class="iconbox">
   <div id="nwi-1">
