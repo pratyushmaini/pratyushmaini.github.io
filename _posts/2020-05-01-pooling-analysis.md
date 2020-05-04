@@ -1,7 +1,7 @@
 ---
 title: 'Pooling Analysis'
 date: 2020-05-01
-permalink: /posts/Pooling-Analysis/
+permalink: /Pooling-Analysis/
 tags:
   - max-attention
   - vanishing gradients
@@ -22,7 +22,10 @@ TL;DR:
 
 ## Overview
 <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/overall_figure.png" alt="Summary of Pooling Methods" width="200"/>
-![Summary of Pooling Methods][summary_pooling]
+
+<p align="center">
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/overall_figure.png?raw=true" alt="Photo" style="width: 450px;"/> 
+</p>
 
 
 ## Gradient Propagation
@@ -37,6 +40,6 @@ Goals:
 <p style="text-align: center;"><i> ~~ How does the position of a word impact its importance in the final prediction by a model? ~~  </i></p>  
 
 #### The NWI Metric
-<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/NWI_Explain.png" alt="NWI Explanation" width="200"/>
-<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/NWI_Algo.png" alt="NWI Algo" width="200"/>
-<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/YAHOO_SHORT_25K_mid.png" alt="NWI Explanation" width="200"/>
+<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/NWI_Explain.png?raw=true" alt="NWI Explanation" width="200"/>
+<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/NWI_Algo.png?raw=true" alt="NWI Algo" width="200"/>
+<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/YAHOO_SHORT_25K_mid.png?raw=true" alt="NWI Explanation" width="200"/>
