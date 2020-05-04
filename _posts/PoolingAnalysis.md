@@ -15,5 +15,7 @@ TL;DR:
 ------
 1. Pooling-based BiLSTMs demonstrate improved learning ability and positional invariance
 2. Pooling helps improve sample efficiency (low-resource settings) and is particularly beneficial when important words lie towards the middle of the sentence
-3. Our proposed pooling technique max-attention (MaxAtt) helps improve upon past approaches and is more robust to distribution shift
+3. Our proposed pooling technique max-attention (MaxAtt) helps improve upon past approaches on standard accuracy metrics, and is more robust to distribution shift
+
+
 
