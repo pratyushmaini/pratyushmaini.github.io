@@ -82,72 +82,16 @@ Goals:
 ### Evaluating Natural Positional Biases
 
 <i> ~~ Can naturally trained recurrent models skip over unimportant words in the begining or the end of the sentence? ~~  </i>
+
 ### Training to Skip Unimportant Words
+
 <i> ~~ How well can different models be trained to skip unrelated words? ~~  </i>
+
 ### Fine-grained Positional Biases
+
 <i> ~~ How does the position of a word impact its importance in the final prediction by a model? ~~  </i>
 
 #### The NWI Metric
-
-<!-- <style>
-  section.NWI{
-    width: 100%;
-    padding:5px;
-    line-height:100%;
-    margin-top: 5px;
-    float: left;
-    text-align: center;
-}
-  img.NWI {
-    text-align: center;
-}
-
-  p.NWI {
-    text-align:center;
-    align: center;
-}
-  figure.NWI {
-    display:center;
-}
-  ul.NWI li {
-  display: inline-block;
-}
-  figcaption.NWI {
-  text-align: center
-}
-</style>
-
-
-<section class="NWI">
-  <p>
-    <ul class="NWI">
-      <li>
-          <figure>
-            <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="width: 200px;">
-            <figcaption>NWI standard (YAHOO)</figcaption> 
-          </figure>
-      </li>
-      <li>
-          <figure>
-            <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="width: 200px;">
-            <figcaption>NWI left (YAHOO)</figcaption>
-          </figure>
-      </li>
-      <li>
-          <figure>
-            <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" style="width: 200px;">
-            <figcaption>NWI mid (YAHOO)</figcaption>
-          </figure>
-      </li>
-      <li>
-          <figure>
-            <img class="NWI" src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="width: 200px;">
-            <figcaption>NWI short mid (YAHOO)</figcaption>
-          </figure>
-      </li>
-    </ul>
-  </p>
-</section> -->
 
 
 
