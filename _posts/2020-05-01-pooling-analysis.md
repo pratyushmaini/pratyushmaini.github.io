@@ -79,7 +79,7 @@ tags:
 
 Various pooling techniques, like mean-pooling, max-pooling, and attention<b>*</b>, have shown to improve the performance of RNNs [on](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552) [text](https://arxiv.org/abs/1606.01781) [classification](https://arxiv.org/abs/1606.01781) [tasks](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf). Despite widespread adoption, precisely <i><b>why</b></i> and <i><b>when</b></i>  pooling benefits the models is largely unexamined. 
 
-In this work, we identify two key factors that explain the performance benefits of pooling techniques: learnability, and positional invariance. We examine three commonly used pooling techniques (mean-pooling, max-pooling, and attention), and propose max-attention, a novel variant that effectively captures interactions among predictive tokens in a sentence.
+In this work, we identify two key factors that explain the performance benefits of pooling techniques: **learnability**, and **positional invariance**. We examine three commonly used pooling techniques (mean-pooling, max-pooling, and attention), and **propose max-attention**, a novel variant that effectively captures interactions among predictive tokens in a sentence.
 
 <b>* Attention</b> aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
 
