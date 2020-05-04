@@ -148,9 +148,6 @@ Goals:
 
 <br><br>
 
-<!-- <p align="center">
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="700"/>
-</p> -->
 
 
 <style>
@@ -168,11 +165,14 @@ Goals:
 }
 </style>
 
+<p align="center">
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="700"/>
+</p>
 
 <div class="iconbox">
   <div id="nwi-1">
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="height: 175px;" />
-    <p>Standard> 
+    <p>Standard></p> 
   </div>
   <div id="nwi-2">
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="height: 175px;" />
