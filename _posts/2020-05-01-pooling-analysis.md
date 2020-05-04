@@ -45,25 +45,25 @@ tags:
     <img src="https://pratyush911.github.io/images/Profile.jpg" alt="Pratyush" style="height: 100px;" />
     <p>Pratyush Maini</p> 
     </a>
-    <p style="color:white">--------------------</p>
+    <p style="color:white">------------------------------</p>
   </div>
   <div id="authors-2">
     <a href="https://saikeshav.github.io/">
     <img src="https://saikeshav.github.io/images/pp.jpeg" alt="Keshav" style="height: 100px;" />
     <p>Kolluru Sai Keshav</p> </a>
-    <p style="color:white">--------------------</p>
+    <p style="color:white">------------------------------</p>
   </div>
   <div id="authors-3">
     <a href="https://www.cs.cmu.edu/~ddanish/">
     <img src="https://pbs.twimg.com/profile_images/1149339477250379776/73row7EO_400x400.png" alt="Danish" style="height: 100px;" />
     <p>Danish Pruthi</p> </a>
-    <p style="color:white">--------------------</p>
+    <p style="color:white">------------------------------</p>
   </div>
   <div id="authors-4">
     <a href="http://www.cse.iitd.ac.in/~mausam/">
     <img src="http://www.cse.iitd.ac.in/~mausam/mausam-head.jpg" alt="Mausam" style="height: 100px;" />
     <p>Mausam</p> </a> 
-    <p style="color:white">--------------------</p>
+    <p style="color:white">------------------------------</p>
   </div>
 </div>
 </center>
@@ -129,15 +129,15 @@ Goals:
 
 ### Evaluating Natural Positional Biases
 
-<i> ~~ Can naturally trained recurrent models skip over unimportant words in the begining or the end of the sentence? ~~  </i>
+<i> ~ Can naturally trained recurrent models skip over unimportant words in the begining or the end of the sentence? ~  </i>
 
 ### Training to Skip Unimportant Words
 
-<i> ~~ How well can different models be trained to skip unrelated words? ~~  </i>
+<i> ~ How well can different models be trained to skip unrelated words? ~  </i>
 
 ### Fine-grained Positional Biases
 
-<i> ~~ How does the position of a word impact its importance in the final prediction by a model? ~~  </i>
+<i> ~ How does the position of a word impact its importance in the final prediction by a model? ~  </i>
 
 #### The NWI Metric
 
@@ -168,26 +168,26 @@ Goals:
 <p align="center">
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="700"/>
 </p>
-
+<center>
 <div class="iconbox">
   <div id="nwi-1">
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="height: 170px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="height: 150px;" />
     <p>Standard</p> 
   </div>
   <div id="nwi-2">
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="height: 170px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="height: 150px;" />
     <p>Left</p>
   </div>
   <div id="nwi-3">
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" style="height: 170px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" style="height: 150px;" />
     <p>Mid</p>
   </div>
   <div id="nwi-4">
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="height: 170px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="height: 150px;" />
     <p>Short + Mid </p>
   </div>
 </div>
-
+</center>
 
 ## Conclusion
 
