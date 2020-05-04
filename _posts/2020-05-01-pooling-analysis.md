@@ -39,28 +39,28 @@ In this work, we identify two key factors that explain the performance benefits 
 
 ## Gradient Propagation
 
-In order to quantify the extent to which the gradients vanish across different word positions, we compute the gradient of the loss function w.r.t the hidden state at every word position $t$, and study their norm. This is represented by the $\ell_2$ norm $|\frac{\partial L}{\partial h_{t}}|$. 
+In order to quantify the extent to which the gradients vanish across different word positions, we compute the gradient of the loss function w.r.t the hidden state at every word position t, and study their norm. This is represented by the \ell_2 norm |\frac{\partial L}{\partial h_{t}}|. 
 
-**Vanishing Ratio**: Given by $|\frac{\partial L}{\partial h_{\text{end}}}|$ $/$ $|\frac{\partial L}{\partial h_{\text{mid}}}|$. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
+**Vanishing Ratio**: Given by |\frac{\partial L}{\partial h_{\text{end}}}| / |\frac{\partial L}{\partial h_{\text{mid}}}|. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
 
 <p align="center">
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/vanishing_legend.png?raw=true" alt="Legend" style="width: 300px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/vanishing_legend.png?raw=true" alt="Legend" style="width: 300px;"/> <br>
   <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/vanishing.png?raw=true" alt="Vanishing with time steps" style="width: 300px;"/> 
 </p>
 
 
-The gradient norm $(|\frac{\partial L}{\partial h_{t}}|)$ across different word positions. BiLSTM\textsubscript{LowF} suffers from extreme vanishing gradient, with the gradient norm in the middle nearly $10^{-10}$ times that at the ends. 
+The gradient norm (|\frac{\partial L}{\partial h_{t}}|) across different word positions. BiLSTM\textsubscript{LowF} suffers from extreme vanishing gradient, with the gradient norm in the middle nearly 10^{-10} times that at the ends. 
 
 The plot suggests that specific initialization of the gates with best practices (such as setting the bias of forget-gate to a high value) helps to reduce the extent of the issue, but the problem still persists. In contrast, none of the pooling techniques face this issue, resulting in an almost straight line. 
 
 <p align="center">
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/ratio_legend.png?raw=true" alt="Legend" style="width: 300px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/ratio_legend.png?raw=true" alt="Legend" style="width: 300px;"/>  <br>
   <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/last1_ratios.png?raw=true" alt="Vanishing Ratios last1" style="width: 300px;"/> 
  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/att_max_ratios.png?raw=true" alt="Vanishing Ratios att_max" style="width: 300px;"/> 
 </p>
 
 
-The vanishing ratio $(|\frac{\partial L}{\partial h_{\text{end}}}|$$/$$|\frac{\partial L}{\partial h_{\text{mid}}}|)$ over training steps for BiLSTM and MaxAtt, using $1$K, $20$K unique training examples from the IMDB dataset. The respective training and validation accuracies are also depicted.
+The vanishing ratio (|\frac{\partial L}{\partial h_{\text{end}}}|/|\frac{\partial L}{\partial h_{\text{mid}}}|) over training steps for BiLSTM and MaxAtt, using 1K, 20K unique training examples from the IMDB dataset. The respective training and validation accuracies are also depicted.
 
 Consequently, the BiLSTM model overfits on the training data, even before the gates can learn to allow the gradients to pass through (and mitigate the vanishing gradients problem). Thus, the model prematurely memorizes the training data solely based on the starting and ending few words.
 
