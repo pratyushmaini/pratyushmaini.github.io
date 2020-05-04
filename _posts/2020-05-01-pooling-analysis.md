@@ -95,4 +95,23 @@ Goals:
 
 ## Conclusion
 
-Through detailed analysis we identify <i><b>why</b></i> and <i><b>when</b></i> pooling representationsare beneficial in RNNs. We attribute the performance benefits of pooling techniques to their <b>learning ability</b> (pooling mitigates the problem of vanishing gradients), and <b>positional invariance</b> (pooling eliminates positional biases). Our findings suggest that pooling offers large gains when the <b>training examples are few and long</b>, and <b>salient words lie towards the middle of the sequence</b>. Lastly, we introduce a novel pooling technique called <b>max-attention (MaxAtt)</b>, which consistently outperforms other pooling variants, and is robust to addition of unimportant tokens in the text. Most of our insights are derived for sequence classification tasks using RNNs. While the analysis techniques and the pooling variant proposed in the paper are general, it remains a part of the future work to evaluate their impact on other tasks and architectures.
+Through detailed analysis we identify <i><b>why</b></i> and <i><b>when</b></i> pooling representationsare beneficial in RNNs. We attribute the performance benefits of pooling techniques to their <b>learning ability</b> (pooling mitigates the problem of vanishing gradients), and <b>positional invariance</b> (pooling eliminates positional biases).
+
+Our findings suggest that pooling offers large gains when the <b>training examples are few and long</b>, and <b>salient words lie towards the middle of the sequence</b>. 
+
+Lastly, we introduce a novel pooling technique called <b>max-attention (MaxAtt)</b>, which consistently outperforms other pooling variants, and is robust to addition of unimportant tokens in the text. Most of our insights are derived for sequence classification tasks using RNNs. While the analysis techniques and the pooling variant proposed in the paper are general, it remains a part of the future work to evaluate their impact on other tasks and architectures.
+
+#### How do I cite this work?
+
+If you find this work useful, please cite [the Arxiv paper](https://arxiv.org/abs/2005.00159):
+
+```
+@misc{maini2020pool,
+    title={Why and when should you pool? Analyzing Pooling in Recurrent Architectures},
+    author={Pratyush Maini and Keshav Kolluru and Danish Pruthi and Mausam},
+    year={2020},
+    eprint={2005.00159},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+```
