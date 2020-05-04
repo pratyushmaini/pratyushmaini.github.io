@@ -44,8 +44,8 @@ In order to quantify the extent to which the gradients vanish across different w
 **Vanishing Ratio**: Given by $|\frac{\partial L}{\partial h_{\text{end}}}|$ $/$ $|\frac{\partial L}{\partial h_{\text{mid}}}|$. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
 
 <p align="center">
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/vanishing_legend.png?raw=true" alt="Legend" style="width: 500px;"/> 
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/vanishing.png?raw=true" alt="Vanishing with time steps" style="width: 1000px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/vanishing_legend.png?raw=true" alt="Legend" style="width: 300px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/vanishing.png?raw=true" alt="Vanishing with time steps" style="width: 300px;"/> 
 </p>
 
 
@@ -54,9 +54,9 @@ The gradient norm $(|\frac{\partial L}{\partial h_{t}}|)$ across different word 
 The plot suggests that specific initialization of the gates with best practices (such as setting the bias of forget-gate to a high value) helps to reduce the extent of the issue, but the problem still persists. In contrast, none of the pooling techniques face this issue, resulting in an almost straight line. 
 
 <p align="center">
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/ratio_legend.png?raw=true" alt="Legend" style="width: 500px;"/> 
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/last1_ratios.png?raw=true" alt="Vanishing Ratios last1" style="width: 1000px;"/> 
- <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/att_max_ratios.png?raw=true" alt="Vanishing Ratios att_max" style="width: 1000px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/ratio_legend.png?raw=true" alt="Legend" style="width: 300px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/last1_ratios.png?raw=true" alt="Vanishing Ratios last1" style="width: 300px;"/> 
+ <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/att_max_ratios.png?raw=true" alt="Vanishing Ratios att_max" style="width: 300px;"/> 
 </p>
 
 
@@ -65,7 +65,7 @@ The vanishing ratio $(|\frac{\partial L}{\partial h_{\text{end}}}|$$/$$|\frac{\p
 Consequently, the BiLSTM model overfits on the training data, even before the gates can learn to allow the gradients to pass through (and mitigate the vanishing gradients problem). Thus, the model prematurely memorizes the training data solely based on the starting and ending few words.
 
 <p align="center">
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/TableVanish.png?raw=true" alt="Legend" style="width: 500px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/TableVanish.png?raw=true" alt="Table" style="width: 300px;"/> 
 </p>
 
 The vanishing ratio is high for \last{}, especially in low-data settings. This results in a 12-14\% lower test accuracy compared to other pooling techniques, in the 1K setting. We conclude that the phenomenon of vanishing gradients results in weaker performance of BiLSTM, especially in low training data regimes.
