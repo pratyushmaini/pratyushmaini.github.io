@@ -99,15 +99,19 @@ Goals:
 <figure>
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" width="200"/>
     <figcaption>NWI standard (YAHOO)</figcaption>
+</figure>
 <figure>
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" width="200"/>
     <figcaption>NWI left (YAHOO)</figcaption>
+</figure>
 <figure>
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" width="200"/>
     <figcaption>NWI mid (YAHOO)</figcaption>
+</figure>
 <figure>
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" width="200"/>
     <figcaption>NWI short mid (YAHOO)</figcaption>
+</figure>
 
 ## Conclusion
 
