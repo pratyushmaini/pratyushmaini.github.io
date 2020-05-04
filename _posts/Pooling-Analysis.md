@@ -21,13 +21,17 @@ TL;DR:
 ## Motivation
 
 ## Overview
-![Summary of Pooling Methods][summary_pooling]
+![Summary of Pooling Methods](Figures/overall_figure.png){:width="550"}
+[summary_pooling]: Figures/overall_figure.png
 
+<p align="center">
+  <img src="Figures/overall_figure.png" alt="Photo" style="width: 100px;"/> 
+</p>
 
+<p align="center">
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/overall_figure.png" alt="Photo" style="width: 100px;"/> 
+</p>
 
-
-
-[summary_pooling]: https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Pooling-Analysis/Figures/overall_figure.png
 ## Gradient Propagation
 
 ## Positional Biases
