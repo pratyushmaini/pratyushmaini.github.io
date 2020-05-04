@@ -20,7 +20,7 @@ tags:
 <style>
 .authorbox {
     /* height: 128px; */
-    padding: 100px;
+    /* padding: 100px; */
 }
 .authorbox > div {
     text-align: center;
@@ -35,25 +35,26 @@ tags:
 }
 </style>
 
+<center>
 <div class="authorbox">
   <div id="authors-1">
     <img src="https://pratyush911.github.io/images/Profile.jpg" alt="Pratyush" style="height: 100px;" />
-    <p><a href="https://pratyush911.github.io">Pratyush Maini</a></p> 
+    <p>&nbsp;&nbsp;&nbsp;<a href="https://pratyush911.github.io">Pratyush Maini</a>&nbsp;&nbsp;&nbsp;</p> 
   </div>
   <div id="authors-2">
     <img src="https://saikeshav.github.io/images/pp.jpeg" alt="Keshav" style="height: 100px;" />
-    <p><a href="https://saikeshav.github.io/">Kolluru Sai Keshav</a></p> 
+    <p>&nbsp;&nbsp;&nbsp;<a href="https://saikeshav.github.io/">Kolluru Sai Keshav</a>&nbsp;&nbsp;&nbsp;</p> 
   </div>
   <div id="authors-3">
     <img src="https://pbs.twimg.com/profile_images/1149339477250379776/73row7EO_400x400.png" alt="Danish" style="height: 100px;" />
-    <p><a href="https://www.cs.cmu.edu/~ddanish/">Danish Pruthi</a></p> 
+    <p>&nbsp;&nbsp;&nbsp;<a href="https://www.cs.cmu.edu/~ddanish/">Danish Pruthi</a>&nbsp;&nbsp;&nbsp;</p> 
   </div>
   <div id="authors-4">
     <img src="http://www.cse.iitd.ac.in/~mausam/mausam-head.jpg" alt="Mausam" style="height: 100px;" />
-    <p><a href="http://www.cse.iitd.ac.in/~mausam/">Mausam</a></p> 
+    <p>&nbsp;&nbsp;&nbsp;<a href="http://www.cse.iitd.ac.in/~mausam/">Mausam</a>&nbsp;&nbsp;&nbsp;</p> 
   </div>
 </div>
-
+</center>
 
 ## TL;DR:
 
