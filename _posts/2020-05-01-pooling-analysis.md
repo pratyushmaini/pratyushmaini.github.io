@@ -93,12 +93,18 @@ Goals:
 
 #### The NWI Metric
 
+<p align="center">
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/NWI_Explain.png" alt="NWI Explanation" width="400"/>
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/NWI_Algo.png" alt="NWI Algo" width="200"/>
+</p>
+
+<br><br>
 
 
 <style>
 .iconbox {
     /* height: 128px; */
-    padding: 20px;
+    /* padding: 20px; */
 }
 .iconbox > div {
     text-align: center;
@@ -111,7 +117,7 @@ Goals:
 </style>
 
 
-<div class="iconbox"> id="nwi-1">
+<div class="iconbox">
   <div id="nwi-1">
     <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="height: 200px;" />
     <p>NWI standard (YAHOO)</p> 
@@ -132,7 +138,26 @@ Goals:
 
 
 
+<div class="iconbox">
+  <div id="nwi-1">
+    <img src="https://pratyush911.github.io/images/Profile.jpg" alt="Pratyush" style="height: 200px;" />
+    <p><a href="https://pratyush911.github.io">Pratyush Maini</a></p> 
+  </div>
+  <div id="nwi-2">
+    <img src="https://saikeshav.github.io/images/pp.jpeg" alt="Keshav" style="height: 200px;" />
+    <p><a href="https://saikeshav.github.io/">Kolluru Sai Keshav</a></p> 
+  </div>
+  <div id="nwi-3">
+    <img src="https://www.cs.cmu.edu/~ddanish/images/danish.jpg" alt="Danish" style="height: 200px;" />
+    <p><a href="https://www.cs.cmu.edu/~ddanish/">Danish Pruthi</a></p> 
+  </div>
+  <div id="nwi-4">
+    <img src="http://www.cse.iitd.ac.in/~mausam/mausam-head.jpg" alt="Mausam" style="height: 200px;" />
+    <p><a href="http://www.cse.iitd.ac.in/~mausam/">Mausam</a></p> 
+  </div>
+</div>
 
+[Pratyush Maini](), [Kolluru Sai Keshav](https://saikeshav.github.io/), [Danish Pruthi](https://www.cs.cmu.edu/~ddanish/) and [Mausam](http://www.cse.iitd.ac.in/~mausam/)
 
 ## Conclusion
 
