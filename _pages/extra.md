@@ -6,14 +6,6 @@ author_profile: true
 
 ---
 
-Rendezvous, IIT Delhi
------
-  ▪ Served as __Coordinator__ for events at IIT Delhi's Cultural Fest Rendezvous 2019 (_arguably_ Asia's largest fest :)).
-
-  ▪ Managed invited discussions and professional nights leading a 3-tier team.
-
-  ▪ Restructured events for greater outreach & popularity (over 150k students). 
-  
 
 Board for Student Publications
 -----
@@ -41,7 +33,15 @@ Awards at Debating Club:
 3. __Third__: British PD 2017, 
 4. __Third__: Intra IIT PD 2018.
 
+Rendezvous, IIT Delhi
+-----
+  ▪ Served as __Coordinator__ for events at IIT Delhi's Cultural Fest Rendezvous 2019 (_arguably_ Asia's largest fest :)).
 
+  ▪ Managed invited discussions and professional nights leading a 3-tier team.
+
+  ▪ Restructured events for greater outreach & popularity (over 150k students). 
+  
+  
 Other Outlets
 -----
 1. **Executive** at Electrical Engineering Society, IITD: Organized workshops for Image Processing & MATLAB
