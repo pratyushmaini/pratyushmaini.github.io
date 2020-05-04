@@ -42,7 +42,7 @@ tags:
 <div class="authorbox">
   <div id="authors-1">
     <img src="https://pratyush911.github.io/images/Profile.jpg" alt="Pratyush" style="height: 100px;" />
-    <p>&nbsp;&nbsp;&nbsp;<a href="https://pratyush911.github.io">Pratyush Maini</a>&nbsp;&nbsp;&nbsp;</p> 
+    <p><a href="https://pratyush911.github.io">Pratyush Maini</a>&nbsp;&nbsp;&nbsp;</p> 
   </div>
   <div id="authors-2">
     <img src="https://saikeshav.github.io/images/pp.jpeg" alt="Keshav" style="height: 100px;" />
