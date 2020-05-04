@@ -134,16 +134,24 @@ Goals:
 ### Training to Skip Unimportant Words
 
 <i> ~ How well can different models be trained to skip unrelated words? ~  </i>
+<p align="center">
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="700"/><br>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_left.png" alt="Wiki Attack Left" width="350"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_mid.png" alt="Wiki Attack Mid" width="350"/>
+</p>
 
 ### Fine-grained Positional Biases
 
 <i> ~ How does the position of a word impact its importance in the final prediction by a model? ~  </i>
+<p align="center">
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png" alt="NWI Explanation" width="400"/>
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/IMDB_Wiki.png" alt="NWI Explanation" width="700"/>
+</p>
 
 #### The NWI Metric
 
 <p align="center">
 <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/NWI_Explain.png" alt="NWI Explanation" width="400"/>
-<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/NWI_Algo.png" alt="NWI Algo" width="200"/>
 </p>
 
 <br><br>
