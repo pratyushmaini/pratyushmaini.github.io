@@ -24,13 +24,13 @@ table, tr, td {
 
 <div style="height:250px;overflow:auto;border:0px;border-collapse: collapse;" >
 <table  border="none" style="border:0px;border-collapse: collapse;" rules="none" >
-<font face = "Times New Roman" size = "12">
+<font face = "Times New Roman" size = "14">
 <colgroup>
        <col span="1" style="width: 12%;">
        <col span="1" style="width: 88%;">
 </colgroup>
 
-<tr><td> May 2020: </td> <td> <a href="https://arxiv.org/abs/2005.00159"> Preprint </a> released for <i>Why and when should you pool? Analyzing Pooling in Recurrent Architectures</i>. <br> See blog post <a href="https://pratyush911.github.io/Pooling-Analysis/">here</a>. </td> </tr>
+<tr><td> May 2020: </td> <td> <a href="https://arxiv.org/abs/2005.00159">Preprint</a> released for <i>Why and when should you pool? Analyzing Pooling in Recurrent Architectures</i>. <br> See blog post <a href="https://pratyush911.github.io/Pooling-Analysis/">here</a>. </td> </tr>
 
 <tr><td> April 2020: </td> <td> Our entry, <a href ="https://pratyush911.github.io/files/TheDelusional.pdf">The Delusional</a> (with artistic pieces, prose and poems in both English & Hindi) won the best Magazine in Gazettale 2020. </td></tr> 
 
@@ -38,7 +38,7 @@ table, tr, td {
 
 <tr><td> Dec 2019:</td> <td> Started (slowly) setting up my personal website. </td> </tr>
 
-<tr><td> Sep 2019:</td> <td> <a href = "https://arxiv.org/abs/1909.04068"> Preprint </a> released for <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> </td> </tr>
+<tr><td> Sep 2019:</td> <td> <a href = "https://arxiv.org/abs/1909.04068">Preprint</a> released for <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> </td> </tr>
 
 </font>
 </table>
