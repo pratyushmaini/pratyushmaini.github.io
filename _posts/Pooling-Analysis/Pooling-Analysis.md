@@ -1,7 +1,7 @@
 ---
 title: 'Pooling Analysis'
 date: 2020-05-01
-permalink: /posts/Pooling-Analysis/
+permalink: /posts/Pooling-Analysis/Pooling-Analysis
 tags:
   - max-attention
   - vanishing gradients
