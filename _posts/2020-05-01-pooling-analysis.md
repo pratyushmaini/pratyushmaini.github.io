@@ -89,7 +89,7 @@ Goals:
 
 #### The NWI Metric
 
-<style>
+<!-- <style>
   section.NWI{
     width: 100%;
     padding:5px;
@@ -147,7 +147,38 @@ Goals:
       </li>
     </ul>
   </p>
-</section>
+</section> -->
+
+<style>
+.iconbox {
+    height: 128px;
+    padding: 20px;
+}
+.iconbox > div {
+    text-align: center;
+    width: 128px;
+    display: inline-block;
+}
+.iconbox p {
+    margin: 0;
+}
+</style>
+
+<div class="iconbox">
+    <div id="tut-icon">
+        <img src="images/tuticon.png" alt="Written Tutorials" />
+        <p>Some text</p>
+    </div>
+    <div id="vid-icon">
+        <img src="images/vidicon.png" alt="Video Tutorials" />
+        <p>Some text</p>
+    </div>
+    <div id="add-icon">
+        <img src="images/addtuticon.png" alt="Add Tutorials" />
+        <p>Some text</p>
+    </div>
+</div>
+
 
 ## Conclusion
 
