@@ -32,7 +32,7 @@ table, tr, td {
 
 <tr><td> May 2020: </td> <td> <a href="https://arxiv.org/abs/2005.00159"> Preprint </a> released for <i>Why and when should you pool? Analyzing Pooling in Recurrent Architectures</i>. <br> See blog post <a href="https://pratyush911.github.io/Pooling-Analysis/">here</a>. </td> </tr>
 
-<tr><td> April 2020: </td> <td> Our entry, [The Delusional](https://pratyush911.github.io/files/TheDelusional.pdf) (with artistic pieces, prose and poems in both English & Hindi) won the best Magazine in Gazettale 2020. </td></tr> 
+<tr><td> April 2020: </td> <td> Our entry, <a href ="https://pratyush911.github.io/files/TheDelusional.pdf">The Delusional</a> (with artistic pieces, prose and poems in both English & Hindi) won the best Magazine in Gazettale 2020. </td></tr> 
 
 <tr><td> Jan 2020: </td> <td> Started TAing the course COL106 (Data Structures & Algorithms). </td></tr> 
 
