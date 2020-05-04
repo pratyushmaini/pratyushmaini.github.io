@@ -20,9 +20,9 @@ TL;DR:
 
 ## Motivation
 
+
+
 ## Overview
-![Summary of Pooling Methods](Figures/overall_figure.png){:width="550"}
-[summary_pooling]: Figures/overall_figure.png
 
 <p align="center">
   <img src="Figures/overall_figure.png" alt="Photo" style="width: 100px;"/> 
@@ -47,3 +47,6 @@ Goals:
 <img src="Figures/NWI/NWI_Explain.png" alt="NWI Explanation" width="200"/>
 <img src="Figures/NWI/NWI_Algo.png" alt="NWI Algo" width="200"/>
 <img src="Figures/NWI/YAHOO_SHORT_25K_mid.png" alt="NWI Explanation" width="200"/>
+
+
+### Authors

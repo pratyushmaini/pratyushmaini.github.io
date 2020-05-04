@@ -5,7 +5,7 @@ title: "Research"
 
 {% include base_path %}
 
-## [Why and when should you pool?  <br /> Analyzing Pooling in Recurrent Architectures]()
+## [Why and when should you pool?  <br /> Analyzing Pooling in Recurrent Architectures]("https://pratyush911.github.io/Pooling-Analysis/")
 
 **_Prof. Mausam, IIT Delhi_**
 - Analysing the link between robustness, biases and vanishing gradients in learning ability of models.   
