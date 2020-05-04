@@ -151,19 +151,19 @@ Goals:
 
 <div class="iconbox">
   <div id="nwi-1">
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="height: 200px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="height: 175px;" />
     <p>NWI standard (YAHOO)</p> 
   </div>
   <div id="nwi-2">
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="height: 200px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="height: 175px;" />
     <p>NWI left (YAHOO)</p>
   </div>
   <div id="nwi-3">
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" style="height: 200px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" style="height: 175px;" />
     <p>NWI mid (YAHOO)</p>
   </div>
   <div id="nwi-4">
-    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="height: 200px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="height: 175px;" />
     <p>NWI short mid (YAHOO)</p>
   </div>
 </div>
