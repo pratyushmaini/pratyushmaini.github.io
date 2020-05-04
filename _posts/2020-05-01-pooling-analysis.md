@@ -38,7 +38,7 @@ In this work, we identify two key factors that explain the performance benefits 
 ## Overview of Pooling and Attention
 
 <p align="center">
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/overall_figure.png?raw=true" alt="Pooling Overview" style="width: 1000px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/files/PoolingAnalysisFigures/overall_figure.png?raw=true" alt="Pooling Overview" style="width: 1000px;"/> 
 </p>
 
 
@@ -49,8 +49,8 @@ In order to quantify the extent to which the gradients vanish across different w
 **Vanishing Ratio**: Given by <img src="https://tex.s2cms.ru/svg/%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7B%5Ctext%7Bend%7D%7D%7D%7C%2F%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7B%5Ctext%7Bmid%7D%7D%7D%7C" alt="|\frac{\partial L}{\partial h_{\text{end}}}|/|\frac{\partial L}{\partial h_{\text{mid}}}|" />. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
 
 <p align="center">
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/vanishing_legend.png?raw=true" alt="Legend" style="width: 400px;"/> <br>
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/vanishing.png?raw=true" alt="Vanishing with time steps" style="width: 400px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/files/PoolingAnalysisFigures/Gradients/vanishing_legend.png?raw=true" alt="Legend" style="width: 400px;"/> <br>
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/files/PoolingAnalysisFigures/Gradients/vanishing.png?raw=true" alt="Vanishing with time steps" style="width: 400px;"/> 
 </p>
 
 
@@ -59,9 +59,9 @@ The gradient norm <img src="https://tex.s2cms.ru/svg/(%7C%5Cfrac%7B%5Cpartial%20
 The plot suggests that specific initialization of the gates with best practices (such as setting the bias of forget-gate to a high value) helps to reduce the extent of the issue, but the problem still persists. In contrast, none of the pooling techniques face this issue, resulting in an almost straight line. 
 
 <p align="center">
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/ratio_legend.png?raw=true" alt="Legend" style="width: 700px;"/>  <br><br>
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/last1_ratios.png?raw=true" alt="Vanishing Ratios last1" style="width: 350px;"/> 
- <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/att_max_ratios.png?raw=true" alt="Vanishing Ratios att_max" style="width: 350px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/files/PoolingAnalysisFigures/Gradients/ratio_legend.png?raw=true" alt="Legend" style="width: 700px;"/>  <br><br>
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/files/PoolingAnalysisFigures/Gradients/last1_ratios.png?raw=true" alt="Vanishing Ratios last1" style="width: 350px;"/> 
+ <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/files/PoolingAnalysisFigures/Gradients/att_max_ratios.png?raw=true" alt="Vanishing Ratios att_max" style="width: 350px;"/> 
 </p>
 
 
@@ -70,7 +70,7 @@ The vanishing ratio <img src="https://tex.s2cms.ru/svg/(%7C%5Cfrac%7B%5Cpartial%
 Consequently, the BiLSTM model overfits on the training data, even before the gates can learn to allow the gradients to pass through (and mitigate the vanishing gradients problem). Thus, the model prematurely memorizes the training data solely based on the starting and ending few words.
 
 <p align="center">
-  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/Gradients/TableVanish.png?raw=true" alt="Table" style="width: 400px;"/> 
+  <img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/files/PoolingAnalysisFigures/Gradients/TableVanish.png?raw=true" alt="Table" style="width: 400px;"/> 
 </p>
 
 The vanishing ratio is high for BiLSTM, especially in low-data settings. This results in a 12-14\% lower test accuracy compared to other pooling techniques, in the 1K setting. We conclude that the phenomenon of vanishing gradients results in weaker performance of BiLSTM, especially in low training data regimes.
@@ -89,9 +89,9 @@ Goals:
 
 #### The NWI Metric
 
-<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/NWI_Explain.png?raw=true" alt="NWI Explanation" width="200"/>
-<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/NWI_Algo.png?raw=true" alt="NWI Algo" width="200"/>
-<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/_posts/Figures/NWI/YAHOO_SHORT_25K_mid.png?raw=true" alt="NWI Explanation" width="200"/>
+<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/files/PoolingAnalysisFigures/NWI/NWI_Explain.png?raw=true" alt="NWI Explanation" width="200"/>
+<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/files/PoolingAnalysisFigures/NWI/NWI_Algo.png?raw=true" alt="NWI Algo" width="200"/>
+<img src="https://github.com/pratyush911/pratyush911.github.io/blob/master/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid.png?raw=true" alt="NWI Explanation" width="200"/>
 
 ## Conclusion
 
@@ -99,9 +99,9 @@ Through detailed analysis we identify <i><b>why</b></i> and <i><b>when</b></i> p
 
 Our findings suggest that pooling offers large gains when the <b>training examples are few and long</b>, and <b>salient words lie towards the middle of the sequence</b>. 
 
-Lastly, we introduce a novel pooling technique called <b>max-attention (MaxAtt)</b>, which consistently outperforms other pooling variants, and is robust to addition of unimportant tokens in the text. Most of our insights are derived for sequence classification tasks using RNNs. While the analysis techniques and the pooling variant proposed in the paper are general, it remains a part of the future work to evaluate their impact on other tasks and architectures.
+Lastly, we introduce a novel pooling technique called <b>max-attention (MaxAtt)</b>, which consistently outperforms other pooling variants, and is robust to addition of unimportant tokens in the text. Most of our insights are derived for sequence classification tasks using RNNs. While the analysis techniques and the pooling variant proposed in the work are general, it remains a part of the future work to evaluate their impact on other tasks and architectures.
 
-#### How do I cite this work?
+### How do I cite this work?
 
 If you find this work useful, please cite [the Arxiv paper](https://arxiv.org/abs/2005.00159):
 
