@@ -15,7 +15,17 @@ I am a Final Year Undergraduate Student of Computer Science and Engineering at I
 
 Recent News
 ======
-01	May 2020	: | [Preprint](https://arxiv.org/abs/2005.00159) released for ``Why and when should you pool? Analyzing Pooling in Recurrent Architectures``. See blog post [here](https://pratyush911.github.io/posts/Pooling-Analysis/)
+|  	|  	|
+|--------------	|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| 01 May 2020: 	| [Preprint](https://arxiv.org/abs/2005.00159) released for ``Why and when should you pool? Analyzing Pooling in Recurrent Architectures``. See blog post [here](https://pratyush911.github.io/posts/Pooling-Analysis/). 	|
+| 01 Jan 2020: 	| Started TAing the course COL106 (Data Structures & Algorithms). 	|
+| 01 Dec 2019: 	| Started (slowly) setting up my personal website. 	|
+| 09 Sep 2019: 	| [Preprint](https://arxiv.org/abs/1909.04068) released for ``Adversarial Robustness Against the Union of Multiple Perturbation Models``. 	|
+
+
+<!-- 
+01	May 2020	: | [Preprint](https://arxiv.org/abs/2005.00159) released for ``Why and when should you pool? Analyzing Pooling in Recurrent Architectures``. See blog post [here](https://pratyush911.github.io/posts/Pooling-Analysis/).  
 01  January   2020  : | Started TAing the course COL106 (Data Structures & Algorithms).   
 01  December  2019  : | Started (slowly) setting up my personal website.   
-09  September 2019  : | [Preprint](https://arxiv.org/abs/1909.04068) released for Adversarial Robustness Against the Union of Multiple Perturbation Models 
+09  September 2019  : | [Preprint](https://arxiv.org/abs/1909.04068) released for Adversarial Robustness Against the Union of Multiple Perturbation Models  -->
+
