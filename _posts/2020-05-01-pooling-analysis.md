@@ -10,7 +10,7 @@ tags:
 
 <div>
       <a class="btn btn-lg btn-warning" href="https://arxiv.org/abs/2005.00159" target="_blank" role="button">Paper &raquo; </a>
-      <a class="btn btn-lg btn-secondary" href="https://github.com/dair--iitd/PoolingAnalysis" target="_blank" role="button">Code &raquo;</a>
+      <a class="btn btn-lg btn-secondary" href="https://github.com/dair-iitd/PoolingAnalysis" target="_blank" role="button">Code &raquo;</a>
       <!-- <a class="btn btn-lg btn-info" href="https://twitter.com/Eric_Wallace_/status/1256227702056595456" target="_blank" role="button">Twitter &raquo; </a> -->
       <br>
 
@@ -22,13 +22,12 @@ TL;DR:
 
 
 ## Motivation
-Pooling mechanisms are ubiquitous components in Recurrent Neural Networks (RNNs) applied to natural language tasks. Pooling operations consolidate hidden representations from RNNs into a single representation. Various pooling techniques, like mean-pooling, max-pooling, and attention*, have shown to improve the performance of RNNs on text classification tasks (Lai et al., 2015; Conneau et al., 2017; Jacovi et al., 2018; Yang et al., 2016).
 
-Despite widespread adoption, precisely how and when pooling benefits the models is largely unexamined. In this work, we perform an in-depth analysis comparing popular pooling methods, and our proposed max-attention, with standard BiLSTMs for several text classification tasks using novel experimental setups.
+Various pooling techniques, like mean-pooling, max-pooling, and attention*, have shown to improve the performance of RNNs on text classification tasks (Lai et al., 2015; Conneau et al., 2017; Jacovi et al., 2018; Yang et al., 2016). Despite widespread adoption, precisely how and when pooling benefits the models is largely unexamined. 
 
 In this work, we identify two key factors that explain the performance benefits of pooling techniques: learnability, and positional invariance. We examine three commonly used pooling techniques (mean-pooling, max-pooling, and attention), and propose max-attention, a novel variant that effectively captures interactions among predictive tokens in a sentence.
 
-*Attention aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
+* **Attention** aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
 
 ## Overview of Pooling and Attention
 
