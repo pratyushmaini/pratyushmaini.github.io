@@ -21,8 +21,10 @@ table, tr, td {
     border: none;
 }
 </style>
+
 <div style="height:250px;overflow:auto;border:0px;border-collapse: collapse;" >
 <table  border="none" style="border:0px;border-collapse: collapse;" rules="none" >
+<font face = "Times New Roman" size = "12">
 <colgroup>
        <col span="1" style="width: 12%;">
        <col span="1" style="width: 88%;">
@@ -31,6 +33,7 @@ table, tr, td {
 <tr><td> Jan 2020: </td> <td> Started TAing the course COL106 (Data Structures & Algorithms). </td></tr> 
 <tr><td> Dec 2019:</td> <td> Started (slowly) setting up my personal website. </td> </tr>
 <tr><td> Sep 2019:</td> <td> <a href = "https://arxiv.org/abs/1909.04068"> Preprint </a> released for <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> </td> </tr>
+</font>
 </table>
 
 
