@@ -19,6 +19,35 @@ tags:
 
 [Pratyush Maini](https://pratyush911.github.io), [Kolluru Sai Keshav](https://saikeshav.github.io/), [Danish Pruthi](https://www.cs.cmu.edu/~ddanish/) and [Mausam](http://www.cse.iitd.ac.in/~mausam/)
 
+<div id="authors" class="anchor-target">
+    <h3 style="text-align: center;">Authors</h3>
+        <div class="row" style="margin: 0 auto;justify-content: center;">
+    <div class="card headshot box-shadow">
+      <img class="card-img-top" src="triggers_blog_images/eric.jpg" alt="pratyush">
+      <div class="card-body">
+        <p class="card-text"><a href="https://pratyush911.github.io">Pratyush Maini</a></p>
+      </div>
+    </div>
+    <div class="card headshot box-shadow">
+      <img class="card-img-top" src="stealing_blog_images/berkeley.png" alt="keshav" style="height:200px">
+      <div class="card-body">
+        <p class="card-text"><a href="https://saikeshav.github.io/">Kolluru Sai Keshav</a></p>
+      </div>
+    </div>
+    <div class="card headshot box-shadow">
+      <img class="card-img-top" src="stealing_blog_images/dawn.jpg" alt="danish">
+      <div class="card-body">
+        <p class="card-text"><a href="https://www.cs.cmu.edu/~ddanish/">Danish Pruthi</a></p>
+      </div>
+    </div>
+    <div class="card headshot box-shadow">
+      <img class="card-img-top" src="stealing_blog_images/dawn.jpg" alt="danish">
+      <div class="card-body">
+        <p class="card-text"><a href="https://www.cs.cmu.edu/~ddanish/">Danish Pruthi</a></p>
+      </div>
+    </div>
+  </div>
+
 
 ## TL;DR:
 
