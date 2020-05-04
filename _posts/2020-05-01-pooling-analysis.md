@@ -100,26 +100,19 @@ Goals:
 }
   img.NWI {
     text-align: center;
-    max-width: 100%;
-    height: 50px;
-    width: 50px;
 }
 
-  p {
+  p.NWI {
     text-align:center;
     align: center;
 }
-  figure {
+  figure.NWI {
     display:center;
 }
-  ul.NWI li{
-    display: inline;
-}
-
   ul.NWI li {
   display: inline-block;
 }
-figcaption {
+  figcaption.NWI {
   text-align: center
 }
 </style>
