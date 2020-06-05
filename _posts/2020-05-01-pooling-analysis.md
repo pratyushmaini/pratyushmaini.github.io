@@ -1,4 +1,4 @@
----
+<!-- ---
 title: 'Why and when should you pool?  <br /> Analyzing Pooling in Recurrent Architectures'
 date: 2020-05-01
 permalink: /Pooling-Analysis/
@@ -227,4 +227,4 @@ If you find this work useful, please cite [the Arxiv paper](https://arxiv.org/ab
     archivePrefix={arXiv},
     primaryClass={cs.CL}
 }
-```
+``` -->
