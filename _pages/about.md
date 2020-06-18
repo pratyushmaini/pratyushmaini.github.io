@@ -13,7 +13,7 @@ Pratyush Maini
 ======
 I am a Final Year Undergraduate Student of Computer Science and Engineering at IIT Delhi. My broad area of interest lies in the field of robust and explainable machine learning, with a focus on Natural Language Processing architectures. I am advised by [Prof. Mausam](http://www.cse.iitd.ernet.in/~mausam/) for my B.Tech. thesis. 
 
-I have been fortunate to have had the opportunity to adapt and learn from the research styles of my amazing collaborators: [Prof. Zico Kolter](https://www.zicokolter.com), [Eric Wong](https://www.cs.cmu.edu/~ericwong/) at CMU, [Prof. Bo Li](https://www.aisecure.github.io), [Xinyun Chen](https://www.junghyuk.github.io) at UIUC/UCB, [Prof. Nicolas Papernot](https://www.papernot.fr) at UofT/Vector and [Prof. James Larus](https://people.epfl.ch/james.larus) at EPFL during research internships.
+I have been fortunate to have had the opportunity to adapt and learn from the research styles of my amazing collaborators: [Prof. Zico Kolter](https://www.zicokolter.com), [Eric Wong](https://www.cs.cmu.edu/~ericwong/) at CMU, [Prof. Bo Li](https://aisecure.github.io), [Xinyun Chen](https://junghyuk.github.io) at UIUC/UCB, [Prof. Nicolas Papernot](https://www.papernot.fr) at UofT/Vector and [Prof. James Larus](https://people.epfl.ch/james.larus) at EPFL during research internships.
 
 Recent News
 -----
