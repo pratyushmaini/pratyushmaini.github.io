@@ -11,7 +11,9 @@ redirect_from:
 
 Pratyush Maini
 ======
-I am a Final Year Undergraduate Student of Computer Science and Engineering at IIT Delhi. My broad area of interest lies in the field of robust and explainable machine learning, with a focus on Natural Language Processing architectures. I am advised by [Prof. Mausam](http://www.cse.iitd.ernet.in/~mausam/) for my B.Tech. thesis. In the past, I have been fortunate to work with [Prof. Zico Kolter](https://www.zicokolter.com) at CMU and [Prof. James Larus](https://people.epfl.ch/james.larus) at EPFL during research internships.
+I am a Final Year Undergraduate Student of Computer Science and Engineering at IIT Delhi. My broad area of interest lies in the field of robust and explainable machine learning, with a focus on Natural Language Processing architectures. I am advised by [Prof. Mausam](http://www.cse.iitd.ernet.in/~mausam/) for my B.Tech. thesis. 
+
+I have been fortunate to have had the opportunity to adapt and learn from the research styles of my amazing collaborators: [Prof. Zico Kolter](https://www.zicokolter.com), [Eric Wong](https://www.cs.cmu.edu/~ericwong/) at CMU, [Prof. Bo Li](aisecure.github.io), [Xinyun Chen](junghyuk.github.io) at UIUC/UCB, [Prof. Nicolas Papernot](papernot.fr) at UofT/Vector and [Prof. James Larus](https://people.epfl.ch/james.larus) at EPFL during research internships.
 
 Recent News
 -----
@@ -29,6 +31,8 @@ table, tr, td {
        <col span="1" style="width: 12%;">
        <col span="1" style="width: 88%;">
 </colgroup>
+
+<tr><td> May 2020:</td> <td> Our paper <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> was accepted at ICML2020. Final version and video presentation to be relaeased soon! </td> </tr>
 
 <tr><td> May 2020: </td> <td> <a href="https://arxiv.org/abs/2005.00159">Preprint</a> released for <i>Why and when should you pool? Analyzing Pooling in Recurrent Architectures</i>. <br> See blog post <a href="https://pratyush911.github.io/Pooling-Analysis/">here</a>. </td> </tr>
 
