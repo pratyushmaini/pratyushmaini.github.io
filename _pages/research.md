@@ -5,7 +5,7 @@ title: "Research"
 
 {% include base_path %}
 
-## [Why and when should you pool?  <br /> Analyzing Pooling in Recurrent Architectures](https://pratyush911.github.io/Pooling-Analysis/)
+## [Why and when should you pool?  <br /> Analyzing Pooling in Recurrent Architectures](https://pratyushmaini.github.io/Pooling-Analysis/)
 
 **_Prof. Mausam, IIT Delhi_**
 - Analysing the link between robustness, biases and vanishing gradients in learning ability of models.   
@@ -44,4 +44,4 @@ A manuscript for the same is available on [ArXiv](https://arxiv.org/abs/1909.040
 
 - Worked on a TensorFlow based Cluster-scale, high-throughput bioinformatics framework, PERSONA.    
 - Implemented Striped Smith-Waterman Algorithm to make gene sequencing computationally feasible.    
-- Succeeded in speeding-up the sub-process of protein alignment by over 6 times. [[Presentation]](https://pratyush911.github.io/files/EPFL.pdf)    
+- Succeeded in speeding-up the sub-process of protein alignment by over 6 times. [[Presentation]](https://pratyushmaini.github.io/files/EPFL.pdf)    
