@@ -50,8 +50,9 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
+google_site_verification : dSs91yaMZFstcVLxzwBo4NGnkZcLMDgV4LDPJ13WFjE
 google_site_verification : IdeLCPxHTXJ0OOEM05vk7UAv72xQh5b7NFrEZAYcJH4
-bing_site_verification   :
+bing_site_verification   : 
 alexa_site_verification  :
 yandex_site_verification :
 
@@ -109,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@pmaini911"
+  twitter          : "@pratyushmaini"
   vine             :
   weibo            :
   xing             :
