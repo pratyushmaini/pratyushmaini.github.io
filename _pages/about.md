@@ -31,18 +31,21 @@ table, tr, td {
        <col span="1" style="width: 12%;">
        <col span="1" style="width: 88%;">
 </colgroup>
-
-<tr><td> May 2020:</td> <td> Our paper <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> was accepted at ICML2020. Final version and video presentation to be relaeased soon! </td> </tr>
+<tr><td> July 2020:</td> <td> New work on <i>Classifying Adversarial Perturbations</i> to be presented at ICML 2020 Workshop on Uncertainty & Robustness in Deep Learning</td> </tr>
+  
+<tr><td> May 2020:</td> <td> Our paper <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> was accepted at <a href="https://icml.cc/Conferences/2020/AcceptedPapersInitial">ICML 2020</a>. Final version and video presentation to be released soon! </td> </tr>
 
 <tr><td> May 2020: </td> <td> <a href="https://arxiv.org/abs/2005.00159">Preprint</a> released for <i>Why and when should you pool? Analyzing Pooling in Recurrent Architectures</i>. <br> See blog post <a href="https://pratyushmaini.github.io/Pooling-Analysis/">here</a>. </td> </tr>
 
 <tr><td> April 2020: </td> <td> Our entry, <a href ="https://pratyushmaini.github.io/files/TheDelusional.pdf">The Delusional</a> (with artistic pieces, prose and poems in both English & Hindi) won the best Magazine in Gazettale 2020. </td></tr> 
 
-<tr><td> Jan 2020: </td> <td> Started TAing the course COL106 (Data Structures & Algorithms). </td></tr> 
+<tr><td> Jan 2020: </td> <td> Started TAing the course "Data Structures & Algorithms" <a href= "https://pratyushmaini.github.io/teaching/2020-ds-ta">[Link]</a> . </td></tr> 
 
 <tr><td> Dec 2019:</td> <td> Started (slowly) setting up my personal website. </td> </tr>
 
 <tr><td> Sep 2019:</td> <td> <a href = "https://arxiv.org/abs/1909.04068">Preprint</a> released for <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> </td> </tr>
+
+<tr><td> Aug 2019: </td> <td> Started TAing the course "Introduction to Artificial Intelligence" <a href= "https://pratyushmaini.github.io/teaching/2019-ai">[Link]</a> (Graduate and Undergraduate bridge course). </td></tr> 
 
 </font>
 </table>
