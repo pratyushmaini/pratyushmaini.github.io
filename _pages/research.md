@@ -8,20 +8,22 @@ title: "Research"
 ## [Why and when should you pool?  <br /> Analyzing Pooling in Recurrent Architectures](https://pratyushmaini.github.io/Pooling-Analysis/)
 
 **_Prof. Mausam, IIT Delhi_**
-- Analysing the link between robustness, biases and vanishing gradients in learning ability of models.   
-- Propose a new pooling method max-attention, that outperforms other simple variants on various metrics examined.
-- Analyses done on Text Classification domains. 
+- We show why and how Pooling (and attention) based BiLSTMs demonstrate improved learning ability and positional invariance over standard BiLSTMs.
+- Further, we find that Pooling helps improve sample efficiency (low-resource settings) and is particularly beneficial when important words lie towards the middle of the sentence
+- Our proposed pooling technique max-attention (MaxAtt) helps improve upon past approaches on standard accuracy metrics, and is more robust to distribution shift
+- Analyses done on multiple Text Classification tasks. 
 
 ## Adversarial Robustness against the Union of Multiple Perturbation Models
 
 **Carnegie Mellon University, Pittsburgh, USA**
 
-**_Prof. Zico Kolter, Winter 2019_**
+**_Prof. Zico Kolter, 2019_**
 
 - Designed an algorithm for robustness against the union of multiple perturbations types (L1, L2, Linf).   
 - Showed improved robustness exceeding previous benchmarks on MNIST and CIFAR-10 datasets.
+- Accepted at **ICML 2020**.
 
-The respository for this work can be found on the [Github](https://github.com/locuslab/robust_union) link.
+The code and trained models for this work can be found on the [Github](https://github.com/locuslab/robust_union) link.
 
 A manuscript for the same is available on [ArXiv](https://arxiv.org/abs/1909.04068)
 
