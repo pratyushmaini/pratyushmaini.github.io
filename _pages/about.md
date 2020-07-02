@@ -31,7 +31,7 @@ table, tr, td {
        <col span="1" style="width: 12%;">
        <col span="1" style="width: 88%;">
 </colgroup>
-<tr><td> July 2020:</td> <td> New work on <i>Classifying Adversarial Perturbations</i> to be presented at ICML 2020 Workshop on Uncertainty & Robustness in Deep Learning</td> </tr>
+<tr><td> July 2020:</td> <td> New work on <i>Classifying Adversarial Perturbations</i> to be presented at <a href="https://sites.google.com/view/udlworkshop2020/">ICML 2020 Workshop</a> on Uncertainty & Robustness in Deep Learning.</td> </tr>
   
 <tr><td> May 2020:</td> <td> Our paper <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> was accepted at <a href="https://icml.cc/Conferences/2020/AcceptedPapersInitial">ICML 2020</a>. Final version and video presentation to be released soon! </td> </tr>
 
