@@ -32,6 +32,7 @@ Awards at Debating Club:
 2. __Winner__: AmProAm 2017; 
 3. __Third__: British PD 2017, 
 4. __Third__: Intra IIT PD 2018.
+5. __Second Best Speaker__: Intra IIT PD 2020.
 
 Rendezvous, IIT Delhi
 -----
