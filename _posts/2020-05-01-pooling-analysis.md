@@ -216,7 +216,7 @@ Lastly, we introduce a novel pooling technique called <b>max-attention (MaxAtt)<
 
 ### How do I cite this work?
 
-If you find this work useful, please cite [the Arxiv paper](https://arxiv.org/abs/2005.00159):
+If you find this work useful, please cite our [paper](https://arxiv.org/abs/2005.00159):
 ```
 @inproceedings{maini2020pool,
     title = "Why and when should you pool? Analyzing Pooling in Recurrent Architectures",
