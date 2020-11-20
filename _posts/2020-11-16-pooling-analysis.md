@@ -65,7 +65,7 @@ Let $s = \{x_1, x_2, \ldots, x_n\}$ be an input sentence, where $x_t$ is a repre
 Standard BiLSTMs concatenate the first hidden state of the backward LSTM, and the last hidden state of the forward LSTM for the final sentence representation:
 $s_{\text{emb}} = [\overrightarrow{h_n}, \overleftarrow{h_1}]$.
 
-Pooling produces a sentence embedding that aggregates all hidden states at every time step $t$ (row-wise) using $max$ or $mean$ operation (Figure to the left). Alternately, attention ([Luong attention](https://arxiv.org/abs/1508.04025)) aggregates a weighted sum of each hidden state by first multiplying them by a query vector to calculate their importance (Figure to the right). In text classification tasks, a fixed query vector or a **global query** (for the entire corpus) is used to compute the importance value of a token in any sentence.
+Pooling produces a sentence embedding that aggregates all hidden states at every word position $t$ (row-wise) using $max$ or $mean$ operation (Figure to the left). Alternately, attention ([Luong attention](https://arxiv.org/abs/1508.04025)) aggregates a weighted sum of each hidden state by first multiplying them by a query vector to calculate their importance (Figure to the right). In text classification tasks, a fixed query vector or a **global query** (for the entire corpus) is used to compute the importance value of a token in any sentence.
 
 The sentence embedding ($s_{\text{emb}}$) is finally fed to a downstream text classifier.
 
@@ -93,9 +93,10 @@ Now we present comparisons between pooled and non-pooled BiLSTMs across various 
 
 ## Gradient Propagation
 
+*~How does gradient propagation across word positions vary between pooled and non-pooled BiLSTMs? Do gradients vanish for BiLSTMs?~*
+
 In order to quantify the extent to which the gradients vanish across different word positions, we compute the gradient of the loss function w.r.t the hidden state at every word position <img src="https://tex.s2cms.ru/svg/t" alt="t" />, and study their norm. This is represented by the <img src="https://tex.s2cms.ru/svg/%5Cell_2" alt="\ell_2" /> norm <img src="https://tex.s2cms.ru/svg/%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7Bt%7D%7D%7C" alt="|\frac{\partial L}{\partial h_{t}}|" />. 
 
-**Vanishing Ratio**: Given by $\lVert\frac{\partial L}{\partial h_{\text{mid}}}\rVert$ $/$ $\lVert\frac{\partial L}{\partial h_{\text{end}}}\rVert$. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
 
 <p align="center">
   <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/vanishing_legend.png" alt="Legend" style="width: 400px;"/> <br>
@@ -103,19 +104,20 @@ In order to quantify the extent to which the gradients vanish across different w
 </p>
 
 
-The gradient norm $\ell_2$ norm $\lVert\frac{\partial L}{\partial h_{t}}\rVert$ across different word positions. $BiLSTM_{LowF}$ suffers from extreme vanishing gradient, with the gradient norm in the middle nearly $10^{-10}$ times that at the ends.
+The gradient norm $\ell_2$ norm $\lVert\frac{\partial L}{\partial h_{t}}\rVert$ across different word positions **after training for 500 examples**. BiLSTM_LowF suffers from extreme vanishing gradient, with the gradient norm in the middle nearly $10^{-10}$ times that at the ends.
 
 The plot suggests that specific initialization of the gates with best practices (such as setting the bias of forget-gate to a high value) helps to reduce the extent of the issue, but the problem still persists. In contrast, none of the pooling techniques face this issue, resulting in an almost straight line.
+
+*~How does gradient vanishing change as we train our models for more epochs?~
+
+We define **Vanishing Ratio**-- Given by $\lVert\frac{\partial L}{\partial h_{\text{mid}}}\rVert$ $/$ $\lVert\frac{\partial L}{\partial h_{\text{end}}}\rVert$. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
 <p align="center">
   <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/ratio_legend.png" alt="Legend" style="width: 700px;"/>  <br><br>
   <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/last1_ratios.png" alt="Vanishing Ratios last1" style="width: 350px;"/> 
  <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/att_max_ratios.png" alt="Vanishing Ratios att_max" style="width: 350px;"/> 
 </p>
 
-
-The vanishing ratio $\lVert\frac{\partial L}{\partial h_{\text{mid}}}\rVert$ $/$ $\lVert\frac{\partial L}{\partial h_{\text{end}}}\rVert$ over training steps for BiLSTM and MaxAtt, using 1K, 20K unique training examples from the IMDB dataset. The respective training and validation accuracies are also depicted.
-
-Consequently, the BiLSTM model overfits on the training data, even before the gates can learn to allow the gradients to pass through (and mitigate the vanishing gradients problem). Thus, the model prematurely memorizes the training data solely based on the starting and ending few words.
+The figure above presents vanishing ratios over training steps for BiLSTM and MaxAtt, using 1K, 20K unique training examples from the IMDB dataset. The respective training and validation accuracies are also depicted. We note that the **BiLSTM model overfits on the training data, even before the gates can learn to allow the gradients to pass** through (and mitigate the vanishing gradients problem). Thus, the model prematurely memorizes the training data solely based on the starting and ending few words.
 
 The vanishing ratio is high for BiLSTM, especially in low-data settings. This results in a 12-14% lower test accuracy compared to other pooling techniques, in the 1K setting. We conclude that the phenomenon of vanishing gradients results in weaker performance of BiLSTM, especially in low training data regimes.
 
