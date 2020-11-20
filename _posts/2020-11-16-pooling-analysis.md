@@ -42,8 +42,8 @@ tags:
 ## TL;DR:
 
 1. Pooling (and attention) based BiLSTMs demonstrate improved learning ability and positional invariance.
-2. Pooling helps improve sample efficiency (low-resource settings) and is particularly beneficial when important words lie towards the middle of the sentence
-3. Our proposed pooling technique max-attention (MaxAtt) helps improve upon past approaches on standard accuracy metrics, and is more robust to distribution shift
+2. Pooling helps improve sample efficiency (low-resource settings) and is particularly beneficial when important words lie towards the middle of the sentence.
+3. Our proposed pooling technique max-attention (MaxAtt) helps improve upon past approaches on standard accuracy metrics, and is more robust to distribution shift.
 
 
 ## Motivation
@@ -52,7 +52,7 @@ Various pooling techniques, like mean-pooling, max-pooling, and attention<b>*</b
 
 In this work, we identify two key factors that explain the performance benefits of pooling techniques: **learnability**, and **positional invariance**. We examine three commonly used pooling techniques (mean-pooling, max-pooling, and attention), and **propose max-attention**, a novel variant that effectively captures interactions among predictive tokens in a sentence.
 
-* **Attention** aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
+<b>*<b> **Attention** aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
 
 ## Overview of Pooling and Attention
 
@@ -65,13 +65,13 @@ Let $s = \{x_1, x_2, \ldots, x_n\}$ be an input sentence, where $x_t$ is a repre
 Standard BiLSTMs concatenate the first hidden state of the backward LSTM, and the last hidden state of the forward LSTM for the final sentence representation:
 $s_{\text{emb}} = [\overrightarrow{h_n}, \overleftarrow{h_1}]$.
 
-Pooling produces a sentence embedding that aggregates all the hidden states at every time step t (row-wise) using $max$ or $mean$ operation (Figure to the left). Alternately, attention aggregates a weighted sum of each hidden state by first multiplying them by a query vector to calculate their importance (Figure to the right). However, for BiLSTMs in case of text classification tasks, the query vector is the same for the entire corpus. This means that a global query should be able to help identify the importance of a token in every sentence in the corpus.
+Pooling produces a sentence embedding that aggregates all the hidden states at every time step t (row-wise) using $max$ or $mean$ operation (Figure to the left). Alternately, attention (Luong attention) aggregates a weighted sum of each hidden state by first multiplying them by a query vector to calculate their importance (Figure to the right). However, in text classification tasks, the query vector is the same for the entire corpus. This means that a **global query** helps identify the importance of a token in every sentence in the corpus.
 
 The sentence embedding ($s_{\text{emb}}$) is finally fed to a downstream text classifier.
 
 ## Max-Attention
 
-We introduce a novel pooling variant called max-attention (\attmax{}) to capture inter-word dependencies. It uses the max-pooled hidden representation as the query vector for attention. 
+We introduce a novel pooling variant called max-attention (MaxAtt) to capture inter-word dependencies. It uses the max-pooled hidden representation as the query vector for attention. This helps to generate a sentence-specific **local query** vector to calculate attention weights.
 
 <p align="center">
 <img src="/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled.png" alt="max-attention" width="300"/>
@@ -87,7 +87,9 @@ q^{i} &= \max_{t \in (1,n)}(h_{t}^{i});
 \end{aligned}
 $$
 
-Note that the learnable query vector in Luong attention is the same for the entire corpus, whereas in max-attention each sentence has a unique locally-informed query. Previous literature extensively uses max-pooling to capture the prominent tokens (or objects) in a sentence (or image). Hence, using max-pooled representation as a query for attention allows for a second round of aggregation among important hidden representations.
+Note that the learnable query vector in Luong attention is the same for the entire corpus, whereas in max-attention each sentence has a unique locally-informed query. Previous literature extensively uses max-pooling to capture the prominent tokens (or objects) in a sentence (or image). Hence, using max-pooled representation as a query for attention allows for a second round of aggregation among important hidden representations. 
+
+Now we present comparisons between pooled and non-pooled BiLSTMs across various axes: their **Gradient Propagation** and **Positional Biases**.
 
 ## Gradient Propagation
 
