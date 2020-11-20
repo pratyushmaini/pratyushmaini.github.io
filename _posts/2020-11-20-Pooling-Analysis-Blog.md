@@ -1,0 +1,168 @@
+---
+title: Pooling Analysis Blog
+subtitle: Why and when should you Pool?
+categories: max-attention
+tags: - max-attention
+date: 2020-11-20 23:33:46 +0000
+last_modified_at: 2020-11-20 23:33:46 +0000
+---
+
+`<a class="btn btn-lg btn-warning" href="https://arxiv.org/abs/2005.00159" target="_blank" role="button">Paper &raquo; </a> <a class="btn btn-lg btn-secondary" href="https://github.com/dair-iitd/PoolingAnalysis" target="_blank" role="button">Code &raquo;</a> <br>`
+
+## TL;DR:
+
+1. Pooling (and attention) based BiLSTMs demonstrate improved learning ability and positional invariance.
+2. Pooling helps improve sample efficiency (low-resource settings) and is particularly beneficial when important words lie towards the middle of the sentence
+3. Our proposed pooling technique max-attention (MaxAtt) helps improve upon past approaches on standard accuracy metrics, and is more robust to distribution shift
+
+## Motivation
+
+Various pooling techniques, like mean-pooling, max-pooling, and attention****, have shown to improve the performance of RNNs [on](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552) [text](https://arxiv.org/abs/1606.01781) [classification](https://arxiv.org/abs/1606.01781) [tasks](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf). Despite widespread adoption, precisely **why** and **when** pooling benefits the models is largely unexamined.
+
+In this work, we identify two key factors that explain the performance benefits of pooling techniques: **learnability**, and **positional invariance**. We examine three commonly used pooling techniques (mean-pooling, max-pooling, and attention), and **propose max-attention**, a novel variant that effectively captures interactions among predictive tokens in a sentence.
+
+- **Attention** aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
+
+## Overview of Pooling and Attention
+
+![https://pratyushmaini.github.io/files/PoolingAnalysisFigures/overall_figure.png](https://pratyushmaini.github.io/files/PoolingAnalysisFigures/overall_figure.png)
+
+Let $s = \{x_1, x_2, \ldots, x_n\}$ be an input sentence, where $x_t$ is a representation of the input word at position $t$. A recurrent neural network such as an LSTM produces a hidden state $h_t$, and a cell state $c_t$ for each input word $x_t$, where $h_{t}, c_{t} = \phi(h_{t-1}, c_{t-1}, x_{t})$. 
+
+Standard BiLSTMs concatenate the first hidden state of the backward LSTM, and the last hidden state of the forward LSTM for the final sentence representation:
+$s_{\text{emb}} = [\overrightarrow{h_n}, \overleftarrow{h_1}]$.
+
+Pooling produces a sentence embedding that aggregates all the hidden states at every time step t (row-wise) using $max$ or $mean$ operation (Figure to the left). Alternately, attention aggregates a weighted sum of each hidden state by first multiplying them by a query vector to calculate their importance (Figure to the right). However, for BiLSTMs in case of text classification tasks, the query vector is the same for the entire corpus. This means that a global query should be able to help identify the importance of a token in every sentence in the corpus.
+
+The sentence embedding ($s_{\text{emb}}$) is finally fed to a downstream text classifier.
+
+## Max-Attention
+
+We introduce a novel pooling variant called max-attention (\attmax{}) to capture inter-word dependencies. It uses the max-pooled hidden representation as the query vector for attention. 
+
+![/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled.png](/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled.png)
+
+Note that the learnable query vector in Luong attention is the same for the entire corpus, whereas in max-attention each sentence has a unique locally-informed query.
+Previous literature extensively uses max-pooling to capture the prominent tokens (or objects) in a sentence (or image). Formally:
+
+$$\begin{aligned}
+q^{i} &= \max_{t \in (1,n)}(h_{t}^{i});
+&\hat{h_{t}} &= h_{t}/\|h_{t}\|\\
+\alpha_{t} &= \frac{\exp(\hat{h_{t}}^{\top}q)}{\sum_{j=1}^n\exp(\hat{h_{j}}^{\top}q)};
+&s_{\text{emb}} &= \sum_{t=1}^n \alpha_{t}h_{t}
+\end{aligned}
+$$
+
+It is worth noting that the learnable query vector in Luong attention is the same for the entire corpus, whereas in max-attention each sentence has a unique locally-informed query.
+Previous literature extensively uses max-pooling to capture the prominent tokens (or objects) in a sentence (or image).
+Hence, using max-pooled representation as a query for attention allows for a second round of aggregation among important hidden representations.
+
+## Gradient Propagation
+
+In order to quantify the extent to which the gradients vanish across different word positions, we compute the gradient of the loss function w.r.t the hidden state at every word position $t$, and study their norm. This is represented by the $\ell_2$ norm $\lVert\frac{\partial L}{\partial h_{t}}\rVert$.
+
+**Vanishing Ratio**: Given by $\lVert\frac{\partial L}{\partial h_{\text{mid}}}\rVert$ $/$ $\lVert\frac{\partial L}{\partial h_{\text{end}}}\rVert$. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
+
+![/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%201.png](/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%201.png)
+
+![/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%202.png](/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%202.png)
+
+The gradient norm $\ell_2$ norm $\lVert\frac{\partial L}{\partial h_{t}}\rVert$ across different word positions. BiLSTM$_{LowF}$ suffers from extreme vanishing gradient, with the gradient norm in the middle nearly $10^{-10}$ times that at the ends.
+
+The plot suggests that specific initialization of the gates with best practices (such as setting the bias of forget-gate to a high value) helps to reduce the extent of the issue, but the problem still persists. In contrast, none of the pooling techniques face this issue, resulting in an almost straight line.
+
+![/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%203.png](/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%203.png)
+
+![/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%204.png](/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%204.png)
+
+![/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%205.png](/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%205.png)
+
+The vanishing ratio $\lVert\frac{\partial L}{\partial h_{\text{mid}}}\rVert$ $/$ $\lVert\frac{\partial L}{\partial h_{\text{end}}}\rVert$ over training steps for BiLSTM and MaxAtt, using 1K, 20K unique training examples from the IMDB dataset. The respective training and validation accuracies are also depicted.
+
+Consequently, the BiLSTM model overfits on the training data, even before the gates can learn to allow the gradients to pass through (and mitigate the vanishing gradients problem). Thus, the model prematurely memorizes the training data solely based on the starting and ending few words.
+
+The vanishing ratio is high for BiLSTM, especially in low-data settings. This results in a 12-14% lower test accuracy compared to other pooling techniques, in the 1K setting. We conclude that the phenomenon of vanishing gradients results in the weaker performance of BiLSTM, especially in low training data regimes.
+
+## Positional Biases
+
+Analyzing the gradient propagation in BiLSTMs suggests that standard recurrent networks are biased towards the end tokens, as the overall contribution of distant hidden states
+is extremely low in the gradient of the loss. This implies that the weights of various parameters in an LSTM cell (all cells of an LSTM have tied weights) are hardly influenced by the middle words of the sentence.
+
+In this light, we now evaluate positional biases of recurrent architectures with different pooling techniques.
+
+### Evaluating Natural Positional Biases
+
+~ Can naturally trained recurrent models skip over unimportant words in the begining or the end of the sentence? ~
+
+![https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png](https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png)
+
+![https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png](https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png)
+
+![https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_left.png](https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_left.png)
+
+![https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_mid.png](https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_mid.png)
+
+### Training to Skip Unimportant Words
+
+~ How well can different models be trained to skip unrelated words? ~
+
+![/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%206.png](/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%206.png)
+
+### **Fine-grained Positional Biases**
+
+~ How does the position of a word impact its importance in the final prediction by a model? ~
+
+**The NWI Metric**
+
+![https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/NWI_Explain.png](https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/NWI_Explain.png)
+
+![https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png](https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png)
+
+`<img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="height: 150px;" />
+<p>Standard</p> <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="height: 150px;" />
+<p>Left</p><img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" style="height: 150px;" />
+<p>Mid</p><img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="height: 150px;" />
+<p>Short + Mid </p>`
+
+## Conclusion
+
+Through detailed analysis we identify **why** and **when** pooling representationsare beneficial in RNNs. We attribute the performance benefits of pooling techniques to their **learning ability** (pooling mitigates the problem of vanishing gradients), and **positional invariance** (pooling eliminates positional biases).
+
+Our findings suggest that pooling offers large gains when the **training examples are few and long**, and **salient words lie towards the middle of the sequence**.
+
+Lastly, we introduce a novel pooling technique called **max-attention (MaxAtt)**, which consistently outperforms other pooling variants, and is robust to the addition of unimportant tokens in the text. Most of our insights are derived for sequence classification tasks using RNNs. While the analysis techniques and the pooling variant proposed in the work are general, it remains a part of the future work to evaluate their impact on other tasks and architectures.
+
+## Authors
+
+`<a href="https://pratyushmaini.github.io">
+<img src="https://pratyushmaini.github.io/images/Profile.jpg" alt="Pratyush" style="height: 100px;" />
+<p>Pratyush Maini</p>
+</a>
+<p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p><a href="https://saikeshav.github.io/">
+<img src="https://saikeshav.github.io/images/pp.jpeg" alt="Keshav" style="height: 100px;" />
+<p>Kolluru Sai Keshav</p> </a>
+<p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p><a href="https://www.cs.cmu.edu/~ddanish/">
+<img src="https://pbs.twimg.com/profile_images/1149339477250379776/73row7EO_400x400.png" alt="Danish" style="height: 100px;" />
+<p>Danish Pruthi</p> </a>
+<p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p><a href="http://www.cse.iitd.ac.in/~mausam/">
+<img src="http://www.cse.iitd.ac.in/~mausam/mausam-head.jpg" alt="Mausam" style="height: 100px;" />
+<p>Mausam</p> </a>
+<p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p>`
+
+### How do I cite this work?
+
+If you find this work useful, please cite our [paper](https://arxiv.org/abs/2005.00159):
+
+```
+@inproceedings{maini2020pool,
+    title = "Why and when should you pool? Analyzing Pooling in Recurrent Architectures",
+    author = "Maini, Pratyush and Kolluru, Keshav and Pruthi, Danish and {Mausam}",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.findings-emnlp.410",
+}
+```
+
+![/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%207.png](/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%207.png)
