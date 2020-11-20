@@ -16,7 +16,6 @@ tags:
       <br>
 </div>
 
-## Authors
 
 <style>
 .authorbox {
@@ -49,7 +48,7 @@ tags:
 
 ## Motivation
 
-Various pooling techniques, like mean-pooling, max-pooling, and attention****, have shown to improve the performance of RNNs [on](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552) [text](https://arxiv.org/abs/1606.01781) [classification](https://arxiv.org/abs/1606.01781) [tasks](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf). Despite widespread adoption, precisely **why** and **when** pooling benefits the models is largely unexamined.
+Various pooling techniques, like mean-pooling, max-pooling, and attention<b>*</b>, have shown to improve the performance of RNNs [on](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552) [text](https://arxiv.org/abs/1606.01781) [classification](https://arxiv.org/abs/1606.01781) [tasks](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf). Despite widespread adoption, precisely **why** and **when** pooling benefits the models is largely unexamined.
 
 In this work, we identify two key factors that explain the performance benefits of pooling techniques: **learnability**, and **positional invariance**. We examine three commonly used pooling techniques (mean-pooling, max-pooling, and attention), and **propose max-attention**, a novel variant that effectively captures interactions among predictive tokens in a sentence.
 
@@ -74,10 +73,11 @@ The sentence embedding ($s_{\text{emb}}$) is finally fed to a downstream text cl
 
 We introduce a novel pooling variant called max-attention (\attmax{}) to capture inter-word dependencies. It uses the max-pooled hidden representation as the query vector for attention. 
 
-<img src="/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled.png" alt="max-attention" width="400"/>
+<p align="center">
+<img src="/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled.png" alt="max-attention" width="300"/>
+</p>
 
-Note that the learnable query vector in Luong attention is the same for the entire corpus, whereas in max-attention each sentence has a unique locally-informed query.
-Previous literature extensively uses max-pooling to capture the prominent tokens (or objects) in a sentence (or image). Formally:
+Formally:
 
 $$\begin{aligned}
 q^{i} &= \max_{t \in (1,n)}(h_{t}^{i});
@@ -87,9 +87,7 @@ q^{i} &= \max_{t \in (1,n)}(h_{t}^{i});
 \end{aligned}
 $$
 
-It is worth noting that the learnable query vector in Luong attention is the same for the entire corpus, whereas in max-attention each sentence has a unique locally-informed query.
-Previous literature extensively uses max-pooling to capture the prominent tokens (or objects) in a sentence (or image).
-Hence, using max-pooled representation as a query for attention allows for a second round of aggregation among important hidden representations.
+Note that the learnable query vector in Luong attention is the same for the entire corpus, whereas in max-attention each sentence has a unique locally-informed query. Previous literature extensively uses max-pooling to capture the prominent tokens (or objects) in a sentence (or image). Hence, using max-pooled representation as a query for attention allows for a second round of aggregation among important hidden representations.
 
 ## Gradient Propagation
 
@@ -216,6 +214,8 @@ Through detailed analysis we identify <i><b>why</b></i> and <i><b>when</b></i> p
 Our findings suggest that pooling offers large gains when the <b>training examples are few and long</b>, and <b>salient words lie towards the middle of the sequence</b>. 
 
 Lastly, we introduce a novel pooling technique called <b>max-attention (MaxAtt)</b>, which consistently outperforms other pooling variants, and is robust to addition of unimportant tokens in the text. Most of our insights are derived for sequence classification tasks using RNNs. While the analysis techniques and the pooling variant proposed in the work are general, it remains a part of the future work to evaluate their impact on other tasks and architectures.
+
+## Authors
 
 <center>
 <div class="authorbox">
