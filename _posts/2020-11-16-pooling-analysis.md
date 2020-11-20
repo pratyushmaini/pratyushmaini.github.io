@@ -129,10 +129,9 @@ The vanishing ratio is high for BiLSTM, especially in low-data settings. This re
 
 ## Positional Biases
 
-Analyzing the gradient propagation in BiLSTMs suggests that standard recurrent networks are biased towards the end tokens, as the overall contribution of distant hidden states
-is extremely low in the gradient of the loss. This implies that the weights of various parameters in an LSTM cell (all cells of an LSTM have tied weights) are hardly influenced by the middle words of the sentence.
+The gradient propagation in BiLSTMs suggests that standard LSTMs should be biased towards the end tokens, as the overall contribution of distant hidden states is extremely low in the gradient of the loss. This implies that the weights of various parameters in an LSTM cell (all cells of an LSTM have tied weights) are barely influenced by the middle words of the sentence.
 
-In this light, we now evaluate positional biases of recurrent architectures with different pooling techniques.
+We now verify this hypothesis by evaluating positional biases of BiLSTMs with different pooling techniques.
 
 ### Evaluating Natural Positional Biases
 
@@ -142,8 +141,9 @@ In this light, we now evaluate positional biases of recurrent architectures with
 <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png" alt="Explain Wiki Setting" width="400"/>
 </p>
 
-1. We append varying amounts of random Wikipedia sentences to the original data at test time. 
-2. Performance ↓ significantly for BiLSTM & mean-pool
+1. We append varying amounts of random Wikipedia sentences to the original data at test time for different models trained over the standard data. 
+2. As the percentage of Wikipedia words added to both ends  ↑, the model accuracy ↓ significantly for BiLSTM & mean-pool. This suggests that these models are unable to skip over the words at the ends. 
+3. Adding Wikipedia words to just one end (left) does not effect BiLSTM accuracy significantly. This suggests that the BiLSTM is able to draw relevant signal from the other end and make useful predictions.
 
 <p align="center">
     <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="500"/><br>
@@ -156,12 +156,14 @@ In this light, we now evaluate positional biases of recurrent architectures with
 
 <i> ~ How well can different models be trained to skip unrelated words? ~  </i>
 
+
+1. We modify the training set to contain input from the modified distribution : Wiki (Left), Wiki (Mid), Wiki (Right).
+2. BiLSTM accuracy in the Mid setting = majority class baseline in low-resource datasets.
+
 <p align="center">
 <img src="/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%206.png" alt="IMDB Wiki Table" width="1000"/>
 </p>
 
-1. We modify the training set to contain input from the modified distribution : Wiki (Left), Wiki (Mid), Wiki (Right).
-2. BiLSTM accuracy in mid setting = majority class baseline in low-resource datasets.
 
 ### Fine-grained Positional Biases</b></p>
 
@@ -174,9 +176,9 @@ In this light, we now evaluate positional biases of recurrent architectures with
 </p>
 
 1. NWI metric to calculate per-position importance of words. 
-2. Pooled architectures: No bias w.r.t. word position 
-3. BiLSTM: Huge bias towards the end words even when the original sentence is in the mid
-4. Even when sentence length is small, BiLSTMs show bias towards end tokens, even though they are able to attain non-trivial test accuracies.
+2. For pooled architectures, we observe No bias w.r.t. word position. In case of the Wiki (Mid) setting where only the middle tokens contain original input, the pooled models are able to attribute significantly higher importance to the middle tokens.
+3. For BiLSTMs there is a huge bias towards the end words *even when* the original sentence is in the middle.
+4. Even when sentence length is small, BiLSTMs show bias towards end tokens. Though, they are able to attain non-trivial test accuracies.
 
 
 <br><br>
