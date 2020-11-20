@@ -1,10 +1,14 @@
 ---
-title: Pooling Analysis Blog
+title: Analyzing Pooling in Recurrent Architectures
 subtitle: Why and when should you Pool?
 categories: max-attention
-tags: - max-attention
+tags:
+  - max-attention
+  - vanishing gradients
+  - positional biases
 date: 2020-11-20 23:33:46 +0000
 last_modified_at: 2020-11-20 23:33:46 +0000
+permalink: /Pooling-Analysis2/
 ---
 
 `<a class="btn btn-lg btn-warning" href="https://arxiv.org/abs/2005.00159" target="_blank" role="button">Paper &raquo; </a> <a class="btn btn-lg btn-secondary" href="https://github.com/dair-iitd/PoolingAnalysis" target="_blank" role="button">Code &raquo;</a> <br>`
