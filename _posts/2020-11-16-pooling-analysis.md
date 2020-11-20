@@ -142,14 +142,16 @@ We now verify this hypothesis by evaluating positional biases of BiLSTMs with di
 </p>
 
 1. We append varying amounts of random Wikipedia sentences to the original data at test time for different models trained over the standard data. 
-2. As the percentage of Wikipedia words added to both ends  ↑, the model accuracy ↓ significantly for BiLSTM & mean-pool. This suggests that these models are unable to skip over the words at the ends. 
-3. Adding Wikipedia words to just one end (left) does not effect BiLSTM accuracy significantly. This suggests that the BiLSTM is able to draw relevant signal from the other end and make useful predictions.
+2. As the percentage of Wikipedia words added to both ends  ↑, the model accuracy ↓ significantly for BiLSTM & mean-pool (Figure to the right below). This suggests that these models are unable to skip over the words at the ends. 
+3. Adding Wikipedia words to just one end (Figure to the left below) does not effect BiLSTM accuracy significantly. This suggests that the BiLSTM is able to draw relevant signal from the other end and make useful predictions.
 
 <p align="center">
     <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="500"/><br>
     <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_left.png" alt="Wiki Attack Left" width="250"/>
     <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_mid.png" alt="Wiki Attack Mid" width="250"/>
-</p>
+ </p>
+ 
+<p align = "center"> (a) Wikipedia words added to the right; (b) Wikipedia words added to both ends </p>
 
 
 ### Training to Skip Unimportant Words
