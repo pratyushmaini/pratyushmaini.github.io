@@ -41,8 +41,8 @@ tags:
 <center>
 <div class="authorbox">
   <div id="authors-1">
-    <a href="https://pratyushmaini.github.io">
-    <img src="https://pratyushmaini.github.io/images/Profile.jpg" alt="Pratyush" style="height: 100px;" />
+    <a href="https://pratyush911.github.io">
+    <img src="https://pratyush911.github.io/images/Profile.jpg" alt="Pratyush" style="height: 100px;" />
     <p>Pratyush Maini</p> 
     </a>
     <p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p>
@@ -86,7 +86,7 @@ In this work, we identify two key factors that explain the performance benefits 
 ## Overview of Pooling and Attention
 
 <p align="center">
-  <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/overall_figure.png" alt="Pooling Overview" style="width: 1000px;"/> 
+  <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/overall_figure.png" alt="Pooling Overview" style="width: 1000px;"/> 
 </p>
 
 
@@ -97,8 +97,8 @@ In order to quantify the extent to which the gradients vanish across different w
 **Vanishing Ratio**: Given by <img src="https://tex.s2cms.ru/svg/%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7B%5Ctext%7Bend%7D%7D%7D%7C%2F%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7B%5Ctext%7Bmid%7D%7D%7D%7C" alt="|\frac{\partial L}{\partial h_{\text{end}}}|/|\frac{\partial L}{\partial h_{\text{mid}}}|" />. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
 
 <p align="center">
-  <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/vanishing_legend.png" alt="Legend" style="width: 400px;"/> <br>
-  <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/vanishing.png" alt="Vanishing with time steps" style="width: 400px;"/> 
+  <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Gradients/vanishing_legend.png" alt="Legend" style="width: 400px;"/> <br>
+  <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Gradients/vanishing.png" alt="Vanishing with time steps" style="width: 400px;"/> 
 </p>
 
 
@@ -107,9 +107,9 @@ The gradient norm <img src="https://tex.s2cms.ru/svg/(%7C%5Cfrac%7B%5Cpartial%20
 The plot suggests that specific initialization of the gates with best practices (such as setting the bias of forget-gate to a high value) helps to reduce the extent of the issue, but the problem still persists. In contrast, none of the pooling techniques face this issue, resulting in an almost straight line. 
 
 <p align="center">
-  <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/ratio_legend.png" alt="Legend" style="width: 700px;"/>  <br><br>
-  <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/last1_ratios.png" alt="Vanishing Ratios last1" style="width: 350px;"/> 
- <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/att_max_ratios.png" alt="Vanishing Ratios att_max" style="width: 350px;"/> 
+  <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Gradients/ratio_legend.png" alt="Legend" style="width: 700px;"/>  <br><br>
+  <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Gradients/last1_ratios.png" alt="Vanishing Ratios last1" style="width: 350px;"/> 
+ <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Gradients/att_max_ratios.png" alt="Vanishing Ratios att_max" style="width: 350px;"/> 
 </p>
 
 
@@ -118,7 +118,7 @@ The vanishing ratio <img src="https://tex.s2cms.ru/svg/(%7C%5Cfrac%7B%5Cpartial%
 Consequently, the BiLSTM model overfits on the training data, even before the gates can learn to allow the gradients to pass through (and mitigate the vanishing gradients problem). Thus, the model prematurely memorizes the training data solely based on the starting and ending few words.
 
 <p align="center">
-  <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/TableVanish.png" alt="Table" style="width: 400px;"/> 
+  <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Gradients/TableVanish.png" alt="Table" style="width: 400px;"/> 
 </p>
 
 The vanishing ratio is high for BiLSTM, especially in low-data settings. This results in a 12-14\% lower test accuracy compared to other pooling techniques, in the 1K setting. We conclude that the phenomenon of vanishing gradients results in weaker performance of BiLSTM, especially in low training data regimes.
@@ -132,14 +132,14 @@ Goals:
 <i> ~ Can naturally trained recurrent models skip over unimportant words in the begining or the end of the sentence? ~  </i>
 
 <p align="center">
-<img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png" alt="Explain Wiki Setting" width="400"/>
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png" alt="Explain Wiki Setting" width="400"/>
 </p>
 
 
 <p align="center">
-    <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="500"/><br>
-    <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_left.png" alt="Wiki Attack Left" width="250"/>
-    <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_mid.png" alt="Wiki Attack Mid" width="250"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="500"/><br>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_left.png" alt="Wiki Attack Left" width="250"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_mid.png" alt="Wiki Attack Mid" width="250"/>
 </p>
 
 
@@ -150,7 +150,7 @@ Goals:
 <i> ~ How well can different models be trained to skip unrelated words? ~  </i>
 
 <p align="center">
-<img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/IMDB_Wiki.png" alt="IMDB Wiki Table" width="1000"/>
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/IMDB_Wiki.png" alt="IMDB Wiki Table" width="1000"/>
 </p>
 
 <p><b>Fine-grained Positional Biases</b></p>
@@ -160,7 +160,7 @@ Goals:
 #### The NWI Metric
 
 <p align="center">
-<img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/NWI_Explain.png" alt="NWI Explanation" width="400"/>
+<img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/NWI_Explain.png" alt="NWI Explanation" width="400"/>
 </p>
 
 <br><br>
@@ -183,24 +183,24 @@ Goals:
 </style>
 
 <p align="center">
-    <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="500"/>
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="500"/>
 </p>
 <center>
 <div class="iconbox">
   <div id="nwi-1">
-    <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="height: 150px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_none.png" alt="Yahoo None" style="height: 150px;" />
     <p>Standard</p> 
   </div>
   <div id="nwi-2">
-    <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="height: 150px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_left.png" alt="Yahoo Left" style="height: 150px;" />
     <p>Left</p>
   </div>
   <div id="nwi-3">
-    <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" style="height: 150px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_LONG_25K_mid.png" alt="Yahoo Mid" style="height: 150px;" />
     <p>Mid</p>
   </div>
   <div id="nwi-4">
-    <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="height: 150px;" />
+    <img src="https://pratyush911.github.io/files/PoolingAnalysisFigures/NWI/YAHOO_SHORT_25K_mid_main.png" alt="Yahoo Mid Short" style="height: 150px;" />
     <p>Short + Mid </p>
   </div>
 </div>
@@ -217,14 +217,14 @@ Lastly, we introduce a novel pooling technique called <b>max-attention (MaxAtt)<
 ### How do I cite this work?
 
 If you find this work useful, please cite [the Arxiv paper](https://arxiv.org/abs/2005.00159):
-
 ```
-@misc{maini2020pool,
-    title={Why and when should you pool? Analyzing Pooling in Recurrent Architectures},
-    author={Pratyush Maini and Keshav Kolluru and Danish Pruthi and Mausam},
-    year={2020},
-    eprint={2005.00159},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@inproceedings{maini2020pool,
+    title = "Why and when should you pool? Analyzing Pooling in Recurrent Architectures",
+    author = "Maini, Pratyush and Kolluru, Keshav and Pruthi, Danish and {Mausam}",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.findings-emnlp.410",
 }
-``` -->
+```-->
