@@ -38,35 +38,6 @@ tags:
 }
 </style>
 
-<center>
-<div class="authorbox">
-  <div id="authors-1">
-    <a href="https://pratyushmaini.github.io">
-    <img src="https://pratyushmaini.github.io/images/Profile.jpg" alt="Pratyush" style="height: 100px;" />
-    <p>Pratyush Maini</p> 
-    </a>
-    <p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p>
-  </div>
-  <div id="authors-2">
-    <a href="https://saikeshav.github.io/">
-    <img src="https://saikeshav.github.io/images/pp.jpeg" alt="Keshav" style="height: 100px;" />
-    <p>Kolluru Sai Keshav</p> </a>
-    <p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p>
-  </div>
-  <div id="authors-3">
-    <a href="https://www.cs.cmu.edu/~ddanish/">
-    <img src="https://pbs.twimg.com/profile_images/1149339477250379776/73row7EO_400x400.png" alt="Danish" style="height: 100px;" />
-    <p>Danish Pruthi</p> </a>
-    <p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p>
-  </div>
-  <div id="authors-4">
-    <a href="http://www.cse.iitd.ac.in/~mausam/">
-    <img src="http://www.cse.iitd.ac.in/~mausam/mausam-head.jpg" alt="Mausam" style="height: 100px;" />
-    <p>Mausam</p> </a> 
-    <p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p>
-  </div>
-</div>
-</center>
 
 ## TL;DR:
 
@@ -77,11 +48,11 @@ tags:
 
 ## Motivation
 
-Various pooling techniques, like mean-pooling, max-pooling, and attention<b>*</b>, have shown to improve the performance of RNNs [on](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552) [text](https://arxiv.org/abs/1606.01781) [classification](https://arxiv.org/abs/1606.01781) [tasks](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf). Despite widespread adoption, precisely <i><b>why</b></i> and <i><b>when</b></i>  pooling benefits the models is largely unexamined. 
+Various pooling techniques, like mean-pooling, max-pooling, and attention****, have shown to improve the performance of RNNs [on](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552) [text](https://arxiv.org/abs/1606.01781) [classification](https://arxiv.org/abs/1606.01781) [tasks](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf). Despite widespread adoption, precisely **why** and **when** pooling benefits the models is largely unexamined.
 
 In this work, we identify two key factors that explain the performance benefits of pooling techniques: **learnability**, and **positional invariance**. We examine three commonly used pooling techniques (mean-pooling, max-pooling, and attention), and **propose max-attention**, a novel variant that effectively captures interactions among predictive tokens in a sentence.
 
-<b>* Attention</b> aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
+* **Attention** aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
 
 ## Overview of Pooling and Attention
 
@@ -89,12 +60,41 @@ In this work, we identify two key factors that explain the performance benefits 
   <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/overall_figure.png" alt="Pooling Overview" style="width: 1000px;"/> 
 </p>
 
+Let $s = \{x_1, x_2, \ldots, x_n\}$ be an input sentence, where $x_t$ is a representation of the input word at position $t$. A recurrent neural network such as an LSTM produces a hidden state $h_t$, and a cell state $c_t$ for each input word $x_t$, where $h_{t}, c_{t} = \phi(h_{t-1}, c_{t-1}, x_{t})$. 
+
+Standard BiLSTMs concatenate the first hidden state of the backward LSTM, and the last hidden state of the forward LSTM for the final sentence representation:
+$s_{\text{emb}} = [\overrightarrow{h_n}, \overleftarrow{h_1}]$.
+
+Pooling produces a sentence embedding that aggregates all the hidden states at every time step t (row-wise) using $max$ or $mean$ operation (Figure to the left). Alternately, attention aggregates a weighted sum of each hidden state by first multiplying them by a query vector to calculate their importance (Figure to the right). However, for BiLSTMs in case of text classification tasks, the query vector is the same for the entire corpus. This means that a global query should be able to help identify the importance of a token in every sentence in the corpus.
+
+The sentence embedding ($s_{\text{emb}}$) is finally fed to a downstream text classifier.
+
+## Max-Attention
+
+We introduce a novel pooling variant called max-attention (\attmax{}) to capture inter-word dependencies. It uses the max-pooled hidden representation as the query vector for attention. 
+
+<img src="/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled.png" alt="max-attention" width="400"/>
+
+Note that the learnable query vector in Luong attention is the same for the entire corpus, whereas in max-attention each sentence has a unique locally-informed query.
+Previous literature extensively uses max-pooling to capture the prominent tokens (or objects) in a sentence (or image). Formally:
+
+$$\begin{aligned}
+q^{i} &= \max_{t \in (1,n)}(h_{t}^{i});
+&\hat{h_{t}} &= h_{t}/\|h_{t}\|\\
+\alpha_{t} &= \frac{\exp(\hat{h_{t}}^{\top}q)}{\sum_{j=1}^n\exp(\hat{h_{j}}^{\top}q)};
+&s_{\text{emb}} &= \sum_{t=1}^n \alpha_{t}h_{t}
+\end{aligned}
+$$
+
+It is worth noting that the learnable query vector in Luong attention is the same for the entire corpus, whereas in max-attention each sentence has a unique locally-informed query.
+Previous literature extensively uses max-pooling to capture the prominent tokens (or objects) in a sentence (or image).
+Hence, using max-pooled representation as a query for attention allows for a second round of aggregation among important hidden representations.
 
 ## Gradient Propagation
 
 In order to quantify the extent to which the gradients vanish across different word positions, we compute the gradient of the loss function w.r.t the hidden state at every word position <img src="https://tex.s2cms.ru/svg/t" alt="t" />, and study their norm. This is represented by the <img src="https://tex.s2cms.ru/svg/%5Cell_2" alt="\ell_2" /> norm <img src="https://tex.s2cms.ru/svg/%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7Bt%7D%7D%7C" alt="|\frac{\partial L}{\partial h_{t}}|" />. 
 
-**Vanishing Ratio**: Given by <img src="https://tex.s2cms.ru/svg/%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7B%5Ctext%7Bend%7D%7D%7D%7C%2F%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7B%5Ctext%7Bmid%7D%7D%7D%7C" alt="|\frac{\partial L}{\partial h_{\text{end}}}|/|\frac{\partial L}{\partial h_{\text{mid}}}|" />. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
+**Vanishing Ratio**: Given by $\lVert\frac{\partial L}{\partial h_{\text{mid}}}\rVert$ $/$ $\lVert\frac{\partial L}{\partial h_{\text{end}}}\rVert$. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
 
 <p align="center">
   <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/vanishing_legend.png" alt="Legend" style="width: 400px;"/> <br>
@@ -102,10 +102,9 @@ In order to quantify the extent to which the gradients vanish across different w
 </p>
 
 
-The gradient norm <img src="https://tex.s2cms.ru/svg/(%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7Bt%7D%7D%7C)" alt="(|\frac{\partial L}{\partial h_{t}}|)" /> across different word positions. BiLSTM<img src="https://tex.s2cms.ru/svg/%5Ctextsubscript%7BLowF%7D" alt="\textsubscript{LowF}" /> suffers from extreme vanishing gradient, with the gradient norm in the middle nearly <img src="https://tex.s2cms.ru/svg/10%5E%7B-10%7D" alt="10^{-10}" /> times that at the ends. 
+The gradient norm $\ell_2$ norm $\lVert\frac{\partial L}{\partial h_{t}}\rVert$ across different word positions. $BiLSTM_{LowF}$ suffers from extreme vanishing gradient, with the gradient norm in the middle nearly $10^{-10}$ times that at the ends.
 
-The plot suggests that specific initialization of the gates with best practices (such as setting the bias of forget-gate to a high value) helps to reduce the extent of the issue, but the problem still persists. In contrast, none of the pooling techniques face this issue, resulting in an almost straight line. 
-
+The plot suggests that specific initialization of the gates with best practices (such as setting the bias of forget-gate to a high value) helps to reduce the extent of the issue, but the problem still persists. In contrast, none of the pooling techniques face this issue, resulting in an almost straight line.
 <p align="center">
   <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/ratio_legend.png" alt="Legend" style="width: 700px;"/>  <br><br>
   <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/last1_ratios.png" alt="Vanishing Ratios last1" style="width: 350px;"/> 
@@ -113,7 +112,7 @@ The plot suggests that specific initialization of the gates with best practices 
 </p>
 
 
-The vanishing ratio <img src="https://tex.s2cms.ru/svg/(%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7B%5Ctext%7Bend%7D%7D%7D%7C%2F%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7B%5Ctext%7Bmid%7D%7D%7D%7C)" alt="(|\frac{\partial L}{\partial h_{\text{end}}}|/|\frac{\partial L}{\partial h_{\text{mid}}}|)" /> over training steps for BiLSTM and MaxAtt, using 1K, 20K unique training examples from the IMDB dataset. The respective training and validation accuracies are also depicted.
+The vanishing ratio $\lVert\frac{\partial L}{\partial h_{\text{mid}}}\rVert$ $/$ $\lVert\frac{\partial L}{\partial h_{\text{end}}}\rVert$ over training steps for BiLSTM and MaxAtt, using 1K, 20K unique training examples from the IMDB dataset. The respective training and validation accuracies are also depicted.
 
 Consequently, the BiLSTM model overfits on the training data, even before the gates can learn to allow the gradients to pass through (and mitigate the vanishing gradients problem). Thus, the model prematurely memorizes the training data solely based on the starting and ending few words.
 
@@ -125,7 +124,10 @@ The vanishing ratio is high for BiLSTM, especially in low-data settings. This re
 
 ## Positional Biases
 
-Goals:
+Analyzing the gradient propagation in BiLSTMs suggests that standard recurrent networks are biased towards the end tokens, as the overall contribution of distant hidden states
+is extremely low in the gradient of the loss. This implies that the weights of various parameters in an LSTM cell (all cells of an LSTM have tied weights) are hardly influenced by the middle words of the sentence.
+
+In this light, we now evaluate positional biases of recurrent architectures with different pooling techniques.
 
 ### Evaluating Natural Positional Biases
 
@@ -150,10 +152,10 @@ Goals:
 <i> ~ How well can different models be trained to skip unrelated words? ~  </i>
 
 <p align="center">
-<img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/IMDB_Wiki.png" alt="IMDB Wiki Table" width="1000"/>
+<img src="/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%206.png" alt="IMDB Wiki Table" width="1000"/>
 </p>
 
-<p><b>Fine-grained Positional Biases</b></p>
+### Fine-grained Positional Biases</b></p>
 
 <i> ~ How does the position of a word impact its importance in the final prediction by a model? ~  </i>
 
@@ -214,7 +216,38 @@ Our findings suggest that pooling offers large gains when the <b>training exampl
 
 Lastly, we introduce a novel pooling technique called <b>max-attention (MaxAtt)</b>, which consistently outperforms other pooling variants, and is robust to addition of unimportant tokens in the text. Most of our insights are derived for sequence classification tasks using RNNs. While the analysis techniques and the pooling variant proposed in the work are general, it remains a part of the future work to evaluate their impact on other tasks and architectures.
 
-### How do I cite this work?
+<center>
+<div class="authorbox">
+  <div id="authors-1">
+    <a href="https://pratyushmaini.github.io">
+    <img src="https://pratyushmaini.github.io/images/Profile.jpg" alt="Pratyush" style="height: 100px;" />
+    <p>Pratyush Maini</p> 
+    </a>
+    <p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p>
+  </div>
+  <div id="authors-2">
+    <a href="https://saikeshav.github.io/">
+    <img src="https://saikeshav.github.io/images/pp.jpeg" alt="Keshav" style="height: 100px;" />
+    <p>Kolluru Sai Keshav</p> </a>
+    <p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p>
+  </div>
+  <div id="authors-3">
+    <a href="https://www.cs.cmu.edu/~ddanish/">
+    <img src="https://pbs.twimg.com/profile_images/1149339477250379776/73row7EO_400x400.png" alt="Danish" style="height: 100px;" />
+    <p>Danish Pruthi</p> </a>
+    <p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p>
+  </div>
+  <div id="authors-4">
+    <a href="http://www.cse.iitd.ac.in/~mausam/">
+    <img src="http://www.cse.iitd.ac.in/~mausam/mausam-head.jpg" alt="Mausam" style="height: 100px;" />
+    <p>Mausam</p> </a> 
+    <p style="margin-left: 2.5em;padding: 0 7em 2em 0"></p>
+  </div>
+</div>
+</center>
+
+
+## How do I cite this work?
 
 If you find this work useful, please cite our [paper](https://arxiv.org/abs/2005.00159):
 ```
