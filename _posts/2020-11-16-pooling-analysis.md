@@ -93,7 +93,7 @@ Now we present comparisons between pooled and non-pooled BiLSTMs across various 
 
 ## Gradient Propagation
 
-*~How does gradient propagation across word positions vary between pooled and non-pooled BiLSTMs? Do gradients vanish for BiLSTMs?~*
+<i> ~ How does gradient propagation across word positions vary between pooled and non-pooled BiLSTMs? Do gradients vanish for BiLSTMs? ~ </i>
 
 In order to quantify the extent to which the gradients vanish across different word positions, we compute the gradient of the loss function w.r.t the hidden state at every word position <img src="https://tex.s2cms.ru/svg/t" alt="t" />, and study their norm. This is represented by the <img src="https://tex.s2cms.ru/svg/%5Cell_2" alt="\ell_2" /> norm <img src="https://tex.s2cms.ru/svg/%7C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20h_%7Bt%7D%7D%7C" alt="|\frac{\partial L}{\partial h_{t}}|" />. 
 
@@ -108,7 +108,7 @@ The gradient norm $\ell_2$ norm $\lVert\frac{\partial L}{\partial h_{t}}\rVert$ 
 
 The plot suggests that specific initialization of the gates with best practices (such as setting the bias of forget-gate to a high value) helps to reduce the extent of the issue, but the problem still persists. In contrast, none of the pooling techniques face this issue, resulting in an almost straight line.
 
-*~How does gradient vanishing change as we train our models for more epochs?~
+<i> ~ How does gradient vanishing change as we train our models for more epochs? ~ </i>
 
 We define **Vanishing Ratio**-- Given by $\lVert\frac{\partial L}{\partial h_{\text{mid}}}\rVert$ $/$ $\lVert\frac{\partial L}{\partial h_{\text{end}}}\rVert$. It is a measure to quantify the extent of vanishing gradient. Higher values indicate severe vanishing as the gradients reaching the middle are lower than the gradients at the end.
 <p align="center">
