@@ -138,14 +138,14 @@ In this light, we now evaluate positional biases of recurrent architectures with
 <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Diagram.png" alt="Explain Wiki Setting" width="400"/>
 </p>
 
+1. We append varying amounts of random Wikipedia sentences to the original data at test time. 
+2. Performance ↓ significantly for BiLSTM & mean-pool
 
 <p align="center">
     <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/legend.png" alt="Legend" width="500"/><br>
     <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_left.png" alt="Wiki Attack Left" width="250"/>
     <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Wiki_Attack/IMDB_LONG_5K_mid.png" alt="Wiki Attack Mid" width="250"/>
 </p>
-
-
 
 
 ### Training to Skip Unimportant Words
@@ -156,6 +156,9 @@ In this light, we now evaluate positional biases of recurrent architectures with
 <img src="/assets/images/2020-11-20-Pooling-Analysis-Blog/Untitled%206.png" alt="IMDB Wiki Table" width="1000"/>
 </p>
 
+1. We modify the training set to contain input from the modified distribution : Wiki (Left), Wiki (Mid), Wiki (Right).
+2. BiLSTM accuracy in mid setting = majority class baseline in low-resource datasets.
+
 ### Fine-grained Positional Biases</b></p>
 
 <i> ~ How does the position of a word impact its importance in the final prediction by a model? ~  </i>
@@ -165,6 +168,12 @@ In this light, we now evaluate positional biases of recurrent architectures with
 <p align="center">
 <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/NWI/NWI_Explain.png" alt="NWI Explanation" width="400"/>
 </p>
+
+1. NWI metric to calculate per-position importance of words. 
+2. Pooled architectures: No bias w.r.t. word position 
+3. BiLSTM: Huge bias towards the end words even when the original sentence is in the mid
+4. Even when sentence length is small, BiLSTMs show bias towards end tokens, even though they are able to attain non-trivial test accuracies.
+
 
 <br><br>
 
