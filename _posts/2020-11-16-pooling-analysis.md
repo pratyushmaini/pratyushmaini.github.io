@@ -1,6 +1,7 @@
 ---
 title: 'Why and when should you pool?  <br /> Analyzing Pooling in Recurrent Architectures'
-date: 2020-05-01
+date: 2020-11-16
+subtitle: Findings of EMNLP 2020, BlackBoxNLP 2020
 permalink: /Pooling-Analysis/
 tags:
   - max-attention
