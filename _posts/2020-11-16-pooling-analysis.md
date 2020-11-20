@@ -52,7 +52,7 @@ Various pooling techniques, like mean-pooling, max-pooling, and attention<b>*</b
 
 In this work, we identify two key factors that explain the performance benefits of pooling techniques: **learnability**, and **positional invariance**. We examine three commonly used pooling techniques (mean-pooling, max-pooling, and attention), and **propose max-attention**, a novel variant that effectively captures interactions among predictive tokens in a sentence.
 
-<b>*<b> **Attention** aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
+<b>*</b> **Attention** aggregates representations via a weighted sum, thus we consider it under the umbrella of pooling in this work.
 
 ## Overview of Pooling and Attention
 
@@ -121,7 +121,7 @@ Consequently, the BiLSTM model overfits on the training data, even before the ga
   <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/TableVanish.png" alt="Table" style="width: 400px;"/> 
 </p>
 
-The vanishing ratio is high for BiLSTM, especially in low-data settings. This results in a 12-14\% lower test accuracy compared to other pooling techniques, in the 1K setting. We conclude that the phenomenon of vanishing gradients results in weaker performance of BiLSTM, especially in low training data regimes.
+The vanishing ratio is high for BiLSTM, especially in low-data settings. This results in a 12-14% lower test accuracy compared to other pooling techniques, in the 1K setting. We conclude that the phenomenon of vanishing gradients results in weaker performance of BiLSTM, especially in low training data regimes.
 
 ## Positional Biases
 
