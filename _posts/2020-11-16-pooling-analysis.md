@@ -41,9 +41,9 @@ tags:
 
 ## TL;DR:
 
-1. Pooling (and attention) based BiLSTMs demonstrate improved learning ability and positional invariance.
-2. Pooling helps improve sample efficiency (low-resource settings) and is particularly beneficial when important words lie towards the middle of the sentence.
-3. Our proposed pooling technique max-attention (MaxAtt) helps improve upon past approaches on standard accuracy metrics, and is more robust to distribution shift.
+1. Pooling (and attention) help improve learning ability and positional invariance of BiLSTMs.
+2. Pooling helps improve sample efficiency (low-resource settings) and is particularly beneficial when important words lie away from the end of the sentence.
+3. Our proposed pooling technique, max-attention (MaxAtt), helps improve upon past approaches on standard accuracy metrics, and is more robust to distribution shift.
 
 
 ## Motivation
@@ -65,7 +65,7 @@ Let $s = \{x_1, x_2, \ldots, x_n\}$ be an input sentence, where $x_t$ is a repre
 Standard BiLSTMs concatenate the first hidden state of the backward LSTM, and the last hidden state of the forward LSTM for the final sentence representation:
 $s_{\text{emb}} = [\overrightarrow{h_n}, \overleftarrow{h_1}]$.
 
-Pooling produces a sentence embedding that aggregates all the hidden states at every time step t (row-wise) using $max$ or $mean$ operation (Figure to the left). Alternately, attention (Luong attention) aggregates a weighted sum of each hidden state by first multiplying them by a query vector to calculate their importance (Figure to the right). However, in text classification tasks, the query vector is the same for the entire corpus. This means that a **global query** helps identify the importance of a token in every sentence in the corpus.
+Pooling produces a sentence embedding that aggregates all hidden states at every time step $t$ (row-wise) using $max$ or $mean$ operation (Figure to the left). Alternately, attention ([Luong attention](https://arxiv.org/abs/1508.04025)) aggregates a weighted sum of each hidden state by first multiplying them by a query vector to calculate their importance (Figure to the right). In text classification tasks, a fixed query vector or a **global query** (for the entire corpus) is used to compute the importance value of a token in any sentence.
 
 The sentence embedding ($s_{\text{emb}}$) is finally fed to a downstream text classifier.
 
@@ -87,7 +87,7 @@ q^{i} &= \max_{t \in (1,n)}(h_{t}^{i});
 \end{aligned}
 $$
 
-Note that the learnable query vector in Luong attention is the same for the entire corpus, whereas in max-attention each sentence has a unique locally-informed query. Previous literature extensively uses max-pooling to capture the prominent tokens (or objects) in a sentence (or image). Hence, using max-pooled representation as a query for attention allows for a second round of aggregation among important hidden representations. 
+Note that the learnable query vector in Luong attention is the same for the entire corpus, whereas in max-attention each sentence has a unique locally-informed query, which we hypothesize helps capture inter-word dependencies better. [Previous](http://yann.lecun.com/exdb/publis/pdf/boureau-cvpr-10.pdf) [literature](https://www.aclweb.org/anthology/D17-1070/) extensively uses max-pooling to capture the prominent tokens (or objects) in a sentence (or image). Hence, using max-pooled representation as a query for attention allows for a second round of aggregation among important hidden representations. 
 
 Now we present comparisons between pooled and non-pooled BiLSTMs across various axes: their **Gradient Propagation** and **Positional Biases**.
 
@@ -117,11 +117,13 @@ The vanishing ratio $\lVert\frac{\partial L}{\partial h_{\text{mid}}}\rVert$ $/$
 
 Consequently, the BiLSTM model overfits on the training data, even before the gates can learn to allow the gradients to pass through (and mitigate the vanishing gradients problem). Thus, the model prematurely memorizes the training data solely based on the starting and ending few words.
 
-<p align="center">
-  <img src="https://pratyushmaini.github.io/files/PoolingAnalysisFigures/Gradients/TableVanish.png" alt="Table" style="width: 400px;"/> 
-</p>
-
 The vanishing ratio is high for BiLSTM, especially in low-data settings. This results in a 12-14% lower test accuracy compared to other pooling techniques, in the 1K setting. We conclude that the phenomenon of vanishing gradients results in weaker performance of BiLSTM, especially in low training data regimes.
+
+**Key Take-aways:** 
+1. Vanishing Gradient is a significant issue for BiLSTMs in the initial few epochs of training.
+2. On training for more examples, gradient vanishing reduces in BiLSTMs.
+3. In low-resource setting, this phenomenon leads BiLSTMs to overfit to the training data even before it learnt to propagate gradients to distant states.
+4. Pooling based methods naturally prevent gradient vanishing by allowing direct propagation of signal to distant hidden states.
 
 ## Positional Biases
 
