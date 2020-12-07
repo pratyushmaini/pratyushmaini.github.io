@@ -30,13 +30,13 @@ table, tr, td {
        <col span="1" style="width: 12%;">
        <col span="1" style="width: 88%;">
 </colgroup>
-<tr><td> December 2020:</td> <td> Preprint released for <i>Data-Free Model Extraction</i> <a href="https://arxiv.org/abs/2011.14779">[Link]</a>.</td> </tr>
+<tr><td> Dec 2020:</td> <td> Preprint released for <i>Data-Free Model Extraction</i> <a href="https://arxiv.org/abs/2011.14779">[Link]</a>.</td> </tr>
   
-<tr><td> November 2020:</td> <td> Work on <i>Dataset Inference: Ownership Resolution in Machine Learning</i> will be presented at PPML Workshop and WDCS at NeurIPS 2020. <a href="https://openreview.net/forum?id=hvdKKV2yt7T">[Link]</a> <a href="https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning">[Talk]</a>.</td> </tr>
+<tr><td> Nov 2020:</td> <td> Work on <i>Dataset Inference: Ownership Resolution in Machine Learning</i> will be presented at PPML Workshop and WDCS at NeurIPS 2020. <a href="https://openreview.net/forum?id=hvdKKV2yt7T">[Link]</a> <a href="https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning">[Talk]</a>.</td> </tr>
   
-<tr><td> October 2020:</td> <td> Started New Role at AI Soultions Lab in the Computer Vision Team at Samsung Research and Development Headquarters, South Korea.</td> </tr>
+<tr><td> Oct 2020:</td> <td> Started New Role at AI Soultions Lab in the Computer Vision Team at Samsung Research and Development Headquarters, South Korea.</td> </tr>
   
-<tr><td> September 2020:</td> <td> Our paper <i>Why and when should you pool? Analyzing Pooling in Recurrent Architectures</i> was accepted at Findings of EMNLP 2020. Will also be presented at BlackBox NLP 2020.<a href="https://arxiv.org/abs/2005.0159">[Link] </a><a href="https://pratyushmaini.github.io/Pooling-Analysis/">[Blog]</a> </a><a href="https://pratyushmaini.github.io/Pooling-Analysis/">[Poster]</a>.</td> </tr>
+<tr><td> Sept 2020:</td> <td> Our paper <i>Why and when should you pool? Analyzing Pooling in Recurrent Architectures</i> was accepted at Findings of EMNLP 2020. Will also be presented at BlackBox NLP 2020.<a href="https://arxiv.org/abs/2005.0159">[Link] </a><a href="https://pratyushmaini.github.io/Pooling-Analysis/">[Blog]</a> </a><a href="https://pratyushmaini.github.io/Pooling-Analysis/">[Poster]</a>.</td> </tr>
 
 
 <tr><td> July 2020:</td> <td> Completed my Bachelors of Technology in Computer Science and Engineering at IIT Delhi. Drop in at my thesis: <a href="https://pratyushmaini.github.io/files/BTech_Thesis_Pratyush_Maini.pdf">Analyzing the Learnability and Representability of Recurrent Architectures</a>.</td> </tr>
@@ -60,6 +60,11 @@ table, tr, td {
 </font>
 </table>
 
+Publications
+-----
 
-
+<details>
+<summary>Example</summary>
+This is a dropdown with text!
+</details>
 
