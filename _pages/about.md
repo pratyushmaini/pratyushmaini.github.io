@@ -21,6 +21,18 @@ Recent News  <sub><sup><sub><sup>(Scroll for more)</sup></sub></sup></sub>
 table, tr, td {
     border: none;
 }
+ul.pubs > li{
+	margin-bottom: 1.2em;
+}
+.posts-wrapper {
+	max-width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.clear{
+    clear:both;
+}
+
 </style>
 
 <div style="height:250px;overflow:auto;border:0px;border-collapse: collapse;" >
@@ -87,6 +99,34 @@ Under Review at **ICLR** 2021
 [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779)   
 Jean-Baptiste Truong*, Pratyush Maini*, Robert Walls, Nicolas Papernot   
 Under Review at Conference on Computer Vision and Pattern Recognition (**CVPR**) 2021   
+
+
+
+<div class="posts-wrapper" style="clear:both">
+    <h3 style="margin-bottom:0.75em;">Publications</h3>
+    </i>
+    <p>
+
+    <ul class="pubs">
+
+    <li>
+                <a href="https://arxiv.org/abs/1804.07781" target="_blank" style="color:black;font-size:1.0em">Pathologies of Neural Models Make Interpretations Difficult</a><br>
+                Shi Feng, Eric Wallace, Alvin Grissom II, Mohit Iyyer, Pedro Rodriguez, Jordan Boyd-Graber<br>
+                <i>EMNLP 2018</i><br>
+                <a href="javascript:unhide('pathological18tldr');">TLDR</a> | <a href="https://vimeo.com/306158589" target="_blank">Video</a> | <a href="https://arxiv.org/abs/1804.07781" target="_blank">Paper</a> |
+                <a href="slides_and_posters/pathologies_slides.pdf" target="_blank">Slides</a> | <a href="https://github.com/allenai/allennlp/blob/master/allennlp/interpret/attackers/input_reduction.py" target="_blank">Code</a> | <a href="javascript:unhide('pathological18');">Citation</a>
+                <div id="pathological18tldr" class="hidden"><b>TLDR:</b> Saliency maps are a popular interpretation technique. We show that certain pathological behavior present in neural models (namely prediction overconfidence) can negatively impact these interpretations.<br> </div>
+                <div id="pathological18" class="hidden">
+                    <pre>@inproceedings{Feng2018Pathological,
+    Author = {Shi Feng and Eric Wallace and Alvin Grissom II and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber},
+    Booktitle = {Empirical Methods in Natural Language Processing},
+    Year = {2018},
+    Title = {Pathologies of Neural Models Make Interpretations Difficult}}
+                  </pre>
+                </div>
+            </li>
+        </ul>
+    </p>
 
 
 <details>
