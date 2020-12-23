@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p style="text-align: center;"><i> ~~ I like to Observe. Look for Patterns. Ponder over these Generalizations. Try to Refute them. Or otherwise prove their Validity. And re-image their Applications in alternate spheres ~~  </i></p>
+<p style="text-align: center;"><i> ~~ I like to Observe. Look for Patterns. Ponder over these Generalizations. Try to Refute them. <br> &nbsp;&nbsp; Or otherwise prove their Validity. And re-image their Applications in alternate spheres ~~  </i></p>
 
 Pratyush Maini
 ======
