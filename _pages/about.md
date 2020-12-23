@@ -32,6 +32,26 @@ ul.pubs > li{
 .clear{
     clear:both;
 }
+pre {
+	background-color: #f5f5f5;
+	color: #110000;
+	border: 3;
+	font-size:0.9em;
+	line-height:1.2em;
+	max-width: 950px;
+	whitewhite-space: pre-wrap;       /* css-3 */
+	whitewhite-space: -pre-wrap;      /* Opera 4-6 */
+	whitewhite-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5+ */
+	whitewhite-space: -moz-pre-wrap;  /* Older Versions of Mozilla */
+}
+.hidden {
+    display: none;
+}
+.unhidden {
+    display: table;
+    position:relative;
+/*    width:80%;*/
 }
 </style>
 
@@ -110,6 +130,21 @@ Under Review at **CVPR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 -----
 \* = equal contribution
 
+<a href="https://arxiv.org/abs/2010.12563" target="_blank" style="color:black;font-size:1.0em">
+          Customizing Triggers with Concealed Data Poisoning</a><br>
+          Eric Wallace*, Tony Z. Zhao*, Shi Feng, and Sameer Singh<br>
+          <i>arXiv preprint</i><br>
+          <a href="javascript:unhide('poisoning20tldr');">TLDR</a> | <a href="http://ericswallace.com/poisoning" target="_blank">Blog</a> | <a href="https://twitter.com/Eric_Wallace_/status/1319650623705370624" target="_blank">Twitter</a> | <a href="https://arxiv.org/abs/2010.12563" target="_blank">Paper</a> | <a href="https://github.com/Eric-Wallace/data-poisoning" target="_blank">Code</a> | <a href="javascript:unhide('poisoning20');">Citation</a>
+          <div id="poisoning20tldr" class="hidden"><b>TLDR:</b> We develop a new training data poisoning attack that allows an adversary to control model predictions whenever a desired phrase is present in the input.<br></div>
+        <div id="poisoning20" class="hidden">
+        <pre>@article{wallace2020poisoning,
+            title={Customizing Triggers with Concealed Data Poisoning},
+            author={Eric Wallace and Tony Z. Zhao and Shi Feng and Sameer Singh},
+            journal={arXiv preprint arXiv:2010.12563},
+            year={2020}}
+         </pre>
+         </div>
+	 
 <!--
 <div class="posts-wrapper" style="clear:both">
     <h3 style="margin-bottom:0.75em;">Publications</h3>
