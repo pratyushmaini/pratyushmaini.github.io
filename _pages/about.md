@@ -35,7 +35,7 @@ ul.pubs > li{
 }
 </style>
 
-<div style="height:250px;overflow:auto;border:0px;border-collapse: collapse;" >
+<div style="height:150px;overflow:auto;border:0px;border-collapse: collapse;" >
 <table  border="none" style="border:0px;border-collapse: collapse;" rules="none" >
 <font face = "Times New Roman" size = "14">
 <colgroup>
