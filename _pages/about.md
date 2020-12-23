@@ -103,7 +103,8 @@ Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot
 Under Review at Conference on Computer Vision and Pattern Recognition (**CVPR**) 2021   
 
 \* = equal contribution
-<!---
+
+<!--
 <div class="posts-wrapper" style="clear:both">
     <h3 style="margin-bottom:0.75em;">Publications</h3>
     </i>
