@@ -86,12 +86,12 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 [Why and when should you pool? Analyzing Pooling in Recurrent Architectures](https://arxiv.org/abs/2005.00159)   
 *Pratyush Maini, Keshav Kolluru, Danish Pruthi, Mausam*   
 **EMNLP** (Findings) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
-**BlackBoxNLP** Workshop 2020 ![](https://img.shields.io/badge/-workshop-blue)   
+**BlackBoxNLP** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 
 [Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T)   
 *Pratyush Maini, Mohammad Yaghini, Nicolas Papernot*   
 Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
-Workshop on Dataset Curation and Security (**WCDS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
+Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 
 [Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k)   
