@@ -35,7 +35,7 @@ pre {
 	background-color: #f5f5f5;
 	color: #110000;
 	border: 3;
-	font-size:0.6em;
+	font-size:0.8em;
 	line-height:1.2em;
 	max-width: 950px;
 	whitewhite-space: pre-wrap;       /* css-3 */
@@ -50,7 +50,7 @@ pre {
 .unhidden {
     display: table;
     position:relative;
-    width:80%;
+    width:100%;
 }
 </style>
 
@@ -101,7 +101,7 @@ Publications
 *Pratyush Maini, Eric Wong, Zico Kolter*   
 International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
 <a href="javascript:dropdown('multiple-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068) | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest) | [Slides]() | [Code](https://github.com/locuslab/robust_union) | <a href="javascript:dropdown('multiple');">Citation</a>  
-<div id="multiple-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br> </div>
+<div id="multiple-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br><br> </div>
 <div id="multiple" class="hidden">
 <pre>@inproceedings{maini2020adversarial,
 	title={Adversarial Robustness Against the Union of Multiple Perturbation Models}, 
@@ -116,7 +116,7 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 **EMNLP** (Findings) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
 **BlackBoxNLP** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 <a href="javascript:dropdown('pooling-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068) | [Video]() | [Slides]() | [Code](https://github.com/dair-iitd/PoolingAnalysis) | [Blog](https://pratyushmaini.github.io/Pooling-Analysis) | [Poster]() | <a href="javascript:dropdown('pooling');">Citation</a>     
-<div id="pooling-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br> </div>
+<div id="pooling-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br><br> </div>
 <div id="pooling" class="hidden">
 <pre>@inproceedings{maini2020pool,
 	title = "Why and when should you pool? Analyzing Pooling in Recurrent Architectures",
@@ -135,7 +135,7 @@ Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](
 Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 <a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T) | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning) | [Slides]() | <a href="javascript:dropdown('di');">Citation</a>     
-<div id="di-tldr" class="hidden"><b>TLDR:</b> We introduce a method that performs Perturbation Type Categorization for Robustness against multiple perturbation types.<br> </div>
+<div id="di-tldr" class="hidden"><b>TLDR:</b> We introduce a method that performs Perturbation Type Categorization for Robustness against multiple perturbation types.<br><br> </div>
 <div id="di" class="hidden">
 <pre>@article{maini2021dataset,
 	title={Dataset Inference: Ownership Resolution in Machine Learning},
@@ -151,7 +151,7 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 **ICML** Workshop on Uncertainty and Robustness in Deep Learning 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 <a href="javascript:dropdown('protector-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=Oe2XI-Aft-k) | <a href="javascript:dropdown('protector');">Citation</a>     
-<div id="protector-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br> </div>
+<div id="protector-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br><br> </div>
 <div id="protector" class="hidden">
 <pre>@article{maini2021perturbation,
 	title={Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness},
@@ -166,7 +166,7 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 *Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot*   
 Under Review at **CVPR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 <a href="javascript:dropdown('dfme-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2011.14779) | [Code](https://github.com/cake-lab/datafree-model-extraction) | <a href="javascript:dropdown('dfme');">Citation</a>     
-<div id="dfme-tldr" class="hidden"><b>TLDR:</b> We analyze the importance of similarity between surrogate & victim datasets for the success of model stealing attacks, and develop a method to steal ML models with zero knowledge of the victim’s training data.<br> </div>
+<div id="dfme-tldr" class="hidden"><b>TLDR:</b> We analyze the importance of similarity between surrogate & victim datasets for the success of model stealing attacks, and develop a method to steal ML models with zero knowledge of the victim’s training data.<br><br> </div>
 <div id="dfme" class="hidden">
 <pre>@article{truong2021data,
 	title={Data-Free Model Extraction},
