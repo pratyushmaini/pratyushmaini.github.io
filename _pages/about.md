@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <script>
-      function unhide(divID) {
+      function dropdown(divID) {
           var item = document.getElementById(divID);
           if (item) {
               item.className=(item.className=='hidden')?'unhidden':'hidden';
@@ -111,45 +111,69 @@ Publications
 [Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068)   
 *Pratyush Maini, Eric Wong, Zico Kolter*   
 International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
-[TLDR]() | [Paper](https://arxiv.org/abs/1909.04068) | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest) | [Slides]() | [Code](https://github.com/locuslab/robust_union) | [Citation]()   
-
+<a href="javascript:dropdown('multiple-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068) | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest) | [Slides]() | [Code](https://github.com/locuslab/robust_union) | [Citation]()   
+<div id="multiple-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br> </div>
+                <div id="pathological18" class="hidden">
+                    <pre>@inproceedings{Feng2018Pathological,
+    Author = {Shi Feng and Eric Wallace and Alvin Grissom II and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber},
+    Booktitle = {Empirical Methods in Natural Language Processing},
+    Year = {2018},
+    Title = {Pathologies of Neural Models Make Interpretations Difficult}}
+    
 [Why and when should you pool? Analyzing Pooling in Recurrent Architectures](https://arxiv.org/abs/2005.00159)   
 *Pratyush Maini, Keshav Kolluru, Danish Pruthi, Mausam*   
 **EMNLP** (Findings) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
 **BlackBoxNLP** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
-[TLDR]() | [Paper](https://arxiv.org/abs/1909.04068) | [Video]() | [Slides]() | [Code](https://github.com/dair-iitd/PoolingAnalysis) | [Blog](https://pratyushmaini.github.io/Pooling-Analysis) | [Poster]() | [Citation]()   
-
+<a href="javascript:dropdown('pooling-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068) | [Video]() | [Slides]() | [Code](https://github.com/dair-iitd/PoolingAnalysis) | [Blog](https://pratyushmaini.github.io/Pooling-Analysis) | [Poster]() | [Citation]()   
+<div id="pathological18tldr" class="hidden"><b>TLDR:</b> Saliency maps are a popular interpretation technique. We show that certain pathological behavior present in neural models (namely prediction overconfidence) can negatively impact these interpretations.<br> </div>
+                <div id="pathological18" class="hidden">
+                    <pre>@inproceedings{Feng2018Pathological,
+    Author = {Shi Feng and Eric Wallace and Alvin Grissom II and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber},
+    Booktitle = {Empirical Methods in Natural Language Processing},
+    Year = {2018},
+    Title = {Pathologies of Neural Models Make Interpretations Difficult}}
+    
 [Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T)   
 *Pratyush Maini, Mohammad Yaghini, Nicolas Papernot*   
 Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-[TLDR]() | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T) | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning) | [Slides]()    
-
+<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T) | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning) | [Slides]()    
+<div id="pathological18tldr" class="hidden"><b>TLDR:</b> Saliency maps are a popular interpretation technique. We show that certain pathological behavior present in neural models (namely prediction overconfidence) can negatively impact these interpretations.<br> </div>
+                <div id="pathological18" class="hidden">
+                    <pre>@inproceedings{Feng2018Pathological,
+    Author = {Shi Feng and Eric Wallace and Alvin Grissom II and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber},
+    Booktitle = {Empirical Methods in Natural Language Processing},
+    Year = {2018},
+    Title = {Pathologies of Neural Models Make Interpretations Difficult}}
+    
 [Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k)   
 *Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song*   
 **ICML** Workshop on Uncertainty and Robustness in Deep Learning 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-[TLDR]() | [Paper](https://openreview.net/pdf?id=Oe2XI-Aft-k)   
-
+<a href="javascript:dropdown('protector-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=Oe2XI-Aft-k)   
+<div id="pathological18tldr" class="hidden"><b>TLDR:</b> Saliency maps are a popular interpretation technique. We show that certain pathological behavior present in neural models (namely prediction overconfidence) can negatively impact these interpretations.<br> </div>
+                <div id="pathological18" class="hidden">
+                    <pre>@inproceedings{Feng2018Pathological,
+    Author = {Shi Feng and Eric Wallace and Alvin Grissom II and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber},
+    Booktitle = {Empirical Methods in Natural Language Processing},
+    Year = {2018},
+    Title = {Pathologies of Neural Models Make Interpretations Difficult}}
+    
 [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779)   
 *Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot*   
 Under Review at **CVPR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-[TLDR]() | [Paper](https://arxiv.org/abs/2011.14779) | [Code](https://github.com/cake-lab/datafree-model-extraction) | [Citation]()   
-
+<a href="javascript:dropdown('dfme-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2011.14779) | [Code](https://github.com/cake-lab/datafree-model-extraction) | [Citation]()   
+<div id="pathological18tldr" class="hidden"><b>TLDR:</b> Saliency maps are a popular interpretation technique. We show that certain pathological behavior present in neural models (namely prediction overconfidence) can negatively impact these interpretations.<br> </div>
+                <div id="pathological18" class="hidden">
+                    <pre>@inproceedings{Feng2018Pathological,
+    Author = {Shi Feng and Eric Wallace and Alvin Grissom II and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber},
+    Booktitle = {Empirical Methods in Natural Language Processing},
+    Year = {2018},
+    Title = {Pathologies of Neural Models Make Interpretations Difficult}}
+    
 -----
 \* = equal contribution
-
-
-<div class="posts-wrapper" style="clear:both">
-    <h3 style="margin-bottom:0.75em;">Publications</h3>
-    </i>
-    <p>
-    <ul class="pubs">
-    <li>
-                <a href="https://arxiv.org/abs/1804.07781" target="_blank" style="color:black;font-size:1.0em">Pathologies of Neural Models Make Interpretations Difficult</a><br>
-                Shi Feng, Eric Wallace, Alvin Grissom II, Mohit Iyyer, Pedro Rodriguez, Jordan Boyd-Graber<br>
-                <i>EMNLP 2018</i><br>
                 <a href="javascript:unhide('pathological18tldr');">TLDR</a> | <a href="https://vimeo.com/306158589" target="_blank">Video</a> | <a href="https://arxiv.org/abs/1804.07781" target="_blank">Paper</a> |
                 <a href="slides_and_posters/pathologies_slides.pdf" target="_blank">Slides</a> | <a href="https://github.com/allenai/allennlp/blob/master/allennlp/interpret/attackers/input_reduction.py" target="_blank">Code</a> | <a href="javascript:unhide('pathological18');">Citation</a>
                 <div id="pathological18tldr" class="hidden"><b>TLDR:</b> Saliency maps are a popular interpretation technique. We show that certain pathological behavior present in neural models (namely prediction overconfidence) can negatively impact these interpretations.<br> </div>
