@@ -120,7 +120,7 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 	booktitle={International Conference on Machine Learning},
 	year={2020},
 	url = "https://arxiv.org/abs/1909.04068"
-}</pre>
+}</pre></div>
     
 [Why and when should you pool? Analyzing Pooling in Recurrent Architectures](https://arxiv.org/abs/2005.00159)   
 *Pratyush Maini, Keshav Kolluru, Danish Pruthi, Mausam*   
@@ -138,7 +138,7 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 	publisher = "Association for Computational Linguistics",
 	url = "https://www.aclweb.org/anthology/2020.findings-emnlp.410",
 	note = {Also presented at BlackBoxNLP'20}
-}</pre>
+}</pre></div>
     
 [Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T)   
 *Pratyush Maini, Mohammad Yaghini, Nicolas Papernot*   
@@ -157,7 +157,7 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 	publisher = "Association for Computational Linguistics",
 	url = "https://www.aclweb.org/anthology/2020.findings-emnlp.410",
 	note = {Also presented at BlackBoxNLP'20}
-}</pre>
+}</pre></div>
     
 [Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k)   
 *Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song*   
@@ -175,7 +175,7 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 	publisher = "Association for Computational Linguistics",
 	url = "https://www.aclweb.org/anthology/2020.findings-emnlp.410",
 	note = {Also presented at BlackBoxNLP'20}
-}</pre>
+}</pre></div>
     
 [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779)   
 *Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot*   
@@ -192,7 +192,7 @@ Under Review at **CVPR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 	publisher = "Association for Computational Linguistics",
 	url = "https://www.aclweb.org/anthology/2020.findings-emnlp.410",
 	note = {Also presented at BlackBoxNLP'20}
-}</pre>
+}</pre></div>
     
 -----
 \* = equal contribution
