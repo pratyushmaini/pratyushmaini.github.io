@@ -55,7 +55,7 @@ ul.pubs > li{
   
 <tr><td> June 2020:</td> <td> New work on <i>Classifying Adversarial Perturbations</i> to be presented at <a href="https://sites.google.com/view/udlworkshop2020/">ICML 2020 Workshop</a> on Uncertainty & Robustness in Deep Learning.</td> </tr>
   
-<tr><td> May 2020:</td> <td> Our paper <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> was accepted at <a href="https://icml.cc/Conferences/2020/AcceptedPapersInitial">ICML 2020</a>.<a href="https://arxiv.org/abs/1909.04068t">[Paper]</a> <a href="http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest">[Talk]</a>. </td> </tr>
+<tr><td> May 2020:</td> <td> Our paper <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> was accepted at <a href="https://icml.cc/Conferences/2020/AcceptedPapersInitial">ICML 2020</a>.<a href="https://arxiv.org/abs/1909.04068">[Paper]</a> <a href="http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest">[Talk]</a>. </td> </tr>
 
 <tr><td> May 2020: </td> <td> <a href="https://arxiv.org/abs/2005.00159">Preprint</a> released for <i>Why and when should you pool? Analyzing Pooling in Recurrent Architectures</i>. <br> See blog post <a href="https://pratyushmaini.github.io/Pooling-Analysis/">here</a>. </td> </tr>
 
@@ -81,6 +81,7 @@ Publications
 [Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068)   
 Pratyush Maini, Eric Wong, Zico Kolter   
 International Conference on Machine Learning (**ICML**) 2020   
+[TLDR]() | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest) | [Paper](https://arxiv.org/abs/1909.04068) | [Slides]() | [Code](https://github.com/locuslab/robust_union) | [Citation]()   
 
 [Why and when should you pool? Analyzing Pooling in Recurrent Architectures](https://arxiv.org/abs/2005.00159)   
 Pratyush Maini, Keshav Kolluru, Danish Pruthi, Mausam   
@@ -89,7 +90,8 @@ Pratyush Maini, Keshav Kolluru, Danish Pruthi, Mausam
 [Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T)   
 Pratyush Maini, Mohammad Yaghini, Nicolas Papernot   
 Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020   
-Workshop on Dataset Curation and Security (**WCDS**) at **NeurIPS** 2020 & Under Review at **ICLR** 2021   
+Workshop on Dataset Curation and Security (**WCDS**) at **NeurIPS** 2020   
+Under Review at **ICLR** 2021   
 
 [Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k)   
 Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song    
@@ -97,11 +99,11 @@ Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song
 Under Review at **ICLR** 2021   
 
 [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779)   
-Jean-Baptiste Truong*, Pratyush Maini*, Robert Walls, Nicolas Papernot   
+Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot   
 Under Review at Conference on Computer Vision and Pattern Recognition (**CVPR**) 2021   
 
-
-
+\* = equal contribution
+<!---
 <div class="posts-wrapper" style="clear:both">
     <h3 style="margin-bottom:0.75em;">Publications</h3>
     </i>
@@ -133,4 +135,4 @@ Under Review at Conference on Computer Vision and Pattern Recognition (**CVPR**)
 <summary>Example</summary>
 This is a dropdown with text!
 </details>
-
+--->
