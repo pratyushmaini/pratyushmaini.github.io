@@ -96,12 +96,12 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 
 [Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k)   
 *Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song*   
-**ICML** Workshop on Uncertainty and Robustness in Deep Learning, 2020 ![](https://img.shields.io/badge/-workshop-blue)   
+**ICML** Workshop on Uncertainty and Robustness in Deep Learning 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 
 [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779)   
 *Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot*   
-Under Review at Conference on Computer Vision and Pattern Recognition (**CVPR**) 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
+Under Review at **CVPR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 
 -----
 \* = equal contribution
