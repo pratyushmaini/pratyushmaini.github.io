@@ -80,29 +80,30 @@ ul.pubs > li{
 Publications
 -----
 
-[Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068) <span class="badge badge-primary">conference</span>   
+[Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068)   
 Pratyush Maini, Eric Wong, Zico Kolter   
-International Conference on Machine Learning (**ICML**) 2020   
+International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
 [TLDR]() | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest) | [Paper](https://arxiv.org/abs/1909.04068) | [Slides]() | [Code](https://github.com/locuslab/robust_union) | [Citation]()   
 
 [Why and when should you pool? Analyzing Pooling in Recurrent Architectures](https://arxiv.org/abs/2005.00159)   
 Pratyush Maini, Keshav Kolluru, Danish Pruthi, Mausam   
-**EMNLP** (Findings) 2020, **BlackBoxNLP** Workshop 2020   
+**EMNLP** (Findings) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
+**BlackBoxNLP** Workshop 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 
 [Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T)   
 Pratyush Maini, Mohammad Yaghini, Nicolas Papernot   
-Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020   
-Workshop on Dataset Curation and Security (**WCDS**) at **NeurIPS** 2020   
-Under Review at **ICLR** 2021   
+Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
+Workshop on Dataset Curation and Security (**WCDS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
+Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 
 [Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k)   
 Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song    
-**ICML** Workshop on Uncertainty and Robustness in Deep Learning, 2020   
-Under Review at **ICLR** 2021   
+**ICML** Workshop on Uncertainty and Robustness in Deep Learning, 2020 ![](https://img.shields.io/badge/-workshop-blue)   
+Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 
 [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779)   
 Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot   
-Under Review at Conference on Computer Vision and Pattern Recognition (**CVPR**) 2021   
+Under Review at Conference on Computer Vision and Pattern Recognition (**CVPR**) 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 
 \* = equal contribution
 
