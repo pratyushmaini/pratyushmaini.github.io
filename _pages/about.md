@@ -145,9 +145,9 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T) | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning) | [Slides]() | <a href="javascript:dropdown('pooling');">Citation</a>     
-<div id="pooling-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br> </div>
-<div id="pooling" class="hidden">
+<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T) | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning) | [Slides]() | <a href="javascript:dropdown('di');">Citation</a>     
+<div id="di-tldr" class="hidden"><b>TLDR:</b> We introduce a method that performs Perturbation Type Categorization for Robustness against multiple perturbation types.<br> </div>
+<div id="di" class="hidden">
 <pre>@inproceedings{maini2020pool,
 	title = "Why and when should you pool? Analyzing Pooling in Recurrent Architectures",
 	author = "Maini, Pratyush and Kolluru, Keshav and Pruthi, Danish and {Mausam}",
@@ -163,9 +163,9 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 *Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song*   
 **ICML** Workshop on Uncertainty and Robustness in Deep Learning 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-<a href="javascript:dropdown('protector-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=Oe2XI-Aft-k) | <a href="javascript:dropdown('pooling');">Citation</a>     
-<div id="pooling-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br> </div>
-<div id="pooling" class="hidden">
+<a href="javascript:dropdown('protector-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=Oe2XI-Aft-k) | <a href="javascript:dropdown('protector');">Citation</a>     
+<div id="protector-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br> </div>
+<div id="protector" class="hidden">
 <pre>@inproceedings{maini2020pool,
 	title = "Why and when should you pool? Analyzing Pooling in Recurrent Architectures",
 	author = "Maini, Pratyush and Kolluru, Keshav and Pruthi, Danish and {Mausam}",
