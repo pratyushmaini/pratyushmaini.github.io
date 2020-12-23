@@ -85,7 +85,7 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 
 [Why and when should you pool? Analyzing Pooling in Recurrent Architectures](https://arxiv.org/abs/2005.00159)   
 *Pratyush Maini, Keshav Kolluru, Danish Pruthi, Mausam*   
-Conference on Empirical Methods in Natural Language Processing (**EMNLP**) - Findings 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
+**EMNLP** (Findings) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
 **BlackBoxNLP** Workshop 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 
 [Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T)   
