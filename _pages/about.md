@@ -73,7 +73,7 @@ ul.pubs > li{
 </table>
 </div>
 
-***
+
 
 Publications
 -----
