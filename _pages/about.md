@@ -116,7 +116,11 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 **EMNLP** (Findings) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
 **BlackBoxNLP** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 <a href="javascript:dropdown('pooling-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068) | [Video]() | [Slides]() | [Code](https://github.com/dair-iitd/PoolingAnalysis) | [Blog](https://pratyushmaini.github.io/Pooling-Analysis) | [Poster]() | <a href="javascript:dropdown('pooling');">Citation</a>     
-<div id="pooling-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br><br> </div>
+<div id="pooling-tldr" class="hidden"><b>TLDR:</b><ol>
+	<li> Pooling (and attention) help improve learning ability and positional invariance of BiLSTMs. </li>
+	<li> Pooling helps improve sample efficiency (low-resource settings) and is particularly beneficial when important words lie away from the end of the sentence. </li>
+	<li> Our proposed pooling technique, max-attention (MaxAtt), helps improve upon past approaches on standard accuracy metrics, and is more robust to distribution shift. </li>
+	</ol><br><br> </div>
 <div id="pooling" class="hidden">
 <pre>@inproceedings{maini2020pool,
 	title = "Why and when should you pool? Analyzing Pooling in Recurrent Architectures",
@@ -135,7 +139,7 @@ Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](
 Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 <a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T) | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning) | [Slides]() | <a href="javascript:dropdown('di');">Citation</a>     
-<div id="di-tldr" class="hidden"><b>TLDR:</b> We introduce a method that performs Perturbation Type Categorization for Robustness against multiple perturbation types.<br><br> </div>
+<div id="di-tldr" class="hidden"><b>TLDR:</b>  We introduce 'Dataset Inference' as a new method towards resolving model ownership. <br><br> </div>
 <div id="di" class="hidden">
 <pre>@article{maini2021dataset,
 	title={Dataset Inference: Ownership Resolution in Machine Learning},
@@ -151,7 +155,7 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 **ICML** Workshop on Uncertainty and Robustness in Deep Learning 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 <a href="javascript:dropdown('protector-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=Oe2XI-Aft-k) | <a href="javascript:dropdown('protector');">Citation</a>     
-<div id="protector-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br><br> </div>
+<div id="protector-tldr" class="hidden"><b>TLDR:</b> We demonstrate that adversarial perturbations belonging to different threat models can be separated, and use this intuition to propose a two stage pipeline <i>PROTECTOR</i> that is robust against multiple perturbation types.<br><br> </div>
 <div id="protector" class="hidden">
 <pre>@article{maini2021perturbation,
 	title={Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness},
