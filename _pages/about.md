@@ -111,14 +111,16 @@ Publications
 [Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068)   
 *Pratyush Maini, Eric Wong, Zico Kolter*   
 International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
-<a href="javascript:dropdown('multiple-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068) | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest) | [Slides]() | [Code](https://github.com/locuslab/robust_union) | [Citation]()   
+<a href="javascript:dropdown('multiple-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068) | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest) | [Slides]() | [Code](https://github.com/locuslab/robust_union) | <a href="javascript:dropdown('multiple');">Citation</a>  
 <div id="multiple-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br> </div>
-                <div id="pathological18" class="hidden">
-                    <pre>@inproceedings{Feng2018Pathological,
-    Author = {Shi Feng and Eric Wallace and Alvin Grissom II and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber},
-    Booktitle = {Empirical Methods in Natural Language Processing},
-    Year = {2018},
-    Title = {Pathologies of Neural Models Make Interpretations Difficult}}
+<div id="multiple" class="hidden">
+<pre>@inproceedings{maini2020adversarial,
+	title={Adversarial Robustness Against the Union of Multiple Perturbation Models}, 
+	author={Pratyush Maini and Eric Wong and J. Zico Kolter},
+	booktitle={International Conference on Machine Learning},
+	year={2020},
+	url = "https://arxiv.org/abs/1909.04068"
+}</pre>
     
 [Why and when should you pool? Analyzing Pooling in Recurrent Architectures](https://arxiv.org/abs/2005.00159)   
 *Pratyush Maini, Keshav Kolluru, Danish Pruthi, Mausam*   
