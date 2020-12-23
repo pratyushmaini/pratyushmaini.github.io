@@ -31,22 +31,11 @@ Recent News  <sub><sup><sub><sup>(Scroll for more)</sup></sub></sup></sub>
 table, tr, td {
     border: none;
 }
-ul.pubs > li{
-	margin-bottom: 1.2em;
-}
-.posts-wrapper {
-	max-width: 1000px;
-	margin-left:auto;
-	margin-right:auto;
-}
-.clear{
-    clear:both;
-}
 pre {
 	background-color: #f5f5f5;
 	color: #110000;
 	border: 3;
-	font-size:0.9em;
+	font-size:0.6em;
 	line-height:1.2em;
 	max-width: 950px;
 	whitewhite-space: pre-wrap;       /* css-3 */
@@ -61,7 +50,7 @@ pre {
 .unhidden {
     display: table;
     position:relative;
-/*    width:80%;*/
+    width:80%;
 }
 </style>
 
@@ -152,7 +141,7 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 	title={Dataset Inference: Ownership Resolution in Machine Learning},
 	author={Pratyush Maini and Mohammad Yaghini and Nicolas Papernot},
 	booktitle={Privacy Preserving Machine Learning Workshop at NeurIPS},
-	year={2021},
+	year={2020},
 	url={https://openreview.net/forum?id=hvdKKV2yt7T},
 	note={also under review at ICLR 2021}
 }</pre></div>
@@ -168,7 +157,7 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 	title={Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness},
 	author={Pratyush Maini and Xinyun Chen and Bo Li and Dawn Song},
 	booktitle={ICML Workshop on Uncertainty and Robustness in Deep Learning},
-	year={2021},
+	year={2020},
 	url={https://openreview.net/pdf?id=Oe2XI-Aft-k},
 	note={also under review at ICLR 2021}
 }</pre></div>
