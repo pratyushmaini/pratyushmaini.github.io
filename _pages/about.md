@@ -100,7 +100,7 @@ Publications
 [Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068){:target="_blank"}   
 *Pratyush Maini, Eric Wong, Zico Kolter*   
 International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
-<a href="javascript:dropdown('multiple-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068){:target="_blank"} | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest){:target="_blank"} | [Slides](){:target="_blank"} | [Code](https://github.com/locuslab/robust_union){:target="_blank"} | <a href="javascript:dropdown('multiple');">Citation</a>  
+<a href="javascript:dropdown('multiple-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068){:target="_blank"} | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest){:target="_blank"} | [Slides](/files/MSD/robust_union.pdf){:target="_blank"} | [Code](https://github.com/locuslab/robust_union){:target="_blank"} | <a href="javascript:dropdown('multiple');">Citation</a>  
 <div id="multiple-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br><br> </div>
 <div id="multiple" class="hidden">
 <pre>@inproceedings{maini2020adversarial,
@@ -115,7 +115,7 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 *Pratyush Maini, Keshav Kolluru, Danish Pruthi, Mausam*   
 **EMNLP** (Findings) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
 **BlackBoxNLP** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
-<a href="javascript:dropdown('pooling-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068) | [Video]() | [Slides]() | [Code](https://github.com/dair-iitd/PoolingAnalysis) | [Blog](https://pratyushmaini.github.io/Pooling-Analysis) | [Poster]() | <a href="javascript:dropdown('pooling');">Citation</a>     
+<a href="javascript:dropdown('pooling-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068){:target="_blank"} | [Video](){:target="_blank"} | [Slides](files/Pooling/Pooling_slides.pdf){:target="_blank"} | [Code](https://github.com/dair-iitd/PoolingAnalysis){:target="_blank"} | [Blog](https://pratyushmaini.github.io/Pooling-Analysis){:target="_blank"} | [Poster](files/Pooling/Pooling_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('pooling');">Citation</a>     
 <div id="pooling-tldr" class="hidden"><b>TLDR:</b><ol>
 	<li> Pooling (and attention) help improve learning ability and positional invariance of BiLSTMs. </li>
 	<li> Pooling helps improve sample efficiency (low-resource settings) and is particularly beneficial when important words lie away from the end of the sentence. </li>
@@ -138,7 +138,7 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"} | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning){:target="_blank"} | [Slides](){:target="_blank"} | <a href="javascript:dropdown('di');">Citation</a>     
+<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"} | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning){:target="_blank"} | [Slides](files/DI/DI_Slides.pdf){:target="_blank"} | <a href="javascript:dropdown('di');">Citation</a>     
 <div id="di-tldr" class="hidden"><b>TLDR:</b>  We introduce 'Dataset Inference' as a new method towards resolving model ownership. <br><br> </div>
 <div id="di" class="hidden">
 <pre>@article{maini2021dataset,
@@ -169,7 +169,7 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779){:target="_blank"}   
 *Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot*   
 Under Review at **CVPR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-<a href="javascript:dropdown('dfme-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2011.14779){:target="_blank"} | [Code](https://github.com/cake-lab/datafree-model-extraction){:target="_blank"} | <a href="javascript:dropdown('dfme');">Citation</a>     
+<a href="javascript:dropdown('dfme-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2011.14779){:target="_blank"} | [Code](https://github.com/cake-lab/datafree-model-extraction){:target="_blank"} | [Poster](files/DI/DI_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('dfme');">Citation</a>     
 <div id="dfme-tldr" class="hidden"><b>TLDR:</b> We analyze the importance of similarity between surrogate & victim datasets for the success of model stealing attacks, and develop a method to steal ML models with zero knowledge of the victim’s training data.<br><br> </div>
 <div id="dfme" class="hidden">
 <pre>@article{truong2021data,
