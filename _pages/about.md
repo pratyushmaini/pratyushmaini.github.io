@@ -21,9 +21,9 @@ redirect_from:
 
 Pratyush Maini
 ======
-I am a Final Year Undergraduate Student of Computer Science and Engineering at IIT Delhi. My broad area of interest lies in analyzing and developing robust, secure and explainable methods for machine learning and natural language processing. I am advised by [Prof. Mausam](http://www.cse.iitd.ernet.in/~mausam/) for my B.Tech. thesis. 
+I am a Final Year Undergraduate Student of Computer Science and Engineering at IIT Delhi. My broad area of interest lies in analyzing and developing robust, secure and explainable methods for machine learning and natural language processing. I am advised by [Prof. Mausam](http://www.cse.iitd.ernet.in/~mausam/){:target="_blank"} for my B.Tech. thesis. 
 
-During my undergraduate years, I have been fortunate to have had the opportunity to adapt and learn from the research styles of my amazing collaborators: [Prof. Zico Kolter](https://www.zicokolter.com), [Eric Wong](https://www.cs.cmu.edu/~ericwong/), [Danish](https://www.cs.cmu.edu/~ddanish/) at CMU, [Prof. Bo Li](https://aisecure.github.io), [Prof. Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/), [Xinyun Chen](https://jungyhuk.github.io/) at UIUC/UC Berkeley, [Prof. Nicolas Papernot](https://www.papernot.fr) at UofT/Vector and [Prof. James Larus](https://people.epfl.ch/james.larus) at EPFL during research internships.
+During my undergraduate years, I have been fortunate to have had the opportunity to adapt and learn from the research styles of my amazing collaborators: [Prof. Zico Kolter](https://www.zicokolter.com){:target="_blank"}, [Eric Wong](https://www.cs.cmu.edu/~ericwong/){:target="_blank"}, [Danish](https://www.cs.cmu.edu/~ddanish/){:target="_blank"} at CMU, [Prof. Bo Li](https://aisecure.github.io){:target="_blank"}, [Prof. Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/){:target="_blank"}, [Xinyun Chen](https://jungyhuk.github.io/){:target="_blank"} at UIUC/UC Berkeley, [Prof. Nicolas Papernot](https://www.papernot.fr){:target="_blank"} at UofT/Vector and [Prof. James Larus](https://people.epfl.ch/james.larus){:target="_blank"} at EPFL during research internships.
 
 Recent News  <sub><sup><sub><sup>(Scroll for more)</sup></sub></sup></sub>
 -----
@@ -97,10 +97,10 @@ pre {
 Publications
 -----
 
-[Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068)   
+[Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068){:target="_blank"}   
 *Pratyush Maini, Eric Wong, Zico Kolter*   
 International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
-<a href="javascript:dropdown('multiple-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068) | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest) | [Slides]() | [Code](https://github.com/locuslab/robust_union) | <a href="javascript:dropdown('multiple');">Citation</a>  
+<a href="javascript:dropdown('multiple-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068){:target="_blank"} | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest){:target="_blank"} | [Slides](){:target="_blank"} | [Code](https://github.com/locuslab/robust_union){:target="_blank"} | <a href="javascript:dropdown('multiple');">Citation</a>  
 <div id="multiple-tldr" class="hidden"><b>TLDR:</b> We develop a generalization of the standard PGD-based procedure to train architectures which are robust against multiple perturbation models, outperforming past approaches on the MNIST and CIFAR10 datasets.<br><br> </div>
 <div id="multiple" class="hidden">
 <pre>@inproceedings{maini2020adversarial,
@@ -111,7 +111,7 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 	url = "https://arxiv.org/abs/1909.04068"
 }</pre></div>
     
-[Why and when should you pool? Analyzing Pooling in Recurrent Architectures](https://arxiv.org/abs/2005.00159)   
+[Why and when should you pool? Analyzing Pooling in Recurrent Architectures](https://arxiv.org/abs/2005.00159){:target="_blank"}   
 *Pratyush Maini, Keshav Kolluru, Danish Pruthi, Mausam*   
 **EMNLP** (Findings) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
 **BlackBoxNLP** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
@@ -133,12 +133,12 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 	note = {Also presented at BlackBoxNLP'20}
 }</pre></div>
     
-[Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T)   
+[Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"}   
 *Pratyush Maini, Mohammad Yaghini, Nicolas Papernot*   
 Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T) | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning) | [Slides]() | <a href="javascript:dropdown('di');">Citation</a>     
+<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"} | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning){:target="_blank"} | [Slides](){:target="_blank"} | <a href="javascript:dropdown('di');">Citation</a>     
 <div id="di-tldr" class="hidden"><b>TLDR:</b>  We introduce 'Dataset Inference' as a new method towards resolving model ownership. <br><br> </div>
 <div id="di" class="hidden">
 <pre>@article{maini2021dataset,
@@ -150,11 +150,11 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 	note={also under review at ICLR 2021}
 }</pre></div>
     
-[Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k)   
+[Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"}   
 *Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song*   
 **ICML** Workshop on Uncertainty and Robustness in Deep Learning 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-<a href="javascript:dropdown('protector-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=Oe2XI-Aft-k) | <a href="javascript:dropdown('protector');">Citation</a>     
+<a href="javascript:dropdown('protector-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"} | <a href="javascript:dropdown('protector');">Citation</a>     
 <div id="protector-tldr" class="hidden"><b>TLDR:</b> We demonstrate that adversarial perturbations belonging to different threat models can be separated, and use this intuition to propose a two stage pipeline <i>PROTECTOR</i> that is robust against multiple perturbation types.<br><br> </div>
 <div id="protector" class="hidden">
 <pre>@article{maini2021perturbation,
@@ -166,10 +166,10 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 	note={also under review at ICLR 2021}
 }</pre></div>
     
-[Data-Free Model Extraction](https://arxiv.org/abs/2011.14779)   
+[Data-Free Model Extraction](https://arxiv.org/abs/2011.14779){:target="_blank"}   
 *Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot*   
 Under Review at **CVPR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-<a href="javascript:dropdown('dfme-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2011.14779) | [Code](https://github.com/cake-lab/datafree-model-extraction) | <a href="javascript:dropdown('dfme');">Citation</a>     
+<a href="javascript:dropdown('dfme-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2011.14779){:target="_blank"} | [Code](https://github.com/cake-lab/datafree-model-extraction){:target="_blank"} | <a href="javascript:dropdown('dfme');">Citation</a>     
 <div id="dfme-tldr" class="hidden"><b>TLDR:</b> We analyze the importance of similarity between surrogate & victim datasets for the success of model stealing attacks, and develop a method to steal ML models with zero knowledge of the victim’s training data.<br><br> </div>
 <div id="dfme" class="hidden">
 <pre>@article{truong2021data,
