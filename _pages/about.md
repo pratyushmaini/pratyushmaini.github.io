@@ -138,8 +138,14 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"} | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning){:target="_blank"} | [Slides](files/DI/DI_Slides.pdf){:target="_blank"} | <a href="javascript:dropdown('di');">Citation</a>     
-<div id="di-tldr" class="hidden"><b>TLDR:</b>  We introduce 'Dataset Inference' as a new method towards resolving model ownership. <br><br> </div>
+<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"} | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning){:target="_blank"} | [Slides](files/DI/DI_Slides.pdf){:target="_blank"} | [Poster](files/DI/DI_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('di');">Citation</a>     
+<div id="di-tldr" class="hidden"><b>TLDR:</b><ol>
+		<li>Dataset Inference (DI) resolves model ownership without the need for retraining; and does not have a trade-off with task accuracy.</li>
+		<li>We prove that the success of Membership Inference decreases as overfitting reduces, whereas DI is independent of the same.</li>
+		<li>We introduce a new method for black-box ownership resolution that requires less than 50 private training points from the victim’s dataset.	</li>
+	</ol>
+<br><br> </div>
+
 <div id="di" class="hidden">
 <pre>@article{maini2021dataset,
 	title={Dataset Inference: Ownership Resolution in Machine Learning},
