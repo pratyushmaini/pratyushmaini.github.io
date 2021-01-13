@@ -135,9 +135,9 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
     
 [Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"}   
 *Pratyush Maini, Mohammad Yaghini, Nicolas Papernot*   
+International Conference on Learning Representations (**ICLR**) 2021 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-spotlight-yellow)   
 Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
 Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
-Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
 <a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"} | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning){:target="_blank"} | [Slides](files/DI/DI_Slides.pdf){:target="_blank"} | [Poster](files/DI/DI_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('di');">Citation</a>     
 <div id="di-tldr" class="hidden"><b>TLDR:</b><ol>
 		<li>Dataset Inference (DI) resolves model ownership without the need for retraining; and does not have a trade-off with task accuracy.</li>
@@ -150,16 +150,15 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 <pre>@article{maini2021dataset,
 	title={Dataset Inference: Ownership Resolution in Machine Learning},
 	author={Pratyush Maini and Mohammad Yaghini and Nicolas Papernot},
-	booktitle={Privacy Preserving Machine Learning Workshop at NeurIPS},
+	booktitle={ICLR 2021},
 	year={2020},
 	url={https://openreview.net/forum?id=hvdKKV2yt7T},
-	note={also under review at ICLR 2021}
+	note={Spotlight at ICLR 2021}
 }</pre></div>
     
-[Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"}   
+[Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"} ![](https://img.shields.io/badge/-in_submission-lightgrey)   
 *Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song*   
-**ICML** Workshop on Uncertainty and Robustness in Deep Learning 2020 ![](https://img.shields.io/badge/-workshop-blue)   
-Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
+**ICML** Workshop on Uncertainty and Robustness in Deep Learning 2020 ![](https://img.shields.io/badge/-workshop-blue)      
 <a href="javascript:dropdown('protector-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"} | <a href="javascript:dropdown('protector');">Citation</a>     
 <div id="protector-tldr" class="hidden"><b>TLDR:</b> We demonstrate that adversarial perturbations belonging to different threat models can be separated, and use this intuition to propose a two stage pipeline <i>PROTECTOR</i> that is robust against multiple perturbation types.<br><br> </div>
 <div id="protector" class="hidden">
@@ -169,7 +168,6 @@ Under Review at **ICLR** 2021 ![](https://img.shields.io/badge/-submitted-lightg
 	booktitle={ICML Workshop on Uncertainty and Robustness in Deep Learning},
 	year={2020},
 	url={https://openreview.net/pdf?id=Oe2XI-Aft-k},
-	note={also under review at ICLR 2021}
 }</pre></div>
     
 [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779){:target="_blank"}   
