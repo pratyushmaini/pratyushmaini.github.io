@@ -61,6 +61,8 @@ pre {
        <col span="1" style="width: 12%;">
        <col span="1" style="width: 88%;">
 </colgroup>
+<tr><td> Jan 2021:</td> <td> Work on <i>Dataset Inference</i> <a href="https://openreview.net/forum?id=hvdKKV2yt7T">[Link]</a> was accepted as a **Spotlight** at ICLR2021.</td> </tr>
+
 <tr><td> Dec 2020:</td> <td> Preprint released for <i>Data-Free Model Extraction</i> <a href="https://arxiv.org/abs/2011.14779">[Link]</a>.</td> </tr>
   
 <tr><td> Nov 2020:</td> <td> Work on <i>Dataset Inference: Ownership Resolution in Machine Learning</i> will be presented at PPML Workshop and WDCS at NeurIPS 2020. <a href="https://openreview.net/forum?id=hvdKKV2yt7T">[Link]</a> <a href="https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning">[Talk]</a>.</td> </tr>
@@ -96,6 +98,29 @@ pre {
 
 Publications
 -----
+
+[Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"}   
+*Pratyush Maini, Mohammad Yaghini, Nicolas Papernot*   
+International Conference on Learning Representations (**ICLR**) 2021 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-spotlight-yellow)   
+Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
+Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
+<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/forum?id=hvdKKV2yt7T){:target="_blank"} | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning){:target="_blank"} | [Slides](files/DI/DI_Slides.pdf){:target="_blank"} | [Poster](files/DI/DI_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('di');">Citation</a>     
+<div id="di-tldr" class="hidden"><b>TLDR:</b><ol>
+		<li>Dataset Inference (DI) resolves model ownership without the need for retraining; and does not have a trade-off with task accuracy.</li>
+		<li>We prove that the success of Membership Inference decreases as overfitting reduces, whereas DI is independent of the same.</li>
+		<li>We introduce a new method for black-box ownership resolution that requires less than 50 private training points from the victim’s dataset.	</li>
+	</ol>
+<br><br> </div>
+
+<div id="di" class="hidden">
+<pre>@article{maini2021dataset,
+	title={Dataset Inference: Ownership Resolution in Machine Learning},
+	author={Pratyush Maini and Mohammad Yaghini and Nicolas Papernot},
+	booktitle={ICLR 2021},
+	year={2020},
+	url={https://openreview.net/forum?id=hvdKKV2yt7T},
+	note={Spotlight at ICLR 2021}
+}</pre></div>   
 
 [Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068){:target="_blank"}   
 *Pratyush Maini, Eric Wong, Zico Kolter*   
@@ -133,28 +158,6 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 	note = {Also presented at BlackBoxNLP'20}
 }</pre></div>
     
-[Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"}   
-*Pratyush Maini, Mohammad Yaghini, Nicolas Papernot*   
-International Conference on Learning Representations (**ICLR**) 2021 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-spotlight-yellow)   
-Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
-Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
-<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"} | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning){:target="_blank"} | [Slides](files/DI/DI_Slides.pdf){:target="_blank"} | [Poster](files/DI/DI_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('di');">Citation</a>     
-<div id="di-tldr" class="hidden"><b>TLDR:</b><ol>
-		<li>Dataset Inference (DI) resolves model ownership without the need for retraining; and does not have a trade-off with task accuracy.</li>
-		<li>We prove that the success of Membership Inference decreases as overfitting reduces, whereas DI is independent of the same.</li>
-		<li>We introduce a new method for black-box ownership resolution that requires less than 50 private training points from the victim’s dataset.	</li>
-	</ol>
-<br><br> </div>
-
-<div id="di" class="hidden">
-<pre>@article{maini2021dataset,
-	title={Dataset Inference: Ownership Resolution in Machine Learning},
-	author={Pratyush Maini and Mohammad Yaghini and Nicolas Papernot},
-	booktitle={ICLR 2021},
-	year={2020},
-	url={https://openreview.net/forum?id=hvdKKV2yt7T},
-	note={Spotlight at ICLR 2021}
-}</pre></div>
     
 [Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"} ![](https://img.shields.io/badge/-in_submission-lightgrey)   
 *Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song*   
