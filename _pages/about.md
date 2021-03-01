@@ -61,7 +61,8 @@ pre {
        <col span="1" style="width: 12%;">
        <col span="1" style="width: 88%;">
 </colgroup>
-<tr><td> Jan 2021:</td> <td> Work on <i>Dataset Inference</i> <a href="https://openreview.net/forum?id=hvdKKV2yt7T">[Link]</a> was accepted as a **Spotlight** at ICLR2021.</td> </tr>
+<tr><td> Jan 2021:</td> <td> Work on <i>Data-Free Model Extraction</i> <a href="https://arxiv.org/abs/2011.14779">[Link]</a> was accepted at CVPR2021.</td> </tr>
+<tr><td> Jan 2021:</td> <td> Work on <i>Dataset Inference</i> <a href="https://openreview.net/forum?id=hvdKKV2yt7T">[Link]</a> was accepted as a <i>Spotlight</i> at ICLR2021.</td> </tr>
 
 <tr><td> Dec 2020:</td> <td> Preprint released for <i>Data-Free Model Extraction</i> <a href="https://arxiv.org/abs/2011.14779">[Link]</a>.</td> </tr>
   
@@ -122,6 +123,22 @@ Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](htt
 	note={Spotlight at ICLR 2021}
 }</pre></div>   
 
+    
+[Data-Free Model Extraction](https://arxiv.org/abs/2011.14779){:target="_blank"}   
+*Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot*   
+Conference on Computer Vision and Pattern Recognition (**CVPR**) 2021 ![](https://img.shields.io/badge/-conference-brightgreen)    
+<a href="javascript:dropdown('dfme-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2011.14779){:target="_blank"} | [Code](https://github.com/cake-lab/datafree-model-extraction){:target="_blank"} | [Poster](files/DI/DI_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('dfme');">Citation</a>     
+<div id="dfme-tldr" class="hidden"><b>TLDR:</b> We analyze the importance of similarity between surrogate & victim datasets for the success of model stealing attacks, and develop a method to steal ML models with zero knowledge of the victim’s training data.<br><br> </div>
+<div id="dfme" class="hidden">
+<pre>@article{truong2021data,
+	title={Data-Free Model Extraction},
+	author={Jean-Baptiste Truong* and Pratyush Maini* and Robert J. Walls and Nicolas Papernot},
+	booktitle={arXiv preprint arXiv:2011.14779},
+	year={2021},
+	url={https://arxiv.org/abs/2011.14779},
+	note={under review at CVPR 2021},
+}</pre></div>
+
 [Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068){:target="_blank"}   
 *Pratyush Maini, Eric Wong, Zico Kolter*   
 International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
@@ -172,21 +189,7 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 	year={2020},
 	url={https://openreview.net/pdf?id=Oe2XI-Aft-k},
 }</pre></div>
-    
-[Data-Free Model Extraction](https://arxiv.org/abs/2011.14779){:target="_blank"}   
-*Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot*   
-Under Review at **CVPR** 2021 ![](https://img.shields.io/badge/-submitted-lightgrey)   
-<a href="javascript:dropdown('dfme-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2011.14779){:target="_blank"} | [Code](https://github.com/cake-lab/datafree-model-extraction){:target="_blank"} | [Poster](files/DI/DI_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('dfme');">Citation</a>     
-<div id="dfme-tldr" class="hidden"><b>TLDR:</b> We analyze the importance of similarity between surrogate & victim datasets for the success of model stealing attacks, and develop a method to steal ML models with zero knowledge of the victim’s training data.<br><br> </div>
-<div id="dfme" class="hidden">
-<pre>@article{truong2021data,
-	title={Data-Free Model Extraction},
-	author={Jean-Baptiste Truong* and Pratyush Maini* and Robert J. Walls and Nicolas Papernot},
-	booktitle={arXiv preprint arXiv:2011.14779},
-	year={2021},
-	url={https://arxiv.org/abs/2011.14779},
-	note={under review at CVPR 2021},
-}</pre></div>
+
     
 -----
 \* = equal contribution
