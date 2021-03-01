@@ -61,7 +61,7 @@ pre {
        <col span="1" style="width: 12%;">
        <col span="1" style="width: 88%;">
 </colgroup>
-<tr><td> Jan 2021:</td> <td> Work on <i>Data-Free Model Extraction</i> <a href="https://arxiv.org/abs/2011.14779">[Link]</a> was accepted at CVPR2021.</td> </tr>
+<tr><td> Feb 2021:</td> <td> Work on <i>Data-Free Model Extraction</i> <a href="https://arxiv.org/abs/2011.14779">[Link]</a> was accepted at CVPR2021.</td> </tr>
 <tr><td> Jan 2021:</td> <td> Work on <i>Dataset Inference</i> <a href="https://openreview.net/forum?id=hvdKKV2yt7T">[Link]</a> was accepted as a <i>Spotlight</i> at ICLR2021.</td> </tr>
 
 <tr><td> Dec 2020:</td> <td> Preprint released for <i>Data-Free Model Extraction</i> <a href="https://arxiv.org/abs/2011.14779">[Link]</a>.</td> </tr>
