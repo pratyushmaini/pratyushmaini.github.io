@@ -176,7 +176,7 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 }</pre></div>
     
     
-[Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"} ![](https://img.shields.io/badge/-in_submission-lightgrey)   
+[Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"}   
 *Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song*   
 **ICML** Workshop on Uncertainty and Robustness in Deep Learning 2020 ![](https://img.shields.io/badge/-workshop-blue)      
 <a href="javascript:dropdown('protector-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"} | <a href="javascript:dropdown('protector');">Citation</a>     
