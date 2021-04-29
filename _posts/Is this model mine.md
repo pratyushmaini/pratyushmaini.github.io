@@ -2,6 +2,7 @@
 layout: post
 title:  "Is this model mine?"
 date:   2021-04-22 09:00:00 +0530
+permalink: /dataset-inference/
 tags: research security privacy machine learning membership inference memorization 
 ---
 
