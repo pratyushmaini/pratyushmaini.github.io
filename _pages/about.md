@@ -19,8 +19,6 @@ redirect_from:
   
 <p style="text-align: center;"><i> ~~ I like to Observe. Look for Patterns. Ponder over these Generalizations. Try to Refute them. <br> &nbsp;&nbsp; Or otherwise prove their Validity. And re-image their Applications in alternate spheres ~~  </i></p>
 
-<iframe src="https://drive.google.com/file/d/1t2KdtiKj8O1MkGqdnXRU8TQhOhlSzSKW/preview" width="320" height="180" allowfullscreen = "" frameborder="0"></iframe>
-
 Pratyush Maini
 ======
 I work in the AI Solutions Lab at Samsung Research and Development Headquarters in South Korea. My broad area of interest lies in analyzing and developing robust, secure and explainable methods for machine learning and natural language processing. Previously, I completed my bachelors in Computer Science and Engineering from IIT Delhi.  
@@ -115,6 +113,7 @@ Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](htt
 	</ol>
 <br><br> </div>
 
+
 <div id="di" class="hidden">
 <pre>@article{maini2021dataset,
 	title={Dataset Inference: Ownership Resolution in Machine Learning},
@@ -125,6 +124,7 @@ Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](htt
 	note={Spotlight at ICLR 2021}
 }</pre></div>   
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m4cdBNSPH-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
 [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779){:target="_blank"}   
 *Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot*   
