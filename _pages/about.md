@@ -19,6 +19,8 @@ redirect_from:
   
 <p style="text-align: center;"><i> ~~ I like to Observe. Look for Patterns. Ponder over these Generalizations. Try to Refute them. <br> &nbsp;&nbsp; Or otherwise prove their Validity. And re-image their Applications in alternate spheres ~~  </i></p>
 
+<iframe src="https://drive.google.com/file/d/1t2KdtiKj8O1MkGqdnXRU8TQhOhlSzSKW/preview" width="640" height="480" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Pratyush Maini
 ======
 I work in the AI Solutions Lab at Samsung Research and Development Headquarters in South Korea. My broad area of interest lies in analyzing and developing robust, secure and explainable methods for machine learning and natural language processing. Previously, I completed my bachelors in Computer Science and Engineering from IIT Delhi.  
