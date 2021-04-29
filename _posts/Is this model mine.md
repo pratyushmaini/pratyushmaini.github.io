@@ -1,10 +1,11 @@
-<html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">---
+---
 layout: post
 title:  "Is this model mine?"
 date:   2021-04-22 09:00:00 +0530
 permalink: /dataset-inference/
 tags: research security privacy machine learning membership inference memorization 
 ---
+<html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">
 
 *by Pratyush Maini, Mohammad Yaghini and Nicolas Papernot*
 
