@@ -19,7 +19,7 @@ redirect_from:
   
 <p style="text-align: center;"><i> ~~ I like to Observe. Look for Patterns. Ponder over these Generalizations. Try to Refute them. <br> &nbsp;&nbsp; Or otherwise prove their Validity. And re-image their Applications in alternate spheres ~~  </i></p>
 
-<iframe src="https://drive.google.com/file/d/1t2KdtiKj8O1MkGqdnXRU8TQhOhlSzSKW/preview" width="640" height="360" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1t2KdtiKj8O1MkGqdnXRU8TQhOhlSzSKW/preview" width="640" height="360" allowfullscreen = "" frameborder="0"></iframe>
 
 Pratyush Maini
 ======
