@@ -124,7 +124,8 @@ Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](htt
 	note={Spotlight at ICLR 2021}
 }</pre></div>   
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/m4cdBNSPH-s" frameborder="0" allowfullscreen = ""></iframe>
+<div width="320" align = "center">
+<iframe width="320" height="180" src="https://www.youtube.com/embed/m4cdBNSPH-s" frameborder="0" allowfullscreen = ""></iframe></div>
     
 [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779){:target="_blank"}   
 *Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot*   
