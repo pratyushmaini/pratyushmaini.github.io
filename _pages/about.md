@@ -21,7 +21,9 @@ redirect_from:
 
 Pratyush Maini
 ======
-I work in the AI Solutions Lab at Samsung Research and Development Headquarters in South Korea. My broad area of interest lies in analyzing and developing robust, secure and explainable methods for machine learning and natural language processing. Previously, I completed my bachelors in Computer Science and Engineering from IIT Delhi.  
+I am a first year PhD student in the Machine Learning Department at CMU where I am advised by [Prof. Zico Kolter](http://zicokolter.com/) and [Prof. Zachary Lipton](https://acmilab.org). I am interested in making Machine Learning systems trustworthy to the extent that they can be safely and reliably deployed outside the comfort of our research labs.
+
+Previously, I spent a wondeful year working in the AI Solutions Lab at Samsung Research and Development Headquarters in South Korea. Before which I completed my bachelors in Computer Science and Engineering from IIT Delhi.  
 
 During my undergraduate years, I was fortunate to have had the opportunity to adapt and learn from the research styles of my amazing collaborators. I was advised by [Prof. Mausam](http://www.cse.iitd.ernet.in/~mausam/){:target="_blank"} for my B.Tech. thesis, and worked with [Prof. Zico Kolter](https://www.zicokolter.com){:target="_blank"}, [Eric Wong](https://www.cs.cmu.edu/~ericwong/){:target="_blank"}, [Danish](https://www.cs.cmu.edu/~ddanish/){:target="_blank"} at CMU, [Prof. Bo Li](https://aisecure.github.io){:target="_blank"}, [Prof. Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/){:target="_blank"}, [Xinyun Chen](https://jungyhuk.github.io/){:target="_blank"} at UIUC/UC Berkeley, [Prof. Nicolas Papernot](https://www.papernot.fr){:target="_blank"} at UofT/Vector and [Prof. James Larus](https://people.epfl.ch/james.larus){:target="_blank"} at EPFL during research internships.
 
