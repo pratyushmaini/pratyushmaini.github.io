@@ -1,7 +1,7 @@
 ---
 permalink: /extra/
 title: "Outside the Lab :)"
-excerpt: "Extracurriculars"
+excerpt: "Not Research"
 author_profile: true
 
 ---
