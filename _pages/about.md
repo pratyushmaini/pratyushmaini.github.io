@@ -27,6 +27,9 @@ Previously, I spent a wondeful year working in the AI Solutions Lab at Samsung R
 
 During my undergraduate years, I was fortunate to have had the opportunity to adapt and learn from the research styles of my amazing collaborators. I was advised by [Prof. Mausam](http://www.cse.iitd.ernet.in/~mausam/){:target="_blank"} for my B.Tech. thesis, and worked with [Prof. Zico Kolter](https://www.zicokolter.com){:target="_blank"}, [Eric Wong](https://www.cs.cmu.edu/~ericwong/){:target="_blank"}, [Danish](https://www.cs.cmu.edu/~ddanish/){:target="_blank"} at CMU, [Prof. Bo Li](https://aisecure.github.io){:target="_blank"}, [Prof. Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/){:target="_blank"}, [Xinyun Chen](https://jungyhuk.github.io/){:target="_blank"} at UIUC/UC Berkeley, [Prof. Nicolas Papernot](https://www.papernot.fr){:target="_blank"} at UofT/Vector and [Prof. James Larus](https://people.epfl.ch/james.larus){:target="_blank"} at EPFL during research internships.
 
+**Collaborate?** I am always excited to exchange research perspectives and hop on to new research endeavours. If you are interested, reach out via email! 
+
+
 Recent News  <sub><sup><sub><sup>(Scroll for more)</sup></sub></sup></sub>
 -----
 <style>
