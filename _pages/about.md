@@ -204,8 +204,10 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 Academic Service
 ---
 Reviewer for:   
-**NAACL** 2021; **EMNLP** 2021; **NeurIPS** 2021, 2020<sup>#</sup>; **IEEE S\&P** 2021<sup>#</sup>, **ICLR** 2022, 2021<sup>#</sup>, **CVPR** 2022, **AISTATS** 2022
+*ML:* **NeurIPS** 2021, 2020*; **ICLR** 2022, 2021*; **ICML** 2022    
+*NLP:* **NAACL** 2021; **EMNLP** 2021   
+*Others:* **IEEE S&P** 2021*, **CVPR** 2022, **AISTATS** 2022   
 
 -----
-<sup>#</sup> = external reviewer
+\* = external reviewer
 
