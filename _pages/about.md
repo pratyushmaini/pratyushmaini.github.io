@@ -105,7 +105,7 @@ pre {
 Publications
 -----
 
-[Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"}   
+[5] [Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"}   
 *Pratyush Maini, Mohammad Yaghini, Nicolas Papernot*   
 International Conference on Learning Representations (**ICLR**) 2021 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-spotlight-yellow)   
 Privacy Preserving Machine Learning (**PPML**) Workshop at **NeurIPS** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
@@ -130,7 +130,7 @@ Workshop on Dataset Curation and Security (**WDCS**) at **NeurIPS** 2020 ![](htt
 }</pre></div>   
 
     
-[Data-Free Model Extraction](https://arxiv.org/abs/2011.14779){:target="_blank"}   
+[4] [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779){:target="_blank"}   
 *Jean-Baptiste Truong\*, Pratyush Maini\*, Robert Walls, Nicolas Papernot*   
 Conference on Computer Vision and Pattern Recognition (**CVPR**) 2021 ![](https://img.shields.io/badge/-conference-brightgreen)    
 <a href="javascript:dropdown('dfme-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2011.14779){:target="_blank"} | [Code](https://github.com/cake-lab/datafree-model-extraction){:target="_blank"} | [Poster](files/DI/DI_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('dfme');">Citation</a>     
@@ -145,7 +145,7 @@ Conference on Computer Vision and Pattern Recognition (**CVPR**) 2021 ![](https:
 	note={under review at CVPR 2021},
 }</pre></div>
 
-[Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"}   
+[3] [Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"}   
 *Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song*   
 Conference on Uncertainty in Artificial Intelligence (**UAI**) 2022 ![](https://img.shields.io/badge/-conference-brightgreen)   
 **ICML** Workshop on Uncertainty and Robustness in Deep Learning ![](https://img.shields.io/badge/-workshop-blue)      
@@ -161,7 +161,7 @@ Conference on Uncertainty in Artificial Intelligence (**UAI**) 2022 ![](https://
   url={https://openreview.net/pdf?id=Oe2XI-Aft-k},
 }</pre></div>
 
-[Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068){:target="_blank"}   
+[2] [Adversarial Robustness Against the Union of Multiple Perturbation Models](https://arxiv.org/abs/1909.04068){:target="_blank"}   
 *Pratyush Maini, Eric Wong, Zico Kolter*   
 International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
 <a href="javascript:dropdown('multiple-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/1909.04068){:target="_blank"} | [Video](http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest){:target="_blank"} | [Slides](/files/MSD/robust_union.pdf){:target="_blank"} | [Code](https://github.com/locuslab/robust_union){:target="_blank"} | <a href="javascript:dropdown('multiple');">Citation</a>  
@@ -175,7 +175,7 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
 	url = "https://arxiv.org/abs/1909.04068"
 }</pre></div>
     
-[Why and when should you pool? Analyzing Pooling in Recurrent Architectures](https://arxiv.org/abs/2005.00159){:target="_blank"}   
+[1] [Why and when should you pool? Analyzing Pooling in Recurrent Architectures](https://arxiv.org/abs/2005.00159){:target="_blank"}   
 *Pratyush Maini, Keshav Kolluru, Danish Pruthi, Mausam*   
 **EMNLP** (Findings) 2020 ![](https://img.shields.io/badge/-conference-brightgreen)   
 **BlackBoxNLP** 2020 ![](https://img.shields.io/badge/-workshop-blue)   
