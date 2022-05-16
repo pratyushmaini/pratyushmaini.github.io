@@ -184,17 +184,21 @@ International Conference on Machine Learning (**ICML**) 2020 ![](https://img.shi
     
 [Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"}   
 *Pratyush Maini, Xinyun Chen, Bo Li, Dawn Song*   
-**ICML** Workshop on Uncertainty and Robustness in Deep Learning 2020 ![](https://img.shields.io/badge/-workshop-blue)      
+Conference on Uncertainty in Artificial Intelligence (**UAI**) 2022 ![](https://img.shields.io/badge/-conference-brightgreen)   
+**ICML** Workshop on Uncertainty and Robustness in Deep Learning ![](https://img.shields.io/badge/-workshop-blue)      
 <a href="javascript:dropdown('protector-tldr');">TLDR</a> | [Paper](https://openreview.net/pdf?id=Oe2XI-Aft-k){:target="_blank"} | <a href="javascript:dropdown('protector');">Citation</a>     
 <div id="protector-tldr" class="hidden"><b>TLDR:</b> We demonstrate that adversarial perturbations belonging to different threat models can be separated, and use this intuition to propose a two stage pipeline <i>PROTECTOR</i> that is robust against multiple perturbation types.<br><br> </div>
 <div id="protector" class="hidden">
-<pre>@article{maini2021perturbation,
-	title={Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness},
-	author={Pratyush Maini and Xinyun Chen and Bo Li and Dawn Song},
-	booktitle={ICML Workshop on Uncertainty and Robustness in Deep Learning},
-	year={2020},
-	url={https://openreview.net/pdf?id=Oe2XI-Aft-k},
-}</pre></div>
+<pre>@InProceedings{maini2022perturbation,
+  title = 	 {Perturbation Type Categorization for Multiple $\ell_p$ Bounded Adversarial Robustness},
+  author =       {Pratyush Maini and Xinyun Chen and Bo Li and Dawn Song},
+  booktitle = 	 {Proceedings of The 38th Uncertainty in Artificial Intelligence Conference},
+  year = 	 {2022},
+  series = 	 {Proceedings of Machine Learning Research},
+  url={https://openreview.net/pdf?id=Oe2XI-Aft-k},
+}
+
+</pre></div>
 
     
 -----
