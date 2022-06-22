@@ -102,7 +102,7 @@ pre {
 
 
 
-<!-- Publications
+Publications
 -----
 
 5 [Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"}   
@@ -211,4 +211,3 @@ Reviewer for:
 
 -----
 \* = external reviewer
- -->
