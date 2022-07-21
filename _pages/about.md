@@ -66,6 +66,9 @@ pre {
        <col span="1" style="width: 12%;">
        <col span="1" style="width: 88%;">
 </colgroup>
+<tr><td> May 2022:</td> <td> Work on <i>Characterizing Datapoints via Second-split Forgetting</i> was accepted as a Spotlight at SCIS ICML 2022.</td> </tr>
+<tr><td> May 2022:</td> <td> Work on <i>Categorizing Perturbation Types</i> was accepted to UAI 2022.</td> </tr>
+<tr><td> Sep 2021:</td> <td> Started a PhD in Machine Learning at Carnegie Mellon University.</td> </tr>
 <tr><td> Feb 2021:</td> <td> Work on <i>Data-Free Model Extraction</i> <a href="https://arxiv.org/abs/2011.14779">[Link]</a> was accepted at CVPR2021.</td> </tr>
 <tr><td> Jan 2021:</td> <td> Work on <i>Dataset Inference</i> <a href="https://openreview.net/forum?id=hvdKKV2yt7T">[Link]</a> was accepted as a <i>Spotlight</i> at ICLR2021.</td> </tr>
 
@@ -104,7 +107,28 @@ pre {
 
 Publications
 -----
+(6) [Characterizing Datapoints via Second-Split Forgetting](){:target="_blank"}   
+*Pratyush Maini, Saurabh Garg, Zachary C. Lipton, Zico Kolter*   
+SCIS @ International Conference on Machine Learning (**ICML**) 2022 ![](https://img.shields.io/badge/-workshop-blue)  ![](https://img.shields.io/badge/-spotlight-yellow)   
+<!-- 
+<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/forum?id=hvdKKV2yt7T){:target="_blank"} | [Video](https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning){:target="_blank"} | [Slides](files/DI/DI_Slides.pdf){:target="_blank"} | [Poster](files/DI/DI_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('di');">Citation</a>     
+<div id="di-tldr" class="hidden"><b>TLDR:</b><ol>
+		<li>Dataset Inference (DI) resolves model ownership without the need for retraining; and does not have a trade-off with task accuracy.</li>
+		<li>We prove that the success of Membership Inference decreases as overfitting reduces, whereas DI is independent of the same.</li>
+		<li>We introduce a new method for black-box ownership resolution that requires less than 50 private training points from the victim’s dataset.	</li>
+	</ol>
+<br><br> </div>
 
+
+<div id="di" class="hidden">
+<pre>@article{maini2022characterizing,
+	title={Characterizing Datapoints via Second-Split Forgetting},
+	author={Pratyush Maini and Saurabh Garg and Zachary C. Lipton and Zico Kolter},
+	booktitle={SCIS @ ICML 2022},
+	year={2022},
+	url={},
+}</pre></div>   
+--> 
 (5) [Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"}   
 *Pratyush Maini, Mohammad Yaghini, Nicolas Papernot*   
 International Conference on Learning Representations (**ICLR**) 2021 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-spotlight-yellow)   
