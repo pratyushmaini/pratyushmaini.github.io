@@ -109,7 +109,7 @@ Publications
 -----
 (6) [Characterizing Datapoints via Second-Split Forgetting](https://openreview.net/forum?id=bCdztvpaEUG){:target="_blank"}   
 *Pratyush Maini, Saurabh Garg, Zachary C. Lipton, Zico Kolter*   
-Conference on Neural Information Processing Systems(**NeurIPS**) 2022 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award nomination-red)   
+Conference on Neural Information Processing Systems(**NeurIPS**) 2022 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award_nomination-red)   
 SCIS @ International Conference on Machine Learning (**ICML**) 2022 ![](https://img.shields.io/badge/-workshop-blue)  ![](https://img.shields.io/badge/-oral-red)   
 <a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/forum?id=yKDKNzjHg8N){:target="_blank"} | [Video](){:target="_blank"} | [Slides](files/SSFT/SSFT_Slides.pdf){:target="_blank"} | [Poster](files/SSFT/SSFT_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('di');">Citation</a>     
 <div id="di-tldr" class="hidden"><b>TLDR:</b><ol>
