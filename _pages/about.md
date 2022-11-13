@@ -111,8 +111,8 @@ Publications
 *Pratyush Maini, Saurabh Garg, Zachary C. Lipton, Zico Kolter*   
 Conference on Neural Information Processing Systems(**NeurIPS**) 2022 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award_nomination-red)   
 SCIS @ International Conference on Machine Learning (**ICML**) 2022 ![](https://img.shields.io/badge/-workshop-blue)  ![](https://img.shields.io/badge/-oral-red)   
-<a href="javascript:dropdown('di-tldr');">TLDR</a> | [Paper](https://openreview.net/forum?id=yKDKNzjHg8N){:target="_blank"} | [Video](){:target="_blank"} | [Slides](files/SSFT/SSFT_Slides.pdf){:target="_blank"} | [Poster](files/SSFT/SSFT_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('di');">Citation</a>     
-<div id="di-tldr" class="hidden"><b>TLDR:</b><ol>
+<a href="javascript:dropdown('ssft-tldr');">TLDR</a> | [Paper](https://openreview.net/forum?id=yKDKNzjHg8N){:target="_blank"} | [Video](){:target="_blank"} | [Slides](files/SSFT/SSFT_Slides.pdf){:target="_blank"} | [Poster](files/SSFT/SSFT_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('ssft');">Citation</a>     
+<div id="ssft-tldr" class="hidden"><b>TLDR:</b><ol>
 		<li>We analyze the forgetting and learning dynamics of neural networks to characterize different types of hard examples as belonging to mislabeled, rare and complex categories.</li>
 		<li>Mislabeled Examples : Learnt Late, Forgotten Early</li>
 		<li>Rare Examples: Learnt Late, Forgotten Late	</li>
@@ -121,15 +121,15 @@ SCIS @ International Conference on Machine Learning (**ICML**) 2022 ![](https://
 <br><br> </div>
 
 
-<div id="di" class="hidden">
+<div id="ssft" class="hidden">
 <pre>@inproceedings{
-maini2022characterizing,
-title={Characterizing Datapoints via Second-Split Forgetting},
-author={Pratyush Maini and Saurabh Garg and Zachary Chase Lipton and J Zico Kolter},
-booktitle={Advances in Neural Information Processing Systems},
-editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
-year={2022},
-url={https://openreview.net/forum?id=yKDKNzjHg8N}
+	maini2022characterizing,
+	title={Characterizing Datapoints via Second-Split Forgetting},
+	author={Pratyush Maini and Saurabh Garg and Zachary Chase Lipton and J Zico Kolter},
+	booktitle={Advances in Neural Information Processing Systems},
+	editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+	year={2022},
+	url={https://openreview.net/forum?id=yKDKNzjHg8N}
 }</pre></div>   
 
 (5) [Dataset Inference: Ownership Resolution in Machine Learning](https://openreview.net/pdf?id=hvdKKV2yt7T){:target="_blank"}   
