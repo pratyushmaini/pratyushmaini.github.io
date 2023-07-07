@@ -66,38 +66,13 @@ pre {
        <col span="1" style="width: 12%;">
        <col span="1" style="width: 88%;">
 </colgroup>
+<tr><td> July 2023:</td> <td> New Paper: <i>T-MARS: Improving Visual Representations by Circumventing Text Feature Learning</i> is out on ArXiv. </td> </tr>
+<tr><td> April 2023:</td> <td> <i>Can Neural Network Memorization be Localized?</i> was accepted at ICML2023! See you in Hawaii :) </td> </tr>
+<tr><td> March 2023:</td> <td> New Paper: <i>Model Tuning via Prompts makes NLP Models Adversarially Robust</i> is out on Arxiv.</td> </tr>
+<tr><td> September 2022:</td> <td> Work on <i>Characterizing Datapoints via Second-split Forgetting</i> was accepted to NeurIPS with an Award nomination!!</td> </tr>
+
 <tr><td> May 2022:</td> <td> Work on <i>Characterizing Datapoints via Second-split Forgetting</i> was accepted as a Spotlight at SCIS ICML 2022.</td> </tr>
-<tr><td> May 2022:</td> <td> Work on <i>Categorizing Perturbation Types</i> was accepted to UAI 2022.</td> </tr>
-<tr><td> Sep 2021:</td> <td> Started a PhD in Machine Learning at Carnegie Mellon University.</td> </tr>
-<tr><td> Feb 2021:</td> <td> Work on <i>Data-Free Model Extraction</i> <a href="https://arxiv.org/abs/2011.14779">[Link]</a> was accepted at CVPR2021.</td> </tr>
-<tr><td> Jan 2021:</td> <td> Work on <i>Dataset Inference</i> <a href="https://openreview.net/forum?id=hvdKKV2yt7T">[Link]</a> was accepted as a <i>Spotlight</i> at ICLR2021.</td> </tr>
 
-<tr><td> Dec 2020:</td> <td> Preprint released for <i>Data-Free Model Extraction</i> <a href="https://arxiv.org/abs/2011.14779">[Link]</a>.</td> </tr>
-  
-<tr><td> Nov 2020:</td> <td> Work on <i>Dataset Inference: Ownership Resolution in Machine Learning</i> will be presented at PPML Workshop and WDCS at NeurIPS 2020. <a href="https://openreview.net/forum?id=hvdKKV2yt7T">[Link]</a> <a href="https://slideslive.com/38940925/dataset-inference-ownership-resolution-in-machine-learning">[Talk]</a>.</td> </tr>
-  
-<tr><td> Oct 2020:</td> <td> Started New Role at AI Soultions Lab in the Computer Vision Team at Samsung Research and Development Headquarters, South Korea.</td> </tr>
-  
-<tr><td> Sept 2020:</td> <td> Our paper <i>Why and when should you pool? Analyzing Pooling in Recurrent Architectures</i> was accepted at Findings of EMNLP 2020. Will also be presented at BlackBox NLP 2020.<a href="https://arxiv.org/abs/2005.0159">[Link] </a><a href="https://pratyushmaini.github.io/Pooling-Analysis/">[Blog]</a> </a><a href="https://pratyushmaini.github.io/Pooling-Analysis/">[Poster]</a>.</td> </tr>
-
-
-<tr><td> July 2020:</td> <td> Completed my Bachelors of Technology in Computer Science and Engineering at IIT Delhi. Drop in at my thesis: <a href="https://pratyushmaini.github.io/files/BTech_Thesis_Pratyush_Maini.pdf">Analyzing the Learnability and Representability of Recurrent Architectures</a>.</td> </tr>
-  
-<tr><td> June 2020:</td> <td> New work on <i>Classifying Adversarial Perturbations</i> to be presented at <a href="https://sites.google.com/view/udlworkshop2020/">ICML 2020 Workshop</a> on Uncertainty & Robustness in Deep Learning.</td> </tr>
-  
-<tr><td> May 2020:</td> <td> Our paper <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> was accepted at <a href="https://icml.cc/Conferences/2020/AcceptedPapersInitial">ICML 2020</a>.<a href="https://arxiv.org/abs/1909.04068">[Paper]</a> <a href="http://test.slideslive.com/38928141/adversarial-robustness-against-the-union-of-multiple-petrubation-models?ref=speaker-31494-latest">[Talk]</a>. </td> </tr>
-
-<tr><td> May 2020: </td> <td> <a href="https://arxiv.org/abs/2005.00159">Preprint</a> released for <i>Why and when should you pool? Analyzing Pooling in Recurrent Architectures</i>. <br> See blog post <a href="https://pratyushmaini.github.io/Pooling-Analysis/">here</a>. </td> </tr>
-
-<tr><td> April 2020: </td> <td> Our entry, <a href ="https://pratyushmaini.github.io/files/TheDelusional.pdf">The Delusional</a> (with artistic pieces, prose and poems in both English & Hindi) won the best Magazine in Gazettale 2020. </td></tr> 
-
-<tr><td> Jan 2020: </td> <td> Started TAing the course "Data Structures & Algorithms" <a href= "https://pratyushmaini.github.io/teaching/2020-ds-ta">[Link]</a> . </td></tr> 
-
-<tr><td> Dec 2019:</td> <td> Started (slowly) setting up my personal website. </td> </tr>
-
-<tr><td> Sep 2019:</td> <td> <a href = "https://arxiv.org/abs/1909.04068">Preprint</a> released for <i>Adversarial Robustness Against the Union of Multiple Perturbation Models</i> </td> </tr>
-
-<tr><td> Aug 2019: </td> <td> Started TAing the course "Introduction to Artificial Intelligence" <a href= "https://pratyushmaini.github.io/teaching/2019-ai">[Link]</a> (Graduate and Undergraduate bridge course). </td></tr> 
 
 </font>
 </table>
@@ -107,6 +82,42 @@ pre {
 
 Publications
 -----
+(9) [Can Neural Network Memorization be Localized?](https://openreview.net/forum?id=Pbaiy3fRCt){:target="_blank"}   
+*Pratyush Maini, Michael Curtis Mozer, Hanie Sedghi, Zachary Chase Lipton, J Zico Kolter, Chiyuan Zhang*   
+International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shields.io/badge/-conference-brightgreen)   
+<a href="javascript:dropdown('ssft-tldr');">TLDR</a> | [Paper](https://openreview.net/forum?id=yKDKNzjHg8N){:target="_blank"} | [Video](){:target="_blank"} | [Slides](files/SSFT/SSFT_Slides.pdf){:target="_blank"} | [Poster](files/SSFT/SSFT_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('ssft');">Citation</a>     
+<div id="ssft-tldr" class="hidden"><b>TLDR:</b><ol>
+		<li>We analyze the forgetting and learning dynamics of neural networks to characterize different types of hard examples as belonging to mislabeled, rare and complex categories.</li>
+		<li>Mislabeled Examples : Learnt Late, Forgotten Early</li>
+		<li>Rare Examples: Learnt Late, Forgotten Late	</li>
+		<li>Complex Examples: Learnt Late, Never Forgotten	</li>
+	</ol>
+<br><br> </div>
+
+(8) [T-MARS: Improving Visual Representations by Circumventing Text Feature Learning](https://arxiv.org/abs/2307.03132){:target="_blank"}   
+*Pratyush Maini\*, Sachin Goyal\*, Zachary C. Lipton, Zico Kolter, Aditi Raghunathan*   
+DMLR @ International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shields.io/badge/-workshop-blue)  
+<a href="javascript:dropdown('ssft-tldr');">TLDR</a> | [Paper](https://openreview.net/forum?id=yKDKNzjHg8N){:target="_blank"} | [Video](){:target="_blank"} | [Slides](files/SSFT/SSFT_Slides.pdf){:target="_blank"} | [Poster](files/SSFT/SSFT_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('ssft');">Citation</a>     
+<div id="ssft-tldr" class="hidden"><b>TLDR:</b><ol>
+		<li>We analyze the forgetting and learning dynamics of neural networks to characterize different types of hard examples as belonging to mislabeled, rare and complex categories.</li>
+		<li>Mislabeled Examples : Learnt Late, Forgotten Early</li>
+		<li>Rare Examples: Learnt Late, Forgotten Late	</li>
+		<li>Complex Examples: Learnt Late, Never Forgotten	</li>
+	</ol>
+<br><br> </div>
+
+(7) [Model-tuning Via Prompts Makes NLP Models Adversarially Robust](https://arxiv.org/abs/2303.07320){:target="_blank"}   
+*Mrigank Raman\*, Pratyush Maini\*, Zico Kolter, Zachary C. Lipton, Danish Pruthi*   
+AdvML-Frontiers @ International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shields.io/badge/-workshop-blue)  
+<a href="javascript:dropdown('ssft-tldr');">TLDR</a> | [Paper](https://openreview.net/forum?id=yKDKNzjHg8N){:target="_blank"} | [Video](){:target="_blank"} | [Slides](files/SSFT/SSFT_Slides.pdf){:target="_blank"} | [Poster](files/SSFT/SSFT_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('ssft');">Citation</a>     
+<div id="ssft-tldr" class="hidden"><b>TLDR:</b><ol>
+		<li>We analyze the forgetting and learning dynamics of neural networks to characterize different types of hard examples as belonging to mislabeled, rare and complex categories.</li>
+		<li>Mislabeled Examples : Learnt Late, Forgotten Early</li>
+		<li>Rare Examples: Learnt Late, Forgotten Late	</li>
+		<li>Complex Examples: Learnt Late, Never Forgotten	</li>
+	</ol>
+<br><br> </div>
+
 (6) [Characterizing Datapoints via Second-Split Forgetting](https://openreview.net/forum?id=bCdztvpaEUG){:target="_blank"}   
 *Pratyush Maini, Saurabh Garg, Zachary C. Lipton, Zico Kolter*   
 Conference on Neural Information Processing Systems(**NeurIPS**) 2022 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award_nomination-red)   
