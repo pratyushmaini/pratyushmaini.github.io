@@ -82,29 +82,40 @@ pre {
 
 Publications
 -----
-(9) [Can Neural Network Memorization be Localized?](https://openreview.net/forum?id=Pbaiy3fRCt){:target="_blank"}   
+(9) [Can Neural Network Memorization be Localized?](https://pratyushmaini.github.io/mem_web/){:target="_blank"}   
 *Pratyush Maini, Michael Curtis Mozer, Hanie Sedghi, Zachary Chase Lipton, J Zico Kolter, Chiyuan Zhang*   
 International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shields.io/badge/-conference-brightgreen)   
-<a href="javascript:dropdown('ssft-tldr');">TLDR</a> | [Paper](https://openreview.net/forum?id=yKDKNzjHg8N){:target="_blank"} | [Video](){:target="_blank"} | [Slides](files/SSFT/SSFT_Slides.pdf){:target="_blank"} | [Poster](files/SSFT/SSFT_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('ssft');">Citation</a>     
-<div id="ssft-tldr" class="hidden"><b>TLDR:</b><ol>
-		<li>We analyze the forgetting and learning dynamics of neural networks to characterize different types of hard examples as belonging to mislabeled, rare and complex categories.</li>
-		<li>Mislabeled Examples : Learnt Late, Forgotten Early</li>
-		<li>Rare Examples: Learnt Late, Forgotten Late	</li>
-		<li>Complex Examples: Learnt Late, Never Forgotten	</li>
+<a href="javascript:dropdown('ssft-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2307.09542){:target="_blank"} | [Website](https://pratyushmaini.github.io/mem_web/){:target="_blank"} | [Slides](files/mem_drop/mem_drop_Slides.pdf){:target="_blank"} | [Poster](files/mem_drop/mem_drop_poster.pdf){:target="_blank"} | <a href="javascript:dropdown('mem_drop');">Citation</a>     
+<div id="mem-drop-tldr" class="hidden"><b>TLDR:</b><ol>
+		<li>We show that memorization is typically not localized to specific model layers, rather is confined to a small fraction of neurons dispersed across the model.</li>
+		<li>We propose Example-Tied Dropout that can confine memorization to a pre-defined set of neurons, which can then be thrown away at test time.
+</li>
 	</ol>
 <br><br> </div>
+
+<div id="mem-drop" class="hidden">
+<pre>@inproceedings{maini2023memorization,
+  title={Can Neural Network Memorization Be Localized?},
+  author={Maini, Pratyush and Mozer, Michael C and Sedghi, Hanie and Lipton, Zachary C and Kolter, J Zico and Zhang, Chiyuan},
+  booktitle={International Conference on Machine Learning},
+  year={2023}
+}</pre></div>   
 
 (8) [T-MARS: Improving Visual Representations by Circumventing Text Feature Learning](https://arxiv.org/abs/2307.03132){:target="_blank"}   
 *Pratyush Maini\*, Sachin Goyal\*, Zachary C. Lipton, Zico Kolter, Aditi Raghunathan*   
 DMLR @ International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shields.io/badge/-workshop-blue)  
-<a href="javascript:dropdown('ssft-tldr');">TLDR</a> | [Paper](https://openreview.net/forum?id=yKDKNzjHg8N){:target="_blank"} | [Video](){:target="_blank"} | [Slides](files/SSFT/SSFT_Slides.pdf){:target="_blank"} | [Poster](files/SSFT/SSFT_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('ssft');">Citation</a>     
-<div id="ssft-tldr" class="hidden"><b>TLDR:</b><ol>
-		<li>We analyze the forgetting and learning dynamics of neural networks to characterize different types of hard examples as belonging to mislabeled, rare and complex categories.</li>
-		<li>Mislabeled Examples : Learnt Late, Forgotten Early</li>
-		<li>Rare Examples: Learnt Late, Forgotten Late	</li>
-		<li>Complex Examples: Learnt Late, Never Forgotten	</li>
-	</ol>
+<a href="javascript:dropdown('ssft-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2307.03132){:target="_blank"} | [Website](https://tmars-clip.github.io/){:target="_blank"} | [Poster](files/t-mars/t-mars_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('t-mars');">Citation</a>     
+<div id="tmars-tldr" class="hidden"><b>TLDR:</b>
+		We propose an algorithm to filter web datasets used for training CLIP in order to learn better visual representations, and achieve state-of-art zeroshot accuracy on vision tasks.
 <br><br> </div>
+
+<div id="tmars" class="hidden">
+<pre>@article{maini2023tmars,
+  title={T-MARS: Improving Visual Representations by Circumventing Text Feature Learning},
+  author={Maini, Pratyush and Goyal, Sachin and Lipton, Zachary C and Kolter, J Zico and Raghunathan, Aditi},
+  booktitle={Arxiv},
+  year={2023}
+}</pre></div>   
 
 (7) [Model-tuning Via Prompts Makes NLP Models Adversarially Robust](https://arxiv.org/abs/2303.07320){:target="_blank"}   
 *Mrigank Raman\*, Pratyush Maini\*, Zico Kolter, Zachary C. Lipton, Danish Pruthi*   
