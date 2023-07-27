@@ -23,11 +23,11 @@ Pratyush Maini
 ======
 I am a PhD student in the Machine Learning Department at Carnegie Mellon Univeristy. I am advised by [Prof. Zico Kolter](http://zicokolter.com/) and [Prof. Zachary Lipton](https://acmilab.org). My research goal is to make Machine Learning systems trustworthy to the extent that they can be safely and reliably deployed outside the comfort of our research labs.
 
-Previously, I spent a wondeful year working in the AI Solutions Lab at Samsung Research and Development Headquarters in South Korea. Before which I completed my bachelors in Computer Science and Engineering from IIT Delhi.  
+Previously, I spent a wonderful year working in the AI Solutions Lab at Samsung Research and Development Headquarters in South Korea. Before which I completed my bachelor's in Computer Science and Engineering from IIT Delhi.  
 
 During my undergraduate years, I was fortunate to have had the opportunity to adapt and learn from the research styles of my amazing collaborators. I was advised by [Prof. Mausam](http://www.cse.iitd.ernet.in/~mausam/){:target="_blank"} for my B.Tech. thesis, and worked with [Prof. Zico Kolter](https://www.zicokolter.com){:target="_blank"}, [Eric Wong](https://www.cs.cmu.edu/~ericwong/){:target="_blank"}, [Danish](https://www.cs.cmu.edu/~ddanish/){:target="_blank"} at CMU, [Prof. Bo Li](https://aisecure.github.io){:target="_blank"}, [Prof. Dawn Song](https://people.eecs.berkeley.edu/~dawnsong/){:target="_blank"}, [Xinyun Chen](https://jungyhuk.github.io/){:target="_blank"} at UIUC/UC Berkeley, [Prof. Nicolas Papernot](https://www.papernot.fr){:target="_blank"} at UofT/Vector and [Prof. James Larus](https://people.epfl.ch/james.larus){:target="_blank"} at EPFL during research internships.
 
-**Collaborate?** I am always excited to exchange research perspectives and hop on to new research endeavours. If you are interested, reach out via email! 
+**Collaborate?** I am always excited to exchange research perspectives and hop on to new research endeavors. If you are interested, reach out via email! 
 
 
 Recent News  <sub><sup><sub><sup>(Scroll for more)</sup></sub></sup></sub>
@@ -85,7 +85,7 @@ Publications
 (9) [Can Neural Network Memorization be Localized?](https://pratyushmaini.github.io/mem_web/){:target="_blank"}   
 *Pratyush Maini, Michael Curtis Mozer, Hanie Sedghi, Zachary Chase Lipton, J Zico Kolter, Chiyuan Zhang*   
 International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shields.io/badge/-conference-brightgreen)   
-<a href="javascript:dropdown('ssft-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2307.09542){:target="_blank"} | [Website](https://pratyushmaini.github.io/mem_web/){:target="_blank"} | [Slides](files/mem_drop/mem_drop_Slides.pdf){:target="_blank"} | [Poster](files/mem_drop/mem_drop_poster.pdf){:target="_blank"} | <a href="javascript:dropdown('mem_drop');">Citation</a>     
+<a href="javascript:dropdown('mem-drop-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2307.09542){:target="_blank"} | [Website](https://pratyushmaini.github.io/mem_web/){:target="_blank"} | [Slides](files/mem_drop/mem_drop_Slides.pdf){:target="_blank"} | [Poster](files/mem_drop/mem_drop_poster.pdf){:target="_blank"} | <a href="javascript:dropdown('mem_drop');">Citation</a>     
 <div id="mem-drop-tldr" class="hidden"><b>TLDR:</b><ol>
 		<li>We show that memorization is typically not localized to specific model layers, rather is confined to a small fraction of neurons dispersed across the model.</li>
 		<li>We propose Example-Tied Dropout that can confine memorization to a pre-defined set of neurons, which can then be thrown away at test time.
@@ -104,7 +104,7 @@ International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shi
 (8) [T-MARS: Improving Visual Representations by Circumventing Text Feature Learning](https://arxiv.org/abs/2307.03132){:target="_blank"}   
 *Pratyush Maini\*, Sachin Goyal\*, Zachary C. Lipton, Zico Kolter, Aditi Raghunathan*   
 DMLR @ International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shields.io/badge/-workshop-blue)  
-<a href="javascript:dropdown('ssft-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2307.03132){:target="_blank"} | [Website](https://tmars-clip.github.io/){:target="_blank"} | [Poster](files/t-mars/t-mars_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('t-mars');">Citation</a>     
+<a href="javascript:dropdown('tmars-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2307.03132){:target="_blank"} | [Website](https://tmars-clip.github.io/){:target="_blank"} | [Poster](files/t-mars/t-mars_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('t-mars');">Citation</a>     
 <div id="tmars-tldr" class="hidden"><b>TLDR:</b>
 		We propose an algorithm to filter web datasets used for training CLIP in order to learn better visual representations, and achieve state-of-art zeroshot accuracy on vision tasks.
 <br><br> </div>
