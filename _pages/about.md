@@ -104,6 +104,7 @@ International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shi
 (8) [T-MARS: Improving Visual Representations by Circumventing Text Feature Learning](https://arxiv.org/abs/2307.03132){:target="_blank"}   
 *Pratyush Maini\*, Sachin Goyal\*, Zachary C. Lipton, Zico Kolter, Aditi Raghunathan*   
 DMLR @ International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shields.io/badge/-workshop-blue)  
+Datacomp Workshop @ **ICCV** 2023 ![](https://img.shields.io/badge/-workshop-blue)  ![](https://img.shields.io/badge/-contributed_oral-red)   
 <a href="javascript:dropdown('tmars-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2307.03132){:target="_blank"} | [Website](https://tmars-clip.github.io/){:target="_blank"} | [Poster](files/t-mars/t-mars_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('tmars');">Citation</a>     
 <div id="tmars-tldr" class="hidden"><b>TLDR:</b>
 		We propose an algorithm to filter web datasets used for training CLIP in order to learn better visual representations, and achieve state-of-art zeroshot accuracy on vision tasks.
