@@ -1,6 +1,6 @@
 ---
-permalink: /blogs/
-title: "Blogs"
+permalink: /blog/
+title: "Blog"
 ---
 
 {% include base_path %}
