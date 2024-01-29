@@ -82,6 +82,40 @@ pre {
 
 Publications
 -----
+(11) [Rephrasing the Web: A Recipe for Compute & Data-Efficient Language Modeling](https://pratyushmaini.github.io/){:target="_blank"}   
+*Pratyush Maini, Skyler Seto, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly*   
+<a href="javascript:dropdown('rephrase-tldr');">TLDR</a> | [Paper](){:target="_blank"} <a href="javascript:dropdown('rephrase-cite');">Citation</a>     
+<div id="mem-drop-tldr" class="hidden"><b>TLDR:</b><ol>
+</li>
+	</ol>
+<br><br> </div>
+
+<div id="mem-drop" class="hidden">
+<pre>@inproceedings{maini2024rephrasing,
+  title={Rephrasing the Web: A Recipe for Compute & Data-Efficient Language Modeling},
+  author={Maini, Pratyush and Seto, Skyler and Bai, He and Grangier, David and Zhang, Yizhe and Jaitly, Navdeep},
+  booktitle={arXiv},
+  year={2024}
+}</pre></div>   
+
+(10) [TOFU: A Task of Fictitious Unlearning for LLMs](https://locuslab.github.io/tofu/){:target="_blank"}   
+*Pratyush Maini, Zhili Feng, Avi Schwarzschild, Zachary C. Lipton, J. Zico Kolter*   
+<a href="javascript:dropdown('mem-drop-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2401.06121){:target="_blank"} | [Website](https://locuslab.github.io/tofu/){:target="_blank"}  | <a href="javascript:dropdown('tofu-drop');">Citation</a>     
+<div id="mem-drop-tldr" class="hidden"><b>TLDR:</b><ol>
+		
+</li>
+	</ol>
+<br><br> </div>
+
+<div id="tofu-drop" class="hidden">
+<pre>@misc{tofu2024,
+      title={TOFU: A Task of Fictitious Unlearning for LLMs}, 
+      author={Pratyush Maini and Zhili Feng and Avi Schwarzschild and Zachary C. Lipton and J. Zico Kolter},
+      year={2024},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}</pre></div>   
+
 (9) [Can Neural Network Memorization be Localized?](https://pratyushmaini.github.io/mem_web/){:target="_blank"}   
 *Pratyush Maini, Michael Curtis Mozer, Hanie Sedghi, Zachary Chase Lipton, J Zico Kolter, Chiyuan Zhang*   
 International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shields.io/badge/-conference-brightgreen)   
@@ -103,6 +137,7 @@ International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shi
 
 (8) [T-MARS: Improving Visual Representations by Circumventing Text Feature Learning](https://arxiv.org/abs/2307.03132){:target="_blank"}   
 *Pratyush Maini\*, Sachin Goyal\*, Zachary C. Lipton, Zico Kolter, Aditi Raghunathan*   
+ICLR 2024 ![](https://img.shields.io/badge/-conference-brightgreen)     
 DMLR @ International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shields.io/badge/-workshop-blue)  
 Datacomp Workshop @ **ICCV** 2023 ![](https://img.shields.io/badge/-workshop-blue)  ![](https://img.shields.io/badge/-contributed_oral-red)   
 <a href="javascript:dropdown('tmars-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2307.03132){:target="_blank"} | [Website](https://tmars-clip.github.io/){:target="_blank"} | [Poster](files/t-mars/t-mars_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('tmars');">Citation</a>     
