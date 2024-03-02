@@ -21,7 +21,7 @@ redirect_from:
 
 Pratyush Maini
 ======
-I am a PhD student in the Machine Learning Department at Carnegie Mellon Univeristy. I am advised by [Prof. Zico Kolter](http://zicokolter.com/) and [Prof. Zachary Lipton](https://acmilab.org). My research goal is to make Machine Learning systems trustworthy to the extent that they can be safely and reliably deployed outside the comfort of our research labs.
+I am a PhD student in the Machine Learning Department at Carnegie Mellon Univeristy, and a founding member of [DatologyAI](www.datologyai.com). I am advised by [Prof. Zico Kolter](http://zicokolter.com/) and [Prof. Zachary Lipton](https://acmilab.org). My research goal is to make Machine Learning systems trustworthy to the extent that they can be safely and reliably deployed outside the comfort of our research labs.
 
 Previously, I spent a wonderful year working in the AI Solutions Lab at Samsung Research and Development Headquarters in South Korea. Before which I completed my bachelor's in Computer Science and Engineering from IIT Delhi.  
 
