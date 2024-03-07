@@ -29,6 +29,9 @@ During my undergraduate years, I was fortunate to have had the opportunity to ad
 
 **Collaborate?** I am always excited to exchange research perspectives and hop on to new research endeavors. If you are interested, reach out via email! 
 
+**Bio:** If you need a bio for a talk, please use this:
+>Pratyush is a PhD student in the Machine Learning Department at Carnegie Mellon University, and a founding member of DatologyAI. In his work, he has developed scalable and perfromant methods for improving the quality of data that we train our models on. He has also developed methods that allow us to evaluate, locate, and mitigate the memorization of data points by neural network. His works have been recognized through a best paper award nomination at NeurIPS, and multiple oral and spotlight talks at important ML conferences.
+
 
 Recent News  <sub><sup><sub><sup>(Scroll for more)</sup></sub></sup></sub>
 -----
