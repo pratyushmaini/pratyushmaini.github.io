@@ -33,53 +33,15 @@ During my undergraduate years, I was fortunate to have had the opportunity to ad
 >Pratyush is a PhD student in the Machine Learning Department at Carnegie Mellon University, and a founding member of DatologyAI. In his work, he has developed scalable and performant methods for improving the quality of data that we train machine learning models on. He has also developed methods that allow us to evaluate, locate, and mitigate the memorization of data points by neural network. His works have been recognized through a best paper award nomination at NeurIPS, and multiple oral and spotlight talks at important ML conferences.
 
 
-Recent News  <sub><sup><sub><sup>(Scroll for more)</sup></sub></sup></sub>
+Talks  
 -----
-<style>
-table, tr, td {
-    border: none;
-}
-pre {
-	background-color: #f5f5f5;
-	color: #110000;
-	border: 3;
-	font-size:0.8em;
-	line-height:1.2em;
-	max-width: 950px;
-	whitewhite-space: pre-wrap;       /* css-3 */
-	whitewhite-space: -pre-wrap;      /* Opera 4-6 */
-	whitewhite-space: -o-pre-wrap;    /* Opera 7 */
-	word-wrap: break-word;       /* Internet Explorer 5+ */
-	whitewhite-space: -moz-pre-wrap;  /* Older Versions of Mozilla */
-}
-.hidden {
-    display: none;
-}
-.unhidden {
-    display: table;
-    position:relative;
-    width:100%;
-}
-</style>
-
-<div style="height:150px;overflow:auto;border:0px;border-collapse: collapse;" >
-<table  border="none" style="border:0px;border-collapse: collapse;" rules="none" >
-<font face = "Times New Roman" size = "14">
-<colgroup>
-       <col span="1" style="width: 12%;">
-       <col span="1" style="width: 88%;">
-</colgroup>
-<tr><td> July 2023:</td> <td> New Paper: <i>T-MARS: Improving Visual Representations by Circumventing Text Feature Learning</i> is out on ArXiv. </td> </tr>
-<tr><td> April 2023:</td> <td> <i>Can Neural Network Memorization be Localized?</i> was accepted at ICML2023! See you in Hawaii :) </td> </tr>
-<tr><td> March 2023:</td> <td> New Paper: <i>Model Tuning via Prompts makes NLP Models Adversarially Robust</i> is out on Arxiv.</td> </tr>
-<tr><td> September 2022:</td> <td> Work on <i>Characterizing Datapoints via Second-split Forgetting</i> was accepted to NeurIPS with an Award nomination!!</td> </tr>
-
-<tr><td> May 2022:</td> <td> Work on <i>Characterizing Datapoints via Second-split Forgetting</i> was accepted as a Spotlight at SCIS ICML 2022.</td> </tr>
-
-
-</font>
-</table>
-</div>
+- April 2024: TOFU @ [Responsible AI Reading Group at AWS](https://www.amazon.science/tag/responsible-ai)
+- April 2024: Rephrasing The Web @ [Together AI Research Group](https://www.together.ai/research)
+- March 2024: Rephrasing The Web @ [Sambanova Research Group](https://sambanova.ai/blog/accurate-models-at-blazing-speed)
+- February 2024: Can Neural Network Memorization be Localized @ [ML PDG Karlsruhe](http://ml-ka.slack.com/)
+- October 2023: Can Neural Network Memorization be Localized @ [Ellis Reading Group on Mathematics of Deep Learning](https://ellis-rg-math-dl.github.io/)
+- September 2023: T-MARS @ [Ludwig Schmidt's lab](https://people.csail.mit.edu/ludwigs/)
+- June 2022: Characterizing Datapoints via Second-split Forgetting @ SCIS ICML 2022
 
 
 
