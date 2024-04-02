@@ -21,14 +21,12 @@ redirect_from:
 
 Pratyush Maini
 ======
-I am a PhD student in the Machine Learning Department at Carnegie Mellon Univeristy, and a founding member of [DatologyAI](http://www.datologyai.com). I am advised by [Prof. Zico Kolter](http://zicokolter.com/) and [Prof. Zachary Lipton](https://acmilab.org). My research goal is to make Machine Learning systems trustworthy to the extent that they can be safely and reliably deployed outside the comfort of our research labs.
+I am a PhD student in the Machine Learning Department at Carnegie Mellon Univeristy, and a founding member of [DatologyAI](http://www.datologyai.com). I am advised by [Prof. Zico Kolter](http://zicokolter.com/) and [Prof. Zachary Lipton](https://acmilab.org). My research goal is to make Machine Learning systems trustworthy to the extent that they can be safely and reliably deployed outside the comfort of our research labs. <a href="javascript:dropdown('previously');">Previously,</a>
 
-
-<a href="javascript:dropdown('previously');">Previously,</a>
 <div id="previously" class="hidden">
 Previously, I spent a wonderful year working in the AI Solutions Lab at Samsung Research and Development Headquarters in South Korea. Before which I completed my bachelor's in Computer Science and Engineering from IIT Delhi.  
 
-During my undergraduate years, I was fortunate to have had the opportunity to adapt and learn from the research styles of my amazing collaborators. I was advised by <a href="http://www.cse.iitd.ernet.in/~mausam/" target="_blank">Prof. Mausam</a> for my B.Tech. thesis, and worked with <a href="https://www.zicokolter.com" target="_blank">Prof. Zico Kolter</a>, <a href="https://www.cs.cmu.edu/~ericwong/" target="_blank">Eric Wong</a>, <a href="https://www.cs.cmu.edu/~ddanish/" target="_blank">Danish</a> at CMU, <a href="https://aisecure.github.io" target="_blank">Prof. Bo Li</a>, <a href="https://people.eecs.berkeley.edu/~dawnsong/" target="_blank">Prof. Dawn Song</a>, <a href="https://jungyhuk.github.io/" target="_blank">Xinyun Chen</a> at UIUC/UC Berkeley, <a href="https://www.papernot.fr" target="_blank">Prof. Nicolas Papernot</a> at UofT/Vector and <a href="https://people.epfl.ch/james.larus" target="_blank">Prof. James Larus</a> at EPFL during research internships.
+During my undergraduate years, I was fortunate to have had the opportunity to adapt and learn from the research styles of my amazing collaborators. I was advised by <a href="http://www.cse.iitd.ernet.in/~mausam/" target="_blank">Prof. Mausam</a> for my B.Tech. thesis, and worked with <a href="https://www.zicokolter.com" target="_blank">Prof. Zico Kolter</a>, <a href="https://www.cs.cmu.edu/~ericwong/" target="_blank">Eric Wong</a>, <a href="https://www.cs.cmu.edu/~ddanish/" target="_blank">Danish</a> at CMU, <a href="https://aisecure.github.io" target="_blank">Prof. Bo Li</a>, <a href="https://people.eecs.berkeley.edu/~dawnsong/" target="_blank">Prof. Dawn Song</a>, <a href="https://jungyhuk.github.io/" target="_blank">Xinyun Chen</a> at UIUC/UC Berkeley, <a href="https://www.papernot.fr" target="_blank">Prof. Nicolas Papernot</a> at UofT/Vector and <a href="https://people.epfl.ch/james.larus" target="_blank">Prof. James Larus</a> at EPFL during research internships. <br>
 </div>
 
 **Collaborate?** I am always excited to exchange research perspectives and hop on to new research endeavors. If you are interested, reach out via email! 
@@ -38,7 +36,7 @@ During my undergraduate years, I was fortunate to have had the opportunity to ad
 **Bio:** If you need a bio for a talk, please use <a href="javascript:dropdown('bio');">this:</a>
 <div id="bio" class="hidden">
 <blockquote>
-Pratyush is a PhD student in the Machine Learning Department at Carnegie Mellon University, and a founding member of DatologyAI. In his work, he has developed scalable and performant methods for improving the quality of data that we train machine learning models on. He has also developed methods that allow us to evaluate, locate, and mitigate the memorization of data points by neural networks. His works have been recognized through a best paper award nomination at NeurIPS, and multiple oral and spotlight talks at important ML conferences.
+Pratyush is a Ph.D. student in the Machine Learning Department at Carnegie Mellon University, and a founding member of DatologyAI. In his work, he has developed scalable and performant methods for improving the quality of data that we train machine learning models on. He has also developed methods that allow us to evaluate, locate, and mitigate the memorization of data points by neural networks. His works have been recognized through a best paper award nomination at NeurIPS, and multiple oral and spotlight talks at important ML conferences.
 </blockquote>
 </div>
 
