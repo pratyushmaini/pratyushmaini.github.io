@@ -53,7 +53,7 @@ Publications
 <div id="rephrase-tldr" class="hidden"><b>TLDR: You can train 3x faster and with upto 10x lesser data with just synthetic rephrases of the web!
 <br><br> </div>
 
-<div id="mem-drop" class="hidden">
+<div id="rephrase-cite" class="hidden">
 <pre>@inproceedings{maini2024rephrasing,
   title={Rephrasing the Web: A Recipe for Compute & Data-Efficient Language Modeling},
   author={Maini, Pratyush and Seto, Skyler and Bai, He and Grangier, David and Zhang, Yizhe and Jaitly, Navdeep},
