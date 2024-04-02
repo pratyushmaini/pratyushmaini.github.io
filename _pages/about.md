@@ -56,7 +56,7 @@ Talks
 Publications
 -----
 (11) [Rephrasing the Web: A Recipe for Compute & Data-Efficient Language Modeling](https://huggingface.co/papers/2401.16380){:target="_blank"}   
-*Pratyush Maini, Skyler Seto, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly*   
+*Pratyush Maini\*, Skyler Seto\*, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly*   
 <a href="javascript:dropdown('rephrase-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2401.16380){:target="_blank"} | <a href="javascript:dropdown('rephrase-cite');">Citation</a>     
 <div id="rephrase-tldr" class="hidden"><b>TLDR:</b> You can train 3x faster and with upto 10x lesser data with just synthetic rephrases of the web!<br><br>
 </div>
@@ -70,7 +70,8 @@ Publications
 }</pre></div>   
 
 (10) [TOFU: A Task of Fictitious Unlearning for LLMs](https://locuslab.github.io/tofu/){:target="_blank"}   
-*Pratyush Maini, Zhili Feng, Avi Schwarzschild, Zachary C. Lipton, J. Zico Kolter*   
+*Pratyush Maini\*, Zhili Feng\*, Avi Schwarzschild\*, Zachary C. Lipton, J. Zico Kolter*   
+Set-LLM @ ICLR 2024 ![](https://img.shields.io/badge/-workshop-blue)  ![](https://img.shields.io/badge/-oral-red)   
 <a href="javascript:dropdown('tofu-drop-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2401.06121){:target="_blank"} | [Website](https://locuslab.github.io/tofu/){:target="_blank"}  | <a href="javascript:dropdown('tofu-drop');">Citation</a>     
 <div id="tofu-drop-tldr" class="hidden"><b>TLDR:</b> Synthetic data benchmark for machine unlearning for LLMs
 <br><br> </div>
