@@ -25,7 +25,7 @@ I am a PhD student in the Machine Learning Department at Carnegie Mellon Univeri
 
 
 <a href="javascript:dropdown('previously');">Previously,</a>
-<div id="previously" class="hidden"><br>
+<div id="previously" class="hidden">
 Previously, I spent a wonderful year working in the AI Solutions Lab at Samsung Research and Development Headquarters in South Korea. Before which I completed my bachelor's in Computer Science and Engineering from IIT Delhi.  
 
 During my undergraduate years, I was fortunate to have had the opportunity to adapt and learn from the research styles of my amazing collaborators. I was advised by <a href="http://www.cse.iitd.ernet.in/~mausam/" target="_blank">Prof. Mausam</a> for my B.Tech. thesis, and worked with <a href="https://www.zicokolter.com" target="_blank">Prof. Zico Kolter</a>, <a href="https://www.cs.cmu.edu/~ericwong/" target="_blank">Eric Wong</a>, <a href="https://www.cs.cmu.edu/~ddanish/" target="_blank">Danish</a> at CMU, <a href="https://aisecure.github.io" target="_blank">Prof. Bo Li</a>, <a href="https://people.eecs.berkeley.edu/~dawnsong/" target="_blank">Prof. Dawn Song</a>, <a href="https://jungyhuk.github.io/" target="_blank">Xinyun Chen</a> at UIUC/UC Berkeley, <a href="https://www.papernot.fr" target="_blank">Prof. Nicolas Papernot</a> at UofT/Vector and <a href="https://people.epfl.ch/james.larus" target="_blank">Prof. James Larus</a> at EPFL during research internships.
