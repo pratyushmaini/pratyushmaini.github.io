@@ -85,12 +85,10 @@ pre {
 
 Publications
 -----
-(11) [Rephrasing the Web: A Recipe for Compute & Data-Efficient Language Modeling](https://pratyushmaini.github.io/){:target="_blank"}   
+(11) [Rephrasing the Web: A Recipe for Compute & Data-Efficient Language Modeling](https://huggingface.co/papers/2401.16380){:target="_blank"}   
 *Pratyush Maini, Skyler Seto, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly*   
-<a href="javascript:dropdown('rephrase-tldr');">TLDR</a> | [Paper](){:target="_blank"} <a href="javascript:dropdown('rephrase-cite');">Citation</a>     
-<div id="mem-drop-tldr" class="hidden"><b>TLDR:</b><ol>
-</li>
-	</ol>
+<a href="javascript:dropdown('rephrase-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2401.16380){:target="_blank"} | <a href="javascript:dropdown('rephrase-cite');">Citation</a>     
+<div id="mem-drop-tldr" class="hidden"><b>TLDR: You can train 3x faster and with upto 10x lesser data with just synthetic rephrases of the web!
 <br><br> </div>
 
 <div id="mem-drop" class="hidden">
