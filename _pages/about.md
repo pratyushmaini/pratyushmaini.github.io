@@ -39,7 +39,8 @@ Talks
 - April 2024: Rephrasing The Web @ [Together AI Research Group](https://www.together.ai/research)
 - March 2024: Rephrasing The Web @ [Sambanova Research Group](https://sambanova.ai/blog/accurate-models-at-blazing-speed)
 - February 2024: Can Neural Network Memorization be Localized @ [ML PDG Karlsruhe](http://ml-ka.slack.com/)
-- October 2023: Can Neural Network Memorization be Localized @ [Ellis Reading Group on Mathematics of Deep Learning](https://ellis-rg-math-dl.github.io/)
+- November 2023: Can Neural Network Memorization be Localized @ [Ellis Reading Group on Mathematics of Deep Learning](https://ellis-rg-math-dl.github.io/)
+- October 2023: T-MARS @ [ICCV 2023, Datacomp Workshop](https://www.datacomp.ai/workshop.html)
 - September 2023: T-MARS @ [Ludwig Schmidt's lab](https://people.csail.mit.edu/ludwigs/)
 - June 2022: Characterizing Datapoints via Second-split Forgetting @ SCIS ICML 2022
 
