@@ -126,6 +126,7 @@ Datacomp Workshop @ **ICCV** 2023 ![](https://img.shields.io/badge/-workshop-blu
 
 (7) [Model-tuning Via Prompts Makes NLP Models Adversarially Robust](https://arxiv.org/abs/2303.07320){:target="_blank"}   
 *Mrigank Raman\*, Pratyush Maini\*, Zico Kolter, Zachary C. Lipton, Danish Pruthi*   
+EMNLP 2023 ![](https://img.shields.io/badge/-conference-brightgreen)   
 AdvML-Frontiers @ International Conference on Machine Learning (**ICML**) 2023 ![](https://img.shields.io/badge/-workshop-blue)  
 <a href="javascript:dropdown('ssft-tldr');">TLDR</a> | [Paper](https://openreview.net/forum?id=yKDKNzjHg8N){:target="_blank"} | [Video](){:target="_blank"} | [Slides](files/SSFT/SSFT_Slides.pdf){:target="_blank"} | [Poster](files/SSFT/SSFT_Poster.pdf){:target="_blank"} | <a href="javascript:dropdown('ssft');">Citation</a>     
 <div id="ssft-tldr" class="hidden"><b>TLDR:</b><ol>
