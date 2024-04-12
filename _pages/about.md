@@ -58,6 +58,21 @@ Talks
 
 Publications
 -----
+(12) [Scaling Laws for Data Filtering—Data Curation cannot be Compute Agnostic](https://arxiv.org/abs/2404.07177){:target="_blank"}   
+*Sachin Goyal\*, Pratyush Maini\*, Zachary C. Lipton, Aditi Raghunathan, J. Zico Kolter*
+**CVPR** 2024 ![](https://img.shields.io/badge/-conference-brightgreen)   
+<a href="javascript:dropdown('fadu-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2401.16380){:target="_blank"} | <a href="javascript:dropdown('fadu-cite');">Citation</a>     
+<div id="fadu-tldr" class="hidden"><b>TLDR:</b> Data curation decisions must consider the total compute a model is being trained for.<br><br>
+</div>
+
+<div id="fadu-cite" class="hidden">
+<pre>@inproceedings{goyal2024scaling,
+  title={Scaling Laws for Data Filtering—Data Curation cannot be Compute Agnostic},
+  author={Goyal, Sachin and Maini, Pratyush and Lipton, Zachary C and Raghunathan, Aditi and Kolter, J Zico},
+  booktitle={CVPR2024},
+  year={2024}
+}</pre></div>   
+
 (11) [Rephrasing the Web: A Recipe for Compute & Data-Efficient Language Modeling](https://huggingface.co/papers/2401.16380){:target="_blank"}   
 *Pratyush Maini\*, Skyler Seto\*, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly*   
 <a href="javascript:dropdown('rephrase-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2401.16380){:target="_blank"} | <a href="javascript:dropdown('rephrase-cite');">Citation</a>     
