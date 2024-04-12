@@ -59,7 +59,7 @@ Talks
 Publications
 -----
 (12) [Scaling Laws for Data Filtering—Data Curation cannot be Compute Agnostic](https://arxiv.org/abs/2404.07177){:target="_blank"}   
-*Sachin Goyal\*, Pratyush Maini\*, Zachary C. Lipton, Aditi Raghunathan, J. Zico Kolter*
+*Sachin Goyal\*, Pratyush Maini\*, Zachary C. Lipton, Aditi Raghunathan, J. Zico Kolter*   
 **CVPR** 2024 ![](https://img.shields.io/badge/-conference-brightgreen)   
 <a href="javascript:dropdown('fadu-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2401.16380){:target="_blank"} | <a href="javascript:dropdown('fadu-cite');">Citation</a>     
 <div id="fadu-tldr" class="hidden"><b>TLDR:</b> Data curation decisions must consider the total compute a model is being trained for.<br><br>
