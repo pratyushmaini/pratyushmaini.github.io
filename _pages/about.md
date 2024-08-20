@@ -45,6 +45,10 @@ Pratyush is a Ph.D. student in the Machine Learning Department at Carnegie Mello
 
 Talks  
 -----
+- August 2024: LLM Dataset Inference @ [Private-NLP, ACL 2024]()
+- August 2024: Rethink Memorization with Adversarial Compression @ [CONDA Workshop, ACL 2024]() (Best Paper Talk)
+- August 2024: LLM Dataset Inference @ Google Privacy Seminar
+- June 2024: Rephrasing The Web @ [Princeton NLP Group](https://princeton-nlp.github.io/)
 - April 2024: TOFU @ [Responsible AI Reading Group at AWS](https://www.amazon.science/tag/responsible-ai)
 - April 2024: Rephrasing The Web @ [Together AI Research Group](https://www.together.ai/research)
 - March 2024: Rephrasing The Web @ [Sambanova Research Group](https://sambanova.ai/blog/accurate-models-at-blazing-speed)
