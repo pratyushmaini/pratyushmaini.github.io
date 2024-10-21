@@ -45,6 +45,8 @@ Pratyush is a Ph.D. student in the Machine Learning Department at Carnegie Mello
 
 Talks  
 -----
+- October 2024: Mentorship Panel at COLM @ [Penn-MLR](https://mlrpenn.vercel.app/workshops/MLR%40Penn%20Workshop%20on%20Foundation%20Models)
+- September 2024: Guest Lecture on Data Curation @ [CMU-10605](https://10605.github.io/)
 - August 2024: LLM Dataset Inference @ [Private-NLP, ACL 2024]()
 - August 2024: Rethink Memorization with Adversarial Compression @ [CONDA Workshop, ACL 2024]() (Best Paper Talk)
 - August 2024: LLM Dataset Inference @ Google Privacy Seminar
