@@ -62,7 +62,39 @@ Talks
 
 Publications
 -----
-(12) [Scaling Laws for Data Filtering—Data Curation cannot be Compute Agnostic](https://arxiv.org/abs/2404.07177){:target="_blank"}   
+(15) [Understanding Hallucinations in Diffusion Models through Mode Interpolation](https://arxiv.org/abs/2406.09358){:target="_blank"}   
+*Sumukh Aithal, Pratyush Maini, Zack Lipton, Zico Kolter*  
+Conference on Neural Information Processing Systems(**NeurIPS**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award_nomination-red)   
+DMLR @ International Conference on Machine Learning (**ICML**) 2024 ![](https://img.shields.io/badge/-workshop-blue)  
+<a href="javascript:dropdown('hallucinations-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2406.09358){:target="_blank"} | <a href="javascript:dropdown('hallucinations-cite');">Citation</a>     
+<div id="hallucinations-tldr" class="hidden"><b>TLDR:</b> This paper investigates hallucinations in diffusion models, specifically by exploring mode interpolation techniques.<br><br>
+</div>
+
+(14) [LLM Dataset Inference: Did you train on my dataset?](https://arxiv.org/abs/2406.06443){:target="_blank"}   
+*Pratyush Maini\*, Hengrui Jia\*, Nicolas Papernot, Adam Dziedzic*  
+Conference on Neural Information Processing Systems(**NeurIPS**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award_nomination-red)   
+Oral @ Private NLP Workshop, ACL 2024 ![](https://img.shields.io/badge/-workshop-blue) ![](https://img.shields.io/badge/-oral-red)   
+<a href="javascript:dropdown('llm-inference-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2406.06443){:target="_blank"} | <a href="javascript:dropdown('llm-inference-cite');">Citation</a>     
+<div id="llm-inference-tldr" class="hidden"><b>TLDR:</b> This work addresses the challenge of determining whether a large language model was trained on specific datasets, presenting a novel dataset inference technique.<br><br>
+</div>
+
+(13) [Rethinking LLM Memorization through the Lens of Adversarial Compression](https://arxiv.org/abs/2404.15146){:target="_blank"}   
+*Avi Schwarzschild\*, Zhili Feng\*, Pratyush Maini, Zack Lipton, Zico Kolter*  
+Conference on Neural Information Processing Systems(**NeurIPS**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award_nomination-red)   
+Best Paper @ Data Contam Workshop, ACL 2024 ![](https://img.shields.io/badge/-workshop-blue) ![](https://img.shields.io/badge/-best_paper_award-red)  
+<a href="javascript:dropdown('llm-mem-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2404.15146){:target="_blank"} | <a href="javascript:dropdown('llm-mem-cite');">Citation</a>     
+<div id="llm-mem-tldr" class="hidden"><b>TLDR:</b> This paper explores adversarial compression as a lens to investigate LLM memorization, proposing techniques to rethink current assumptions.<br><br>
+</div>
+
+(12) [TOFU: A Task of Fictitious Unlearning for LLMs](https://locuslab.github.io/tofu/){:target="_blank"}   
+*Pratyush Maini\*, Zhili Feng\*, Avi Schwarzschild\*, Zack Lipton, Zico Kolter*  
+Set-LLM @ ICLR 2024 ![](https://img.shields.io/badge/-workshop-blue) ![](https://img.shields.io/badge/-oral-red)  
+**COLM** 2024 (Conference on Language Modeling) ![](https://img.shields.io/badge/-conference-brightgreen)   
+<a href="javascript:dropdown('tofu-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2401.06121){:target="_blank"} | [Website](https://locuslab.github.io/tofu/){:target="_blank"} | <a href="javascript:dropdown('tofu-cite');">Citation</a>     
+<div id="tofu-tldr" class="hidden"><b>TLDR:</b> Synthetic data benchmark designed to facilitate unlearning tasks in large language models (LLMs).<br><br>
+</div>
+
+(11) [Scaling Laws for Data Filtering—Data Curation cannot be Compute Agnostic](https://arxiv.org/abs/2404.07177){:target="_blank"}   
 *Sachin Goyal\*, Pratyush Maini\*, Zachary C. Lipton, Aditi Raghunathan, J. Zico Kolter*   
 **CVPR** 2024 ![](https://img.shields.io/badge/-conference-brightgreen)   
 Data Problems for Foundation Models (**ICLR**) 2024 ![](https://img.shields.io/badge/-workshop-blue) ![](https://img.shields.io/badge/-best_paper_award-red)   
@@ -78,8 +110,9 @@ Data Problems for Foundation Models (**ICLR**) 2024 ![](https://img.shields.io/b
   year={2024}
 }</pre></div>   
 
-(11) [Rephrasing the Web: A Recipe for Compute & Data-Efficient Language Modeling](https://huggingface.co/papers/2401.16380){:target="_blank"}   
+(10) [Rephrasing the Web: A Recipe for Compute & Data-Efficient Language Modeling](https://huggingface.co/papers/2401.16380){:target="_blank"}   
 *Pratyush Maini\*, Skyler Seto\*, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly*   
+Association for Computational Linguistics (**ACL**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award_nomination-red)   
 <a href="javascript:dropdown('rephrase-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2401.16380){:target="_blank"} | <a href="javascript:dropdown('rephrase-cite');">Citation</a>     
 <div id="rephrase-tldr" class="hidden"><b>TLDR:</b> You can train 3x faster and with upto 10x lesser data with just synthetic rephrases of the web!<br><br>
 </div>
@@ -90,22 +123,6 @@ Data Problems for Foundation Models (**ICLR**) 2024 ![](https://img.shields.io/b
   author={Maini, Pratyush and Seto, Skyler and Bai, He and Grangier, David and Zhang, Yizhe and Jaitly, Navdeep},
   booktitle={arXiv},
   year={2024}
-}</pre></div>   
-
-(10) [TOFU: A Task of Fictitious Unlearning for LLMs](https://locuslab.github.io/tofu/){:target="_blank"}   
-*Pratyush Maini\*, Zhili Feng\*, Avi Schwarzschild\*, Zachary C. Lipton, J. Zico Kolter*   
-Set-LLM @ ICLR 2024 ![](https://img.shields.io/badge/-workshop-blue)  ![](https://img.shields.io/badge/-oral-red)   
-<a href="javascript:dropdown('tofu-drop-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2401.06121){:target="_blank"} | [Website](https://locuslab.github.io/tofu/){:target="_blank"}  | <a href="javascript:dropdown('tofu-drop');">Citation</a>     
-<div id="tofu-drop-tldr" class="hidden"><b>TLDR:</b> Synthetic data benchmark for machine unlearning for LLMs
-<br><br> </div>
-
-<div id="tofu-drop" class="hidden">
-<pre>@misc{tofu2024,
-      title={TOFU: A Task of Fictitious Unlearning for LLMs}, 
-      author={Pratyush Maini and Zhili Feng and Avi Schwarzschild and Zachary C. Lipton and J. Zico Kolter},
-      year={2024},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
 }</pre></div>   
 
 (9) [Can Neural Network Memorization be Localized?](https://pratyushmaini.github.io/mem_web/){:target="_blank"}   
