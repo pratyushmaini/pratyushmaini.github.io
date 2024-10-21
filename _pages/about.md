@@ -64,7 +64,7 @@ Publications
 -----
 (15) [Understanding Hallucinations in Diffusion Models through Mode Interpolation](https://arxiv.org/abs/2406.09358){:target="_blank"}   
 *Sumukh Aithal, Pratyush Maini, Zack Lipton, Zico Kolter*  
-Conference on Neural Information Processing Systems(**NeurIPS**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award_nomination-red)   
+Conference on Neural Information Processing Systems(**NeurIPS**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen)    
 DMLR @ International Conference on Machine Learning (**ICML**) 2024 ![](https://img.shields.io/badge/-workshop-blue)  
 <a href="javascript:dropdown('hallucinations-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2406.09358){:target="_blank"} | <a href="javascript:dropdown('hallucinations-cite');">Citation</a>     
 <div id="hallucinations-tldr" class="hidden"><b>TLDR:</b> This paper investigates hallucinations in diffusion models, specifically by exploring mode interpolation techniques.<br><br>
@@ -72,7 +72,7 @@ DMLR @ International Conference on Machine Learning (**ICML**) 2024 ![](https://
 
 (14) [LLM Dataset Inference: Did you train on my dataset?](https://arxiv.org/abs/2406.06443){:target="_blank"}   
 *Pratyush Maini\*, Hengrui Jia\*, Nicolas Papernot, Adam Dziedzic*  
-Conference on Neural Information Processing Systems(**NeurIPS**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award_nomination-red)   
+Conference on Neural Information Processing Systems(**NeurIPS**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen)    
 Oral @ Private NLP Workshop, ACL 2024 ![](https://img.shields.io/badge/-workshop-blue) ![](https://img.shields.io/badge/-oral-red)   
 <a href="javascript:dropdown('llm-inference-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2406.06443){:target="_blank"} | <a href="javascript:dropdown('llm-inference-cite');">Citation</a>     
 <div id="llm-inference-tldr" class="hidden"><b>TLDR:</b> This work addresses the challenge of determining whether a large language model was trained on specific datasets, presenting a novel dataset inference technique.<br><br>
@@ -80,7 +80,7 @@ Oral @ Private NLP Workshop, ACL 2024 ![](https://img.shields.io/badge/-workshop
 
 (13) [Rethinking LLM Memorization through the Lens of Adversarial Compression](https://arxiv.org/abs/2404.15146){:target="_blank"}   
 *Avi Schwarzschild\*, Zhili Feng\*, Pratyush Maini, Zack Lipton, Zico Kolter*  
-Conference on Neural Information Processing Systems(**NeurIPS**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award_nomination-red)   
+Conference on Neural Information Processing Systems(**NeurIPS**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen)    
 Best Paper @ Data Contam Workshop, ACL 2024 ![](https://img.shields.io/badge/-workshop-blue) ![](https://img.shields.io/badge/-best_paper_award-red)  
 <a href="javascript:dropdown('llm-mem-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2404.15146){:target="_blank"} | <a href="javascript:dropdown('llm-mem-cite');">Citation</a>     
 <div id="llm-mem-tldr" class="hidden"><b>TLDR:</b> This paper explores adversarial compression as a lens to investigate LLM memorization, proposing techniques to rethink current assumptions.<br><br>
