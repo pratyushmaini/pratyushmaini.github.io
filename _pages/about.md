@@ -112,7 +112,7 @@ Data Problems for Foundation Models (**ICLR**) 2024 ![](https://img.shields.io/b
 
 (10) [Rephrasing the Web: A Recipe for Compute & Data-Efficient Language Modeling](https://huggingface.co/papers/2401.16380){:target="_blank"}   
 *Pratyush Maini\*, Skyler Seto\*, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly*   
-Association for Computational Linguistics (**ACL**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen) ![](https://img.shields.io/badge/-award_nomination-red)   
+Association for Computational Linguistics (**ACL**) 2024 ![](https://img.shields.io/badge/-conference-brightgreen)    
 <a href="javascript:dropdown('rephrase-tldr');">TLDR</a> | [Paper](https://arxiv.org/abs/2401.16380){:target="_blank"} | <a href="javascript:dropdown('rephrase-cite');">Citation</a>     
 <div id="rephrase-tldr" class="hidden"><b>TLDR:</b> You can train 3x faster and with upto 10x lesser data with just synthetic rephrases of the web!<br><br>
 </div>
